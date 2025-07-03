@@ -8,5 +8,6 @@ This repository is developed within the framework of the Euro-Argo ONE project. 
 
 <p align="center">
 <a href="https://www.euro-argo.eu/EU-Projects/Euro-Argo-ONE-2025-2027">
+<img src="https://github.com/user-attachments/assets/03865f96-010d-4712-a233-eb92e47be4ba" height="75"/>
 </a>
 </p>
