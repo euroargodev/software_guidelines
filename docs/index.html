@@ -31,8 +31,7 @@
         </tbody>
     </table>
     <br>
-    <script>
-        var a;
+    <script>        
         fetch("guidelines_v1.json")
             .then(function (response) {
                 return response.json();
@@ -137,8 +136,9 @@
             filter = input.value.toUpperCase();
             table = document.getElementById("thistable");
             tr = table.getElementsByTagName("tr");
+            console.log(input,filter,tr);
             for (i = 0; i < tr.length; i++) {
-                td = tr[i].getElementsByTagName("td")[0];
+                td = tr[i].getElementsByTagName("td")[1]; // Search in the second column (Title)
                 if (td) {
                     if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
                         tr[i].style.display = "";
