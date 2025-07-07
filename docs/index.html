@@ -16,7 +16,7 @@
     <table id="thistable" class="sortable-theme-finder" data-sortable>
         <thead>
             <tr>
-                <th><b>ID</b></th>
+                <th data-sortable-type="numeric"><b>ID</b></th>
                 <th><b>Title</b></th>
                 <th><b>Skill Level</b></th>
                 <th><b>Label #1</b></th>
@@ -128,6 +128,8 @@
                 }
 
                 placeholder.innerHTML = out;
+            
+            Sortable.init()    
             });
 
         function mySearchFunction() {
