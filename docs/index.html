@@ -4,19 +4,20 @@
 <head>
     <meta charset="UTF-8" />
     <title>Argo Software Guidelines</title>
-    <link rel="stylesheet" href="dist/sortable-0.8.0/css/sortable-theme-bootstrap.css" />
-    <link rel="stylesheet" href="dist/sortable-0.8.0/css/sortable-theme-finder.css" />
+    <script src="dist/jquery-3.7.1.min.js.js"></script>
+    <link rel="stylesheet" href="dist/datatable/dataTables.dataTables.css" />
+    <script src="dist/datatable/dataTables.js"></script>
     <script src="dist/sortable-0.8.0/js/sortable.min.js"></script>
+    <link rel="stylesheet" href="dist/style.css" />
 </head>
 
 <body>
-    <h1 style="font-family: Arial, Helvetica, sans-serif;">Argo Sotware Guidelines</h1>
-    <input type="text" id="myInput" onkeyup="mySearchFunction()" placeholder="Search ..." title="Type in a keyword">
+    <h1>Argo Sotware Guidelines</h1>    
     <br><br>
-    <table id="thistable" class="sortable-theme-finder" data-sortable>
+    <table id="thistable" class="sortable-theme-finder">
         <thead>
             <tr>
-                <th data-sortable-type="numeric"><b>ID</b></th>
+                <th><b>ID</b></th>
                 <th><b>Title</b></th>
                 <th><b>Skill Level</b></th>
                 <th><b>Label #1</b></th>
@@ -31,7 +32,7 @@
         </tbody>
     </table>
     <br>
-    <script>        
+    <script>
         fetch("guidelines_v1.json")
             .then(function (response) {
                 return response.json();
@@ -40,15 +41,15 @@
                 let placeholder = document.querySelector("#data-output");
                 let out = "";
                 let id = 1;
-                for (let product of products.data.node.items.nodes) {                    
+                for (let product of products.data.node.items.nodes) {
                     out += '<tr>';
                     out += `<td><b>${id}</b></td>`;
-                    id++;    
+                    id++;
                     out += `<td>${product.content.title}</td>`;
                     // Skill Level
                     let skillLevel = "";
                     for (let i = 1; i < product.fieldValues.nodes.length; i++) {
-                        let elem = product.fieldValues.nodes[i];                        
+                        let elem = product.fieldValues.nodes[i];
                         if (elem.field.name === "Skill level") {
                             skillLevel = `<td>${elem.name}</td>`;
                             break;
@@ -128,8 +129,11 @@
                 }
 
                 placeholder.innerHTML = out;
-            
-            Sortable.init()    
+
+                //Sortable.init()    
+                $(document).ready(function () {
+                    $('#thistable').DataTable();
+                });
             });
 
         function mySearchFunction() {
@@ -138,7 +142,7 @@
             filter = input.value.toUpperCase();
             table = document.getElementById("thistable");
             tr = table.getElementsByTagName("tr");
-            console.log(input,filter,tr);
+            console.log(input, filter, tr);
             for (i = 0; i < tr.length; i++) {
                 td = tr[i].getElementsByTagName("td")[1]; // Search in the second column (Title)
                 if (td) {
