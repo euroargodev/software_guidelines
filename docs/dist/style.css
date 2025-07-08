@@ -1,16 +1,12 @@
 h1 {
-    font-family: "Raleway", sans-serif;
+    font-family: "Helvetica Neue", sans-serif;
     font-weight: 500;
     color: #1a75ae;
     text-align: center;
     margin-top: 20px;
 }
-body,table {
-    font-family: "Raleway", sans-serif;
-    background-color: #ffffff;
-}
-th {
-    color: #000000;
+body {
+    font: 90%/1.45em "Helvetica Neue", HelveticaNeue, Verdana, Arial, Helvetica, sans-serif;
 }
 body, html {height: 100%}
 

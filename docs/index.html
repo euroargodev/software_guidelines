@@ -13,7 +13,7 @@
 <body>
     <h1>Argo Sotware Guidelines</h1>
     <br><br>
-    <table id="thistable" class="display">
+    <table id="thistable" class="display order-column">
         <thead>
             <tr>
                 <th><b>ID</b></th>
@@ -144,6 +144,8 @@
                 //Sortable.init()    
                 $(document).ready(function () {
                     new DataTable('#thistable', {
+                        lengthMenu: [15, 25, 50, 75, 100],
+                        pageLength: 15,
                         initComplete: function () {
                             this.api()
                                 .columns([2, 3, 4, 5, 6, 7])
