@@ -31,13 +31,13 @@
             <tr>
                 <th><b>ID</b></th>
                 <th><b>Title</b></th>
-                <th><b>Skill Level</b></th>
-                <th><b>Label #1</b></th>
-                <th><b>Label #2</b></th>
-                <th><b>Label #1 requirement level</b></th>
+                <th><b>Skill level</b></th>
+                <th><b>Software Development Model (SDM)</b></th>
+                <th><b>Scope</b></th>
+                <th><b>SDM requirement level</b></th>
                 <th><b>FAIR4RS</b></th>
                 <th><b>Argo FAIR tools</b></th>
-                <th><b>Label #3</b></th>
+                <th><b>Project Aspects</b></th>
             </tr>
         </thead>
         <tbody id="data-output">
@@ -47,7 +47,7 @@
     </table>
     <br>
     <script>
-        fetch("guidelines_v2.json")
+        fetch("guidelines_v3.json")
             .then(function (response) {
                 return response.json();
             })
@@ -77,7 +77,7 @@
                     let label1 = "";
                     for (let i = 2; i < product.fieldValues.nodes.length; i++) {
                         let elem = product.fieldValues.nodes[i];
-                        if (elem.field.name === "Label #1") {
+                        if (elem.field.name === "Software Development Model (SDM)") {
                             label1 = `<td>${elem.name}</td>`;
                             break;
                         }
@@ -90,7 +90,7 @@
                     let label2 = "";
                     for (let i = 2; i < product.fieldValues.nodes.length; i++) {
                         let elem = product.fieldValues.nodes[i];
-                        if (elem.field.name === "Label #2") {
+                        if (elem.field.name === "Scope") {
                             label2 = `<td>${elem.name}</td>`;
                             break;
                         }
@@ -103,7 +103,7 @@
                     let label1Priority = "";
                     for (let i = 2; i < product.fieldValues.nodes.length; i++) {
                         let elem = product.fieldValues.nodes[i];
-                        if (elem.field.name === "Label #1 requirement level") {
+                        if (elem.field.name === "SDM requirement level") {
                             label1Priority = `<td>${elem.name}</td>`;
                             break;
                         }
@@ -142,7 +142,7 @@
                     let label3 = "";
                     for (let i = 2; i < product.fieldValues.nodes.length; i++) {
                         let elem = product.fieldValues.nodes[i];
-                        if (elem.field.name === "Label #3") {
+                        if (elem.field.name === "Project Aspects") {
                             label3 = `<td>${elem.name}</td>`;
                             break;
                         }
