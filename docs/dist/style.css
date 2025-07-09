@@ -5,12 +5,21 @@ h1 {
     text-align: center;
     margin-top: 20px;
 }
+
 body {
     font: 90%/1.45em "Helvetica Neue", HelveticaNeue, Verdana, Arial, Helvetica, sans-serif;
 }
-body, html {height: 100%}
+
+body,
+html {
+    height: 100%
+}
 
 th {
     background-color: #1a75ae;
     color: white;
+}
+
+tfoot {
+    display: table-row-group !important
 }

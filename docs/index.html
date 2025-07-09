@@ -11,24 +11,9 @@
 </head>
 
 <body>
-    <h1>Argo Sotware Guidelines</h1>
+    <h1>Argo Software Guidelines</h1>
     <br>
     <table id="thistable" class="display order-column">
-        <thead>
-            <tr>
-                <th><b>ID</b></th>
-                <th><b>Title</b></th>
-                <th><b>Skill Level</b></th>
-                <th><b>Label #1</b></th>
-                <th><b>Label #2</b></th>
-                <th><b>Label #1 priority</b></th>
-                <th><b>FAIR4RS</b></th>
-                <th><b>Argo FAIR tools</b></th>
-            </tr>
-        </thead>
-        <tbody id="data-output">
-            <!-- Prodcuts from javascript file in here. -->
-        </tbody>
         <tfoot>
             <tr>
                 <th></th>
@@ -39,12 +24,30 @@
                 <th></th>
                 <th></th>
                 <th></th>
+                <th></th>
             </tr>
         </tfoot>
+        <thead>
+            <tr>
+                <th><b>ID</b></th>
+                <th><b>Title</b></th>
+                <th><b>Skill Level</b></th>
+                <th><b>Label #1</b></th>
+                <th><b>Label #2</b></th>
+                <th><b>Label #1 requirement level</b></th>
+                <th><b>FAIR4RS</b></th>
+                <th><b>Argo FAIR tools</b></th>
+                <th><b>Label #3</b></th>
+            </tr>
+        </thead>
+        <tbody id="data-output">
+            <!-- Prodcuts from javascript file in here. -->
+        </tbody>
+        
     </table>
     <br>
     <script>
-        fetch("guidelines_v1.json")
+        fetch("guidelines_v2.json")
             .then(function (response) {
                 return response.json();
             })
@@ -59,7 +62,7 @@
                     out += `<td>${product.content.title}</td>`;
                     // Skill Level
                     let skillLevel = "";
-                    for (let i = 1; i < product.fieldValues.nodes.length; i++) {
+                    for (let i = 2; i < product.fieldValues.nodes.length; i++) {
                         let elem = product.fieldValues.nodes[i];
                         if (elem.field.name === "Skill level") {
                             skillLevel = `<td>${elem.name}</td>`;
@@ -72,7 +75,7 @@
                     out += skillLevel;
                     // Label #1
                     let label1 = "";
-                    for (let i = 1; i < product.fieldValues.nodes.length; i++) {
+                    for (let i = 2; i < product.fieldValues.nodes.length; i++) {
                         let elem = product.fieldValues.nodes[i];
                         if (elem.field.name === "Label #1") {
                             label1 = `<td>${elem.name}</td>`;
@@ -85,7 +88,7 @@
                     out += label1;
                     // Label #2
                     let label2 = "";
-                    for (let i = 1; i < product.fieldValues.nodes.length; i++) {
+                    for (let i = 2; i < product.fieldValues.nodes.length; i++) {
                         let elem = product.fieldValues.nodes[i];
                         if (elem.field.name === "Label #2") {
                             label2 = `<td>${elem.name}</td>`;
@@ -98,9 +101,9 @@
                     out += label2;
                     // Label #1 priority
                     let label1Priority = "";
-                    for (let i = 1; i < product.fieldValues.nodes.length; i++) {
+                    for (let i = 2; i < product.fieldValues.nodes.length; i++) {
                         let elem = product.fieldValues.nodes[i];
-                        if (elem.field.name === "Label #1 priority") {
+                        if (elem.field.name === "Label #1 requirement level") {
                             label1Priority = `<td>${elem.name}</td>`;
                             break;
                         }
@@ -111,7 +114,7 @@
                     out += label1Priority;
                     // FAIR4RS
                     let fair4rs = "";
-                    for (let i = 1; i < product.fieldValues.nodes.length; i++) {
+                    for (let i = 2; i < product.fieldValues.nodes.length; i++) {
                         let elem = product.fieldValues.nodes[i];
                         if (elem.field.name === "FAIR4RS") {
                             fair4rs = `<td>${elem.name}</td>`;
@@ -124,7 +127,7 @@
                     out += fair4rs;
                     // Argo FAIR tools
                     let argoFairTools = "";
-                    for (let i = 1; i < product.fieldValues.nodes.length; i++) {
+                    for (let i = 2; i < product.fieldValues.nodes.length; i++) {
                         let elem = product.fieldValues.nodes[i];
                         if (elem.field.name === "Argo FAIR tools") {
                             argoFairTools = `<td>${elem.name}</td>`;
@@ -135,6 +138,19 @@
                         }
                     };
                     out += argoFairTools;
+                    // Label #3
+                    let label3 = "";
+                    for (let i = 2; i < product.fieldValues.nodes.length; i++) {
+                        let elem = product.fieldValues.nodes[i];
+                        if (elem.field.name === "Label #3") {
+                            label3 = `<td>${elem.name}</td>`;
+                            break;
+                        }
+                        else {
+                            label3 = `<td> </td>`;
+                        }
+                    };
+                    out += label3;
 
                     out += '</tr>';
                 }
@@ -148,7 +164,7 @@
                         pageLength: 15,
                         initComplete: function () {
                             this.api()
-                                .columns([2, 3, 4, 5, 6, 7])
+                                .columns([2, 3, 4, 5, 6, 7, 8])
                                 .every(function () {
                                     let column = this;
 
