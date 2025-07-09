@@ -4,6 +4,8 @@ This repository is dedicated to organise all the relevant content with regard to
 
 Guidelines are documented with issues on this repository, and organised with the following Github project: https://github.com/orgs/euroargodev/projects/20
 
+Check the simplified table with all guidelines in here: https://euroargodev.github.io/software_guidelines
+
 ### Rational
 In the realm of oceanographic research infrastructure, the Argo program stands as a cornerstone, providing invaluable examples of data management good practices. As part of the Euro-Argo ERIC, the development of collaborative and open-source software is crucial for leveraging Argo data effectively. However, researchers and data engineers, who may not have a background in software development, face unique challenges in creating software that are both robust and compliant with FAIR principles (Findable, Accessible, Interoperable, and Reusable). This is where tailored guidelines become essential. 
 
