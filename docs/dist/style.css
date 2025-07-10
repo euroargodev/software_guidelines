@@ -1,9 +1,9 @@
 h1 {
     font-family: "Helvetica Neue", sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     color: #1a75ae;
-    text-align: center;
-    margin-top: 20px;
+    text-align: left;
+    margin-top: 10px;
 }
 
 body {
@@ -22,4 +22,9 @@ th {
 
 tfoot {
     display: table-row-group !important
+}
+
+img {
+    /* float:left; */
+    vertical-align: middle;
 }
