@@ -6,7 +6,7 @@ import os
 # CONFIGURATION
 # =====================
 TOKEN = os.getenv("GITHUB_TOKEN")
-OUTPUT_FILE = "guidelines_v7.json"
+OUTPUT_FILE = "guidelines_vtest.json"
 
 HEADERS = {
     "Authorization": f"Bearer {TOKEN}",
@@ -24,7 +24,8 @@ query($projectId: ID!) {
             ... on Issue {
               title
               url
-              state
+              body
+              state              
               assignees(first: 10) {
                 nodes {
                   login
