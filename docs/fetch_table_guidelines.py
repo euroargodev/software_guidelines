@@ -6,7 +6,7 @@ import os
 # CONFIGURATION
 # =====================
 TOKEN = os.getenv("GITHUB_TOKEN")
-OUTPUT_FILE = "guidelines_v6.json"
+OUTPUT_FILE = "guidelines_v7.json"
 
 HEADERS = {
     "Authorization": f"Bearer {TOKEN}",
@@ -17,7 +17,7 @@ QUERY = """
 query($projectId: ID!) {
   node(id: $projectId) {
     ... on ProjectV2 {
-      items(last: 20) {
+      items(last: 70) {
         nodes {
           id
           content {
