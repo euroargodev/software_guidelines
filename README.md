@@ -1,14 +1,20 @@
-# Argo software development guidelines
+# Software development guidelines for Argo
 
-This repository is dedicated to organise all the relevant content with regard to software development guidelines for the Argo community
+This repository is dedicated to organize all the relevant content with regard to software development guidelines for the Argo community.
 
-Guidelines are documented with issues on this repository, and organised with the following Github project: https://github.com/orgs/euroargodev/projects/20
+🎫 Guidelines are documented with [issues on this repository](https://github.com/euroargodev/software_guidelines/issues). 
 
-Check the simplified table with all guidelines in here: https://euroargodev.github.io/software_guidelines
+We organize guidelines with the following Github project:  
+📋 https://github.com/orgs/euroargodev/projects/20
+
+You can check a simplified view of all guidelines in here:  
+😉 https://euroargodev.github.io/software_guidelines
+
+If you participate in an Argo project and would like to evaluate your codebase, you can use the online evaluator at:  
+🚀 https://euroargodev.github.io/Software-Evaluator
 
 ### Rational
-In the realm of oceanographic research infrastructure, the Argo program stands as a cornerstone, providing invaluable examples of data management good practices. As part of the Euro-Argo ERIC, the development of collaborative and open-source software is crucial for leveraging Argo data effectively. However, researchers and data engineers, who may not have a background in software development, face unique challenges in creating software that are both robust and compliant with FAIR principles (Findable, Accessible, Interoperable, and Reusable). This is where tailored guidelines become essential. 
-
+In the realm of oceanographic research infrastructures, the Argo program stands as a cornerstone, providing invaluable examples of data management good practices. As part of the Euro-Argo ERIC, the development of collaborative and open-source software is crucial for leveraging Argo data effectively. However, researchers and data engineers, who may not have a background in software development, face unique challenges in creating software that are both robust and compliant with FAIR principles (Findable, Accessible, Interoperable, and Reusable). This is where tailored guidelines become essential. 
 
 ***
 This repository is developed within the framework of the Euro-Argo ONE project. This project has received funding from the European Union’s Horizon 2020 research and innovation programme under project no 101188133. Call HORIZON-INFRA-2024-DEV-03: Developing, consolidating and optimising the European research infrastructures landscape, maintaining global leadership.

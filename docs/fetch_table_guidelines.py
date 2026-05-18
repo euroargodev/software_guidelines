@@ -6,7 +6,7 @@ import os
 # CONFIGURATION
 # =====================
 TOKEN = os.getenv("GITHUB_TOKEN")
-OUTPUT_FILE = "guidelines_vtest.json"
+OUTPUT_FILE = "guidelines_last.json"
 
 HEADERS = {
     "Authorization": f"Bearer {TOKEN}",
@@ -85,6 +85,7 @@ def run_query(query, variables):
     response = requests.post(url, headers=HEADERS, json={"query": query, "variables": variables})
     response.raise_for_status()
     responsj = response.json()
+    # print(responsj)
     return responsj['data']['node']['items']['nodes']
 
 variables = {"projectId": "PVT_kwDOA3TSm84A81yH", "itemsCursor": None}
