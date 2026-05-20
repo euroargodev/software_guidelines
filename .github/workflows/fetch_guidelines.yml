@@ -1,4 +1,4 @@
-name: Guidelines
+name: Update Guidelines
 
 on:
   issues:
@@ -20,7 +20,12 @@ jobs:
       with:
         python-version: '3.11'
 
-    - name: Do it
+    - name: Set up env.
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    - name: Update json file
       run: |
         python src/fetch_table_guidelines.py -f docs/guidelines_last.json
         ls -rtl docs/
