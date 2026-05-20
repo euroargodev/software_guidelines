@@ -1,0 +1,28 @@
+name: Guidelines
+
+on:
+  issues:
+  workflow_dispatch:
+
+jobs:
+  fetch-and-update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        ref: 'main'
+
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Do it
+      run: |
+        python src/fetch_table_guidelines.py -f docs/guidelines_last.json
+        ls -rtl docs/
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

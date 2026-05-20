@@ -1,12 +1,13 @@
 import requests
 import json
 import os
+from argparse import ArgumentParser
+from pathlib import Path
 
 # =====================
 # CONFIGURATION
 # =====================
 TOKEN = os.getenv("GITHUB_TOKEN")
-OUTPUT_FILE = "guidelines_last.json"
 
 HEADERS = {
     "Authorization": f"Bearer {TOKEN}",
@@ -88,8 +89,18 @@ def run_query(query, variables):
     # print(responsj)
     return responsj['data']['node']['items']['nodes']
 
-variables = {"projectId": "PVT_kwDOA3TSm84A81yH", "itemsCursor": None}
-result = run_query(QUERY, variables)
-with open(OUTPUT_FILE, 'w') as f:
-    json.dump(result, f)
-print(f"Data saved to {OUTPUT_FILE}")
+if __name__ == "__main__":
+    default_output = Path(str(Path(__file__).parent).replace('src', 'docs')).joinpath('guidelines_last.json')
+
+    parser = ArgumentParser()
+    parser.add_argument("-f", "--file", dest="OUTPUT_FILE", default=default_output,
+                        help="write guidelines to FILE", metavar="FILE")
+    args = parser.parse_args()
+
+    variables = {"projectId": "PVT_kwDOA3TSm84A81yH",
+                 "itemsCursor": None}
+
+    result = run_query(QUERY, variables)
+    with open(args.OUTPUT_FILE, 'w') as f:
+        json.dump(result, f)
+    print(f"Data saved in: {args.OUTPUT_FILE}")
