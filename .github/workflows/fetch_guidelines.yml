@@ -25,9 +25,19 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests
 
-    - name: Update json file
+    - name: Update guidelines file
       run: |
         python src/fetch_table_guidelines.py -f docs/guidelines_last.json
         ls -rtl docs/
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Commit new guidelines file
+      uses: EndBug/add-and-commit@v9.1.4
+      with:
+        author_name: argobot-hub
+        author_email: argobot84@gmail.com
+        message: "Update guidelines file"
+        add: "docs/guidelines_last.json --force"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
