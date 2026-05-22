@@ -13,6 +13,8 @@ You can check a simplified view of all guidelines in here:
 If you participate in an Argo project and would like to evaluate your codebase, you can use the online evaluator at:  
 🚀 https://euroargodev.github.io/Software-Evaluator
 
+🤖 Guidelines are also available as a json file: [Machine-to-machine guidelines data](https://github.com/euroargodev/software_guidelines/blob/main/docs/guidelines_last.json)
+
 ### Rational
 In the realm of oceanographic research infrastructures, the Argo program stands as a cornerstone, providing invaluable examples of data management good practices. As part of the Euro-Argo ERIC, the development of collaborative and open-source software is crucial for leveraging Argo data effectively. However, researchers and data engineers, who may not have a background in software development, face unique challenges in creating software that are both robust and compliant with FAIR principles (Findable, Accessible, Interoperable, and Reusable). This is where tailored guidelines become essential. 
 
