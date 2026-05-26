@@ -173,7 +173,7 @@
   {
     "id": "PVTI_lADOA3TSm84A81yHzgcKzFA",
     "content": {
-      "title": "The software has been presented to the Argo community (e.g. Data Management Team meeting)",
+      "title": "The software has been presented to an Argo community",
       "url": "https://github.com/euroargodev/software_guidelines/issues/50",
       "body": "Once your software is stable and well-documented, it is ready for a broader diffusion throughout the Argo community: therefore it needs to be presented to an Argo-related group, typically a national-programm meeting, ADMT meeting or ADMT/AST working group.\n\nThis guideline follows from #26 ",
       "state": "OPEN",
@@ -200,9 +200,9 @@
           }
         },
         {
-          "text": "The software has been presented to the Argo community (e.g. Data Management Team meeting)",
+          "text": "The software has been presented to an Argo community",
           "id": "PVTFTV_lQDOA3TSm84A81yHzgcKzFDOFMikpw",
-          "updatedAt": "2025-07-03T13:47:18Z",
+          "updatedAt": "2026-05-26T20:05:40Z",
           "creator": {
             "url": "https://github.com/gmaze"
           }
