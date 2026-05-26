@@ -3308,7 +3308,7 @@
       "title": "Issues or bug reports are described as fully as possible (e.g. use labels, reproducible example)",
       "url": "https://github.com/euroargodev/software_guidelines/issues/13",
       "body": "",
-      "state": "OPEN",
+      "state": "CLOSED",
       "assignees": {
         "nodes": []
       }
@@ -3334,7 +3334,7 @@
         {
           "text": "Issues or bug reports are described as fully as possible (e.g. use labels, reproducible example)",
           "id": "PVTFTV_lQDOA3TSm84A81yHzgcK2MbOFMjJUw",
-          "updatedAt": "2025-07-03T13:43:52Z",
+          "updatedAt": "2026-05-26T20:24:47Z",
           "creator": {
             "url": "https://github.com/gmaze"
           }
