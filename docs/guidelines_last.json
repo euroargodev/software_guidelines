@@ -2389,7 +2389,7 @@
   {
     "id": "PVTI_lADOA3TSm84A81yHzgcKzJs",
     "content": {
-      "title": "The methodology implemented by the software has been presented to the Argo community (e.g. Data Management Team meeting)",
+      "title": "The methodology implemented by the software has been presented to an Argo community",
       "url": "https://github.com/euroargodev/software_guidelines/issues/26",
       "body": "The methodology, or key new feature, proposed by the software should be presented/discussed as soon as possible to an Argo-related group, from a local community (eg: institution, lab.) to an international body (eg: ADMT/AST working group).\n\nOnce the project and the codebase will have gained in maturity, the software should also be presented to the Argo community (see guideline #50 ).",
       "state": "OPEN",
@@ -2416,9 +2416,9 @@
           }
         },
         {
-          "text": "The methodology implemented by the software has been presented to the Argo community (e.g. Data Management Team meeting)",
+          "text": "The methodology implemented by the software has been presented to an Argo community",
           "id": "PVTFTV_lQDOA3TSm84A81yHzgcKzJvOFMilgQ",
-          "updatedAt": "2025-07-03T13:45:10Z",
+          "updatedAt": "2026-05-26T20:08:33Z",
           "creator": {
             "url": "https://github.com/gmaze"
           }
