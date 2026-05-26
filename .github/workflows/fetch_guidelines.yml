@@ -2,6 +2,7 @@ name: Update Guidelines
 
 on:
   issues:
+    types: [opened, reopened, edited, deleted, closed]
   workflow_dispatch:
 
 jobs:
