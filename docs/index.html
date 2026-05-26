@@ -56,7 +56,7 @@
     </center>
     <script>
         let E = null;
-        fetch("guidelines_last.json")
+        fetch("https://raw.githubusercontent.com/euroargodev/software_guidelines/refs/heads/main/docs/guidelines_last.json")
             .then(function (response) {
                 return response.json();
             })
@@ -66,7 +66,7 @@
                 let id = 1;
                 // for (let product of products.data.node.items.nodes) {
                 for (let product of products) {
-                    console.log(product);
+                    // console.log(product);
                     out += '<tr>';
                     // out += `<td><b>${id}</b></td>`;
                     let issue_id = product.content.url.replace("https://github.com/euroargodev/software_guidelines/issues/","")
@@ -76,7 +76,7 @@
                     out += `<td>${product.content.title} (<a href="${product.content.url}" target="_blank" alt="${issue_id}">details ↗</a>)</td>`;
 
                     // Programmer Skill Level
-                    let skillLevel = "";
+                    let skillLevel = `<td> </td>`;
                     for (let i = 2; i < product.fieldValues.nodes.length; i++) {
                         let elem = product.fieldValues.nodes[i];
                         if (Object.hasOwn(elem, 'field')) {
@@ -87,14 +87,11 @@
                                 }
                             }
                         }
-                        else {
-                            skillLevel = `<td> </td>`;
-                        }
                     };
                     out += skillLevel;
 
                     // Software Development Model (SDM)
-                    let label1 = "";
+                    let label1 = `<td> </td>`;
                     for (let i = 2; i < product.fieldValues.nodes.length; i++) {
                         let elem = product.fieldValues.nodes[i];
                         if (Object.hasOwn(elem, 'field')) {
@@ -105,14 +102,11 @@
                                 }
                             }
                         }
-                        else {
-                            label1 = `<td> </td>`;
-                        }
                     };
                     out += label1;
 
                     // SDM requirement level
-                    let label1Priority = "";
+                    let label1Priority = `<td> </td>`;
                     for (let i = 2; i < product.fieldValues.nodes.length; i++) {
                         let elem = product.fieldValues.nodes[i];
                         if (Object.hasOwn(elem, 'field')) {
@@ -123,14 +117,11 @@
                                 }
                             }
                         }
-                        else {
-                            label1Priority = `<td> </td>`;
-                        }
                     };
                     out += label1Priority;
 
                     // Scope
-                    let label2 = "";
+                    let label2 = `<td> </td>`;
                     for (let i = 2; i < product.fieldValues.nodes.length; i++) {
                         let elem = product.fieldValues.nodes[i];
                         if (Object.hasOwn(elem, 'field')) {
@@ -141,14 +132,11 @@
                                 }
                             }
                         }
-                        else {
-                            label2 = `<td> </td>`;
-                        }
                     };
                     out += label2;
 
                     // FAIR4RS
-                    let fair4rs = "";
+                    let fair4rs = `<td> </td>`;
                     for (let i = 2; i < product.fieldValues.nodes.length; i++) {
                         let elem = product.fieldValues.nodes[i];
                         if (Object.hasOwn(elem, 'field')) {
@@ -159,14 +147,11 @@
                                 }
                             }
                         }
-                        else {
-                            fair4rs = `<td> </td>`;
-                        }
                     };
                     out += fair4rs;
 
                     // Argo FAIR tools
-                    let argoFairTools = "";
+                    let argoFairTools = `<td> </td>`;
                     for (let i = 2; i < product.fieldValues.nodes.length; i++) {
                         let elem = product.fieldValues.nodes[i];
                         if (Object.hasOwn(elem, 'field')) {
@@ -177,14 +162,11 @@
                                 }
                             }
                         }
-                        else {
-                            argoFairTools = `<td> </td>`;
-                        }
                     };
                     out += argoFairTools;
 
                     // Project Aspects
-                    let label3 = "";
+                    let label3 = `<td> </td>`;
                     for (let i = 2; i < product.fieldValues.nodes.length; i++) {
                         let elem = product.fieldValues.nodes[i];
                         if (Object.hasOwn(elem, 'field')) {
@@ -194,9 +176,6 @@
                                     break;
                                 }
                             }
-                        }
-                        else {
-                            label3 = `<td> </td>`;
                         }
                     };
                     out += label3;
