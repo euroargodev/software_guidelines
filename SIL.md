@@ -2,6 +2,10 @@
 
 A maturity scale to assess the development stage and integration level of Argo-related software, from early concepts to foundational tools.
 
+## Description
+
+The Argo Research Infrastructure (RI) SIL is a maturity scale designed to evaluate and guide the development of Argo-related software. It provides a structured pathway for software to evolve from initial concepts to foundational components of the Argo RI. The SIL framework serves as both a development roadmap and a certification system, ensuring that software meets the Argo RI's standards for quality, interoperability, and community integration.
+
 Here is the list of SILs:
 - 🏆 SIL-1: Basic Concept Exploration 
 - 🛠️ SIL-2: Functional Prototype 
@@ -10,18 +14,24 @@ Here is the list of SILs:
 - ✅ SIL-5: Verified Research Software 
 - 👥 SIL-6: Community-Driven Tool 
 - 🏗️ SIL-7: Robust Open-Source Software
-- 🌍 SIL-8: Field-Tested Open-Source Software
+- 🌍 SIL-8: Mature Open-Source Software
 - 🏛️ SIL-9: Foundational Software
 
-Each SIL is assigned a list of guidelines categorised as: "1-Required", "2-Recommended" and "3-Best effort".
+SILs are envisioned as a two-way improvement feature:
+- It helps RI staff develop software by providing clear benchmarks and goals.
+- It provides software with a RI certification, formally recognizing its compliance with Argo RI expectations at a given level.
 
-Guidelines marked as "3-Best effort" always stay on this requirement level.
-However, a guideline marked as "2-Recommended" for a given SIL is considered as "1-Required" for any upper SIL. Therefore, the higher the SIL, the higher the number of required guidelines to follow.
-
-SIL are envisioned as a 2-ways improvement feature: 
-- it help the RI staff to develop softwares,
-- it provides softwares a RI _certification_.
 In other words, the SIL framework not only guides developers in progressively improving their software to meet higher standards, but also serves as a formal recognition system, certifying that a software meets the Argo Research Infrastructure's expectations for quality, interoperability, and community integration at a given level.
+
+
+**SIL vs development guidelines:**
+
+Each SIL is assigned a list of [Argo software development guidelines](https://github.com/euroargodev/software_guidelines/issues) categorized as:
+- 3-Required: This guideline is mandatory.
+- 2-Recommended: This guideline is strongly encouraged.
+- 1-Best effort: This guideline is optional but beneficial.
+
+Note that guidelines marked as "1-Best effort" always stay on this requirement level. However, guidelines marked as "2-Recommended" at a given SIL is upgraded as "3-Required" for any upper SIL. Therefore, the higher the SIL, the higher the number of required guidelines to follow.
 
 ## SIL description
 
@@ -101,15 +111,15 @@ In other words, the SIL framework not only guides developers in progressively im
   - Active contributors and maintainers outside the initial team.
   - Regular software updates, bug fixes, and a changelog.
   - Governance model (e.g., code of conduct, contributing guidelines).
-  - Increasing user base, evidenced by citations or mentions in papers or by ADMT.
+  - Increasing user base, evidenced by citations or mentions in papers or by AST/ADMT.
   - Interoperability with other tools, frameworks, or data formats.
 
 
 ### 🏗️ **SIL-7: Robust Open-Source Software**
 ![](https://img.shields.io/badge/content-🏗️%207--Robust%20Open%20Source%20Software-82b951?logo=opensourceinitiative&logoColor=green&label=Argo%20R.I.%20Software%20Integration%20Level)
 
-- **Description**: Mature open-source software with a solid architecture and established role in the community.
-- **Focus**: Stability and maturity.
+- **Description**: Robust open-source software with a solid architecture and established role in the community.
+- **Focus**: Stability and robustness.
 - **Example Requirements**:
   - Proven robustness through user feedback and stress testing.
   - Backward compatibility maintained across versions and deprecation policy.
@@ -117,11 +127,11 @@ In other words, the SIL framework not only guides developers in progressively im
   - High-quality assurance (e.g., coverage metrics for testing).
   - Support channels available (e.g., mailing lists or forums).
 
-### 🌍 **SIL-8: Field-Tested Open-Source Software**
+### 🌍 **SIL-8: Mature Open-Source Software**
 ![](https://img.shields.io/badge/content-🌍%208--Field%20Tested%20Open%20Source%20Software-b2bf44?logo=opensourceinitiative&logoColor=green&label=Argo%20R.I.%20Software%20Integration%20Level)
 
 - **Description**: Software proven to perform reliably in extensive use cases or collaborative research initiatives.
-- **Focus**: Proven performance in real-world use.
+- **Focus**: Operational and mature.
 - **Example Requirements**:
   - Advanced features for scalability and performance.
   - Real-world testing for diverse datasets, sensors, and platforms.
@@ -137,7 +147,7 @@ In other words, the SIL framework not only guides developers in progressively im
 - **Example Requirements**:
   - Adoption and integration into operational Argo workflows (real-time, delayed mode or research procedures).
   - Extensive and active community support.
-  - Long-term sustainability plan (e.g., funding, governance).
+  - Long-term sustainability plan (e.g., funding, governance, roles/responsibilities for contributors). 
   - Actively cited in peer-reviewed research or Argo international report or governance bodies.
   - Integration with major data portals or modeling frameworks.
 
@@ -179,7 +189,7 @@ In other words, the SIL framework not only guides developers in progressively im
 ![SIL-7](https://img.shields.io/badge/content-🏗️%207--Robust%20Open%20Source%20Software-82b951?logo=opensourceinitiative&logoColor=green&label=Argo%20R.I.%20Software%20Integration%20Level)
 ```
 
-![SIL-8](https://img.shields.io/badge/content-🌍%208--Field%20Tested%20Open%20Source%20Software-b2bf44?logo=opensourceinitiative&logoColor=green&label=Argo%20R.I.%20Software%20Integration%20Level)
+![SIL-8](https://img.shields.io/badge/content-🌍%208--Mature%20Open%20Source%20Software-b2bf44?logo=opensourceinitiative&logoColor=green&label=Argo%20R.I.%20Software%20Integration%20Level)
 ```markdown
 ![SIL-8](https://img.shields.io/badge/content-🌍%208--Field%20Tested%20Open%20Source%20Software-b2bf44?logo=opensourceinitiative&logoColor=green&label=Argo%20R.I.%20Software%20Integration%20Level)
 ```
