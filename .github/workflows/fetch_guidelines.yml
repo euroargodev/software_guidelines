@@ -28,7 +28,7 @@ jobs:
 
     - name: Update guidelines file
       run: |
-        python src/fetch_table_guidelines.py -f docs/guidelines_last.json
+        python src/fetch_guidelines_project.py -f docs/guidelines_last.json
         ls -rtl docs/
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -38,13 +38,3 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         commit_message: "Update guidelines file"
-
-#    - name: Commit new guidelines file
-#      uses: EndBug/add-and-commit@v9.1.4
-#      with:
-#        author_name: argobot-hub
-#        author_email: argobot84@gmail.com
-#        message: "Update guidelines file"
-#        add: "docs/guidelines_last.json --force"
-#      env:
-#        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

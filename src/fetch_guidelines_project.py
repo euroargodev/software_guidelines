@@ -102,5 +102,5 @@ if __name__ == "__main__":
 
     result = run_query(QUERY, variables)
     with open(args.OUTPUT_FILE, 'w') as f:
-        json.dump(result, f)
+        json.dump(result, f, indent=2)
     print(f"Data saved in: {args.OUTPUT_FILE}")
