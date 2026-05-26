@@ -3225,7 +3225,7 @@
     "content": {
       "title": "Issues or bugs are managed through the web-based development platform (e.g., GitHub or GitLab issues)",
       "url": "https://github.com/euroargodev/software_guidelines/issues/15",
-      "body": "Like #1 , if your codebase is hosted on a git-based web-platform (eg: Github, Gitlab), issues and bugs are easily managed through the \"issues\" tabs.\n\nIt is also a good practice to use labels to appropriately tag new issues: this makes them easily searchable, sortable.",
+      "body": "Like guideline #1 , if your codebase is hosted on a git-based web-platform (eg: Github, Gitlab), issues and bugs are easily managed through the \"issues\" tabs.\n\nIssues must be described as fully as possible (e.g. provide reproducible examples).\n\nIt is also a good practice to use labels to appropriately tag new issues: this makes them easily searchable, sortable.\n\nIssues should also report precisely which Argo mission, files, or whatever component that is affected or related to the issue.\n",
       "state": "OPEN",
       "assignees": {
         "nodes": []
