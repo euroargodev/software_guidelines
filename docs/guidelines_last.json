@@ -84,9 +84,9 @@
   {
     "id": "PVTI_lADOA3TSm84A81yHzgcKyhw",
     "content": {
-      "title": "Argo papers and/or DOIs are referenced in the Project",
+      "title": "Argo data papers and/or DOIs are acknowledged in the Project",
       "url": "https://github.com/euroargodev/software_guidelines/issues/6",
-      "body": "",
+      "body": "The project, basically the repository, should mention the Argo data papers and/or DOIs. \nThis is an effective way to promote the Argo dataset and acknowledge the AST/ADMT work.\n\nThis can simply be done for instance in the README.md file of the repository, by adding a section like:\n\n### Argo acknowledgments example\n\nThis software <works/processes/promotes/qualifies/plots/computes/etc...> the Argo data[1] that were collected and made freely available by the International Argo Program and the national programs that contribute to it.  (https://argo.ucsd.edu,  [https://www.ocean-ops.org](https://www.ocean-ops.org/board/?t=argo)).  The Argo Program is part of the Global Ocean Observing System. \n\n[1] Wong, A. P. S., et al. (2020), Argo Data 1999\u20132019: Two Million Temperature-Salinity Profiles and Subsurface Velocity Observations From a Global Array of Profiling Floats, Frontiers in Marine Science, 7(700), doi: https://doi.org/10.3389/fmars.2020.00700\n\n\n",
       "state": "OPEN",
       "assignees": {
         "nodes": []
@@ -111,9 +111,9 @@
           }
         },
         {
-          "text": "Argo papers and/or DOIs are referenced in the Project",
+          "text": "Argo data papers and/or DOIs are acknowledged in the Project",
           "id": "PVTFTV_lQDOA3TSm84A81yHzgcKyhzOFMieUA",
-          "updatedAt": "2026-05-27T10:46:49Z",
+          "updatedAt": "2026-05-27T10:53:07Z",
           "creator": {
             "url": "https://github.com/gmaze"
           }
@@ -166,6 +166,13 @@
           },
           "name": "Argo compliance",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcKyhzOFQDiyQ"
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "Documented",
+          "id": "PVTFSV_lQDOA3TSm84A81yHzgcKyhzOIpTOEA"
         }
       ]
     }
