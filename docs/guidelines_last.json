@@ -2068,7 +2068,7 @@
   {
     "id": "PVTI_lADOA3TSm84A81yHzgcKyPo",
     "content": {
-      "title": "Metadata produced by the software follow Argo conventions (as in reference tables provided by the NVS server)",
+      "title": "Metadata produced by the software follow Argo conventions (as in reference tables provided by the Argo vocabulary server)",
       "url": "https://github.com/euroargodev/software_guidelines/issues/16",
       "body": "This guideline requires that when the software produces some data, the metadata attached should follow the Argo conventions.\n\nFor instance, if a software produces a salinity variable, it should be referenced as `PSAL`.\n\nThe conventions and vocabulary are encoded in a collection of reference tables and associated values (and possible mapping between them). \n\nMore information on these data are available here: https://www.argodatamgt.org/ArgoVocabulary.html",
       "state": "OPEN",
@@ -2095,9 +2095,9 @@
           }
         },
         {
-          "text": "Metadata produced by the software follow Argo conventions (as in reference tables provided by the NVS server)",
+          "text": "Metadata produced by the software follow Argo conventions (as in reference tables provided by the Argo vocabulary server)",
           "id": "PVTFTV_lQDOA3TSm84A81yHzgcKyPrOFMibAA",
-          "updatedAt": "2025-07-03T13:44:06Z",
+          "updatedAt": "2026-05-27T11:08:23Z",
           "creator": {
             "url": "https://github.com/gmaze"
           }
@@ -2164,7 +2164,7 @@
   {
     "id": "PVTI_lADOA3TSm84A81yHzgcKydI",
     "content": {
-      "title": "The software uses the Argo vocabulary server (to enforce conventions as defined in Argo reference tables)",
+      "title": "The software uses the Argo vocabulary server to enforce conventions",
       "url": "https://github.com/euroargodev/software_guidelines/issues/60",
       "body": "The software must adhere to Argo conventions and vocabulary (see #16 ).\n\nWherever required, the vocabulary data should be retrieved directly from the Argo vocabulary server (NVS) to ensure valid and up-to-date information.",
       "state": "OPEN",
@@ -2191,9 +2191,9 @@
           }
         },
         {
-          "text": "The software uses the Argo vocabulary server (to enforce conventions as defined in Argo reference tables)",
+          "text": "The software uses the Argo vocabulary server to enforce conventions",
           "id": "PVTFTV_lQDOA3TSm84A81yHzgcKydLOFMidZw",
-          "updatedAt": "2025-07-03T13:48:16Z",
+          "updatedAt": "2026-05-27T11:07:59Z",
           "creator": {
             "url": "https://github.com/gmaze"
           }
