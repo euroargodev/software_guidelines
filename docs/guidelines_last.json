@@ -3900,7 +3900,7 @@
   {
     "id": "PVTI_lADOA3TSm84A81yHzgcK88g",
     "content": {
-      "title": "The software is registered in an Argo software registry (e.g. AST and Argo-BGC dedicated webpages)",
+      "title": "The software is registered in an Argo software registry (AST or Argo-BGC dedicated webpages)",
       "url": "https://github.com/euroargodev/software_guidelines/issues/54",
       "body": "Such _registries_ are:\n- AST: https://argo.ucsd.edu/data/argo-software-tools/\n- Argo-BGC: https://biogeochemical-argo.org/tools-and-resources.php\n\nTo register your software on:\n- the AST website, you can fill in this form: https://docs.google.com/forms/d/e/1FAIpQLSc0auPM6B8PC25r36bpYOILoacLZZEpCA7ivBBu4YMd4QfkNw/viewform\n- the Argo-BGC website, send an email to contact@biogeochemical-argo.org",
       "state": "OPEN",
@@ -3927,9 +3927,9 @@
           }
         },
         {
-          "text": "The software is registered in an Argo software registry (e.g. AST and Argo-BGC dedicated webpages)",
+          "text": "The software is registered in an Argo software registry (AST or Argo-BGC dedicated webpages)",
           "id": "PVTFTV_lQDOA3TSm84A81yHzgcK88jOFMkbMg",
-          "updatedAt": "2025-07-03T13:47:41Z",
+          "updatedAt": "2026-05-27T15:50:24Z",
           "creator": {
             "url": "https://github.com/gmaze"
           }
