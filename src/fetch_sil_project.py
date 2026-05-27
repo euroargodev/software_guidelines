@@ -86,7 +86,6 @@ def run_query(query, variables):
     response = requests.post(url, headers=HEADERS, json={"query": query, "variables": variables})
     response.raise_for_status()
     responsj = response.json()
-    # print(responsj)
 
     # Filter out issues with state == "CLOSED"
     keep = []
@@ -99,14 +98,14 @@ def run_query(query, variables):
     return keep
 
 if __name__ == "__main__":
-    default_output = Path(str(Path(__file__).parent).replace('src', 'docs')).joinpath('guidelines_last.json')
+    default_output = Path(str(Path(__file__).parent).replace('src', 'docs')).joinpath('sil_last.json')
 
     parser = ArgumentParser()
     parser.add_argument("-f", "--file", dest="OUTPUT_FILE", default=default_output,
                         help="write guidelines to FILE", metavar="FILE")
     args = parser.parse_args()
 
-    variables = {"projectId": "PVT_kwDOA3TSm84A81yH",
+    variables = {"projectId": "PVT_kwDOA3TSm84BYfNs",
                  "itemsCursor": None}
 
     result = run_query(QUERY, variables)
