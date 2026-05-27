@@ -1,12 +1,12 @@
-#  Argo Research Infrastructure Software Integration Level (SIL)
+#  Argo Research Infrastructure: Software Integration Level (SIL)
 
 A maturity scale to assess the development stage and integration level of Argo-related software, from early concepts to foundational tools.
 
-## Description
+## About
 
 The Argo Research Infrastructure (RI) SIL is a maturity scale designed to evaluate and guide the development of Argo-related software. It provides a structured pathway for software to evolve from initial concepts to foundational components of the Argo RI. The SIL framework serves as both a development roadmap and a certification system, ensuring that software meets the Argo RI's standards for quality, interoperability, and community integration.
 
-Here is the list of SILs:
+Here is the list of SIL titles:
 - 🏆 SIL-1: Basic Concept Exploration 
 - 🛠️ SIL-2: Functional Prototype 
 - 🧪 SIL-3: Minimal Viable Research Software 
@@ -17,12 +17,13 @@ Here is the list of SILs:
 - 🌍 SIL-8: Mature Open-Source Software
 - 🏛️ SIL-9: Foundational Software
 
+**SIL certification:**
+
 SILs are envisioned as a two-way improvement feature:
 - It helps RI staff develop software by providing clear benchmarks and goals.
 - It provides software with a RI certification, formally recognizing its compliance with Argo RI expectations at a given level.
 
 In other words, the SIL framework not only guides developers in progressively improving their software to meet higher standards, but also serves as a formal recognition system, certifying that a software meets the Argo Research Infrastructure's expectations for quality, interoperability, and community integration at a given level.
-
 
 **SIL vs development guidelines:**
 
@@ -31,7 +32,9 @@ Each SIL is assigned a list of [Argo software development guidelines](https://gi
 - 2-Recommended: This guideline is strongly encouraged.
 - 1-Best effort: This guideline is optional but beneficial.
 
-Note that guidelines marked as "1-Best effort" always stay on this requirement level. However, guidelines marked as "2-Recommended" at a given SIL is upgraded as "3-Required" for any upper SIL. Therefore, the higher the SIL, the higher the number of required guidelines to follow.
+‼️ Guidelines marked as "2-Recommended" at a given SIL are upgraded as "3-Required" for any upper SIL. Therefore, the higher the SIL, the higher the number of required guidelines to follow.
+
+Guidelines marked as "1-Best effort" always stay on this requirement level. 
 
 ## SIL description
 
@@ -167,6 +170,13 @@ Note that guidelines marked as "1-Best effort" always stay on this requirement l
   - **General**:
     - The software ensures timely distribution of updates ([#51↗](https://github.com/euroargodev/software_guidelines/issues/51))
 
+## SIL census
+
+![Ng_per_sil.png](docs/Ng_per_sil.png)
+
+![Ng_per_sil_adoption.png](docs/Ng_per_sil_adoption.png)
+
+![sil_adoption_curve.png](docs/sil_adoption_curve.png)
 
 ## Badges
 
