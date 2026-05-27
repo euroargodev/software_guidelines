@@ -264,7 +264,7 @@
     "content": {
       "title": "The software documentation includes usage guidelines and examples",
       "url": "https://github.com/euroargodev/software_guidelines/issues/47",
-      "body": "One should also make available tutorial material (notebooks, presentation, video, etc.).\n",
+      "body": "The documentation should include examples of the software features and guidelines on how to use it.\n\nFrom the very beginning of a project (eg functional prototype), or for novice and beginners, this guideline is useful to precisely define the application scope of a codebase.\n\nIf the software shall gain in maturity, and developers in expertise, the documentation will improve accordingly.\n\nIt also a good practice that advanced and expert maintainers, or for software seeking a viable, structured, robust (and above) research software maturity level to produce/publish tutorial material (eg: notebooks, presentation, video, etc.).\n",
       "state": "OPEN",
       "assignees": {
         "nodes": []
