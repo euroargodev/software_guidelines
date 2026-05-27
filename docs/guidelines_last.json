@@ -2070,7 +2070,7 @@
     "content": {
       "title": "Metadata produced by the software follow Argo conventions (as in reference tables provided by the Argo vocabulary server)",
       "url": "https://github.com/euroargodev/software_guidelines/issues/16",
-      "body": "This guideline requires that when the software produces some data, the metadata attached should follow the Argo conventions.\n\nFor instance, if a software produces a salinity variable, it should be referenced as `PSAL`.\n\nThe conventions and vocabulary are encoded in a collection of reference tables and associated values (and possible mapping between them). \n\nMore information on these data are available here: https://www.argodatamgt.org/ArgoVocabulary.html",
+      "body": "This guideline requires that when the software produces some data, the metadata attached should follow the Argo conventions.\n\nFor instance, if a software produces a salinity variable, it should be referenced as `PSAL`.\n\nThe conventions and vocabulary are encoded in a collection of reference tables and associated values (and possible mapping between them). \n\nMore information on these data are available here: https://www.argodatamgt.org/ArgoVocabulary.html\n\nFollowing this guideline can be _hard coded_ in the codebase. However, the software should use the vocabulary server whenever relevant to ensure up-to-date information (see guideline #60 )\n\n",
       "state": "OPEN",
       "assignees": {
         "nodes": []
