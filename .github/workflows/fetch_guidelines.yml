@@ -26,9 +26,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests
 
-    - name: Update guidelines file
+    - name: Update guidelines data files
       run: |
-        python src/fetch_guidelines_project.py -f docs/guidelines_last.json
+        src/data_fetcher update
         ls -rtl docs/
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

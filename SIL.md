@@ -1,10 +1,12 @@
 #  Argo Research Infrastructure: Software Integration Level (SIL)
 
-A maturity scale to assess the development stage and integration level of Argo-related software, from early concepts to foundational tools.
+A framework to assess the development stage and/or integration level of Argo-related software, from early concepts to foundational tools.
 
 ## About
 
-The Argo Research Infrastructure (RI) SIL is a maturity scale designed to evaluate and guide the development of Argo-related software. It provides a structured pathway for software to evolve from initial concepts to foundational components of the Argo RI. The SIL framework serves as both a development roadmap and a certification system, ensuring that software meets the Argo RI's standards for quality, interoperability, and community integration.
+The Argo Research Infrastructure (RI) Software Integration Level (SIL) is a framework designed to evaluate and guide the development of Argo-related software. It provides a structured pathway for software to evolve from initial concepts to foundational components of the Argo RI. 
+
+The SIL framework serves as both a development roadmap and a certification system, ensuring that software meets the Argo RI's standards for quality, interoperability, and community integration.
 
 Here is the list of SIL titles:
 - 🏆 SIL-1: Basic Concept Exploration 
@@ -28,9 +30,9 @@ In other words, the SIL framework not only guides developers in progressively im
 **SIL vs development guidelines:**
 
 Each SIL is assigned a list of [Argo software development guidelines](https://github.com/euroargodev/software_guidelines/issues) categorized as:
-- 3-Required: This guideline is mandatory.
-- 2-Recommended: This guideline is strongly encouraged.
 - 1-Best effort: This guideline is optional but beneficial.
+- 2-Recommended: This guideline is strongly encouraged.
+- 3-Required: This guideline is mandatory.
 
 ‼️ Guidelines marked as "2-Recommended" at a given SIL are upgraded as "3-Required" for any upper SIL. Therefore, the higher the SIL, the higher the number of required guidelines to follow.
 

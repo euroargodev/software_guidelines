@@ -1,0 +1,297 @@
+#!/usr/bin/env python
+"""
+
+Load data from the 2 projects used to document the guidelines and SILs
+
+"""
+import requests
+import json
+import os
+from argparse import ArgumentParser
+from pathlib import Path
+import getpass
+
+TOKEN = os.getenv("GITHUB_TOKEN")
+ORGANIZATION_NAME = "euroargodev"
+
+HEADERS = {"Authorization": f"Bearer {TOKEN}", "Accept": "application/vnd.github+json"}
+
+
+def fmtq(query, variables):
+    for key in variables.keys():
+        query = query.replace("$" + key, variables[key])
+    return query
+
+
+def run_query(graphql_query, variables=None):
+    if variables is not None:
+        graphql_query = fmtq(graphql_query, variables)
+    url = "https://api.github.com/graphql"
+    response = requests.post(url, headers=HEADERS, json={"query": graphql_query})
+    response.raise_for_status()
+    return response.json()
+
+
+
+def list_my_project(organization: str, login: str):
+    query = """
+    query {
+      organization(login: \"$organization\") {
+        projectsV2(first: 100) {
+          nodes {
+            id
+            number
+            title
+            url
+            createdAt
+            updatedAt
+            creator {
+              login
+            }
+          }
+          pageInfo {
+            hasNextPage
+            endCursor
+          }
+        }
+      }
+    }
+    """
+    data = run_query(query, {"organization": organization})
+
+    # Print the results
+    if "errors" in data:
+        print("Errors:", data["errors"])
+    else:
+        projects = data["data"]["organization"]["projectsV2"]["nodes"]
+        for project in projects:
+            if project["creator"]["login"] == login:
+                print(f"ID: {project['id']}")
+                print(f"Title: {project['title']}")
+                print(f"Number: {project['number']}")
+                print(f"URL: {project['url']}")
+                print("---")
+
+
+def save_data(args, data, file_name='data'):
+
+    if args.OUTPUT_FILE is None:
+        OUTPUT_FILE = Path(str(Path(__file__).parent).replace("src", "docs")).joinpath(
+            f"{file_name}.json"
+        )
+    else:
+        OUTPUT_FILE = args.OUTPUT_FILE
+
+    with open(OUTPUT_FILE, "w") as f:
+        json.dump(data, f, indent=2)
+    print(f"Data saved in: {OUTPUT_FILE}")
+
+
+def fetch_project(projectId):
+    query = """
+    query {
+      node(id: \"$projectId\") {
+        ... on ProjectV2 {
+          items(last: 70) {
+            nodes {
+              id
+              content {
+                ... on Issue {
+                  title
+                  url
+                  body
+                  state              
+                  assignees(first: 10) {
+                    nodes {
+                      login
+                    }
+                  }
+                }
+              }
+              fieldValues(first: 20) {
+                nodes {
+                  ... on ProjectV2ItemFieldSingleSelectValue {
+                    field {
+                      ... on ProjectV2SingleSelectField {
+                        name
+                      }
+                    }
+                    name
+                    id
+                  }
+                  ... on ProjectV2ItemFieldLabelValue {
+                    labels(first: 20) {
+                      nodes {
+                        id
+                        name
+                      }
+                    }
+                  }
+                  ... on ProjectV2ItemFieldTextValue {
+                    text
+                    id
+                    updatedAt
+                    creator {
+                      url
+                    }
+                  }
+                  ... on ProjectV2ItemFieldMilestoneValue {
+                    milestone {
+                      id
+                    }
+                  }
+                  ... on ProjectV2ItemFieldRepositoryValue {
+                    repository {
+                      id
+                      url
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    """
+    data = run_query(query, {"projectId": projectId})
+
+    if "errors" in data:
+        raise ValueError(data["errors"])
+    else:
+        return data
+
+
+def load_project(projectId):
+    data = fetch_project(projectId)
+
+    # Filter out issues with state == "CLOSED"
+    keep = []
+    items = data["data"]["node"]["items"]["nodes"]
+    for item in items:
+        content = item.get("content")
+        if content and content.get("state") != "CLOSED":
+            keep.append(item)
+
+    return keep
+
+
+def save_guidelines(args):
+    """Project: Argo software development guidelines"""
+    data = load_project("PVT_kwDOA3TSm84A81yH")  # ID determined with list_my_project()
+    save_data(args, data, file_name='guidelines_last')
+
+
+def save_sil(args):
+    """Project: Argo RI Software Integration Level"""
+    data = load_project("PVT_kwDOA3TSm84BYfNs")  # ID determined with list_my_project()
+    save_data(args, data, file_name='sil_last')
+
+
+def fetch_fields(projectId: str):
+    query = """
+    query {
+      node(id: \"$projectId\") {
+        ... on ProjectV2 {
+          fields(first: 20) {
+            nodes {
+              ... on ProjectV2Field {
+                id
+                name
+              }
+              ... on ProjectV2SingleSelectField {
+                id
+                name
+                options {
+                  id
+                  nameHTML
+                  descriptionHTML
+                  color
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    """
+    data = run_query(query, {"projectId": projectId})
+
+    if "errors" in data:
+        raise ValueError(data["errors"])
+    else:
+        return data
+
+
+def load_fields(projectId: str):
+    data = fetch_fields(projectId)
+
+    nodes = data["data"]["node"]["fields"]["nodes"]
+    fields = {}
+    for node in nodes:
+        if "options" in node:
+            options = []
+            for option in node["options"]:
+                options.append(
+                    {
+                        "name": option["nameHTML"],
+                        "description": option["descriptionHTML"],
+                        "color": option["color"],
+                    }
+                )
+            fields[node["name"]] = options
+
+    return fields
+
+
+def save_sil_fields(args):
+    data = load_fields("PVT_kwDOA3TSm84BYfNs")
+    save_data(args, data, file_name='sil_fields')
+
+
+def save_guidelines_fields(args):
+    data = load_fields("PVT_kwDOA3TSm84A81yH")
+    save_data(args, data, file_name='guidelines_fields')
+
+
+if __name__ == "__main__":
+
+    parser = ArgumentParser()
+    parser.add_argument(
+        "action", help="list, update, guidelines, guidelines_fields, sil, sil_fields"
+    )  # positional argument
+
+    parser.add_argument(
+        "-l",
+        "--login",
+        dest="LOGIN",
+        default=getpass.getuser(),
+        help="User login to be used to 'list' projects",
+    )
+
+    parser.add_argument(
+        "-f", "--file", dest="OUTPUT_FILE", help="Write data to FILE (will overwrite default)", metavar="FILE"
+    )
+
+    args = parser.parse_args()
+
+    if args.action == "list":
+        list_my_project(ORGANIZATION_NAME, args.LOGIN)
+
+    if args.action == "update":
+        save_guidelines(args)
+        save_guidelines_fields(args)
+        save_sil(args)
+        save_sil_fields(args)
+
+    if args.action == "guidelines":
+        save_guidelines(args)
+
+    if args.action == "guidelines_fields":
+        save_guidelines_fields(args)
+
+    if args.action == "sil":
+        save_sil(args)
+
+    if args.action == "sil_fields":
+        save_sil_fields(args)

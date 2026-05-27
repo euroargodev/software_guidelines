@@ -1,0 +1,163 @@
+{
+  "Skill level": [
+    {
+      "name": "1 - Novice",
+      "description": "Familiar with programming and open-source/collaborative development concepts but lacks practical experience",
+      "color": "BLUE"
+    },
+    {
+      "name": "2 - Beginner",
+      "description": "Writes basic code, applies foundational practices, and may need guidance for open-source/collaborative workflows",
+      "color": "GREEN"
+    },
+    {
+      "name": "3 - Intermediate",
+      "description": "Develops functional software, actively implements guidelines, and debugs independently.",
+      "color": "YELLOW"
+    },
+    {
+      "name": "4 - Advanced",
+      "description": "Fully integrates best practices into workflows, mentors others, and contributes to collaborative projects.",
+      "color": "ORANGE"
+    },
+    {
+      "name": "5 - Expert",
+      "description": "Drives best practices across teams, sets standards for open-source/collaborative development, and contributes to community tools or frameworks.",
+      "color": "RED"
+    }
+  ],
+  "Software Development Model (SDM)": [
+    {
+      "name": "Open-Source",
+      "description": "Address Open-Source Software Development Guidelines.\n\nOpen-Source Guidelines focus on licensing, documentation, testing, distribution, and compliance with standards (e.g., Argo formats, FAIR principles).",
+      "color": "GREEN"
+    },
+    {
+      "name": "Collaborative",
+      "description": "Address Collaborative Software Development Guidelines.\n\nCollaborative Guidelines emphasize teamwork, version control, communication, and project management (e.g., Git workflows, meetings, issue tracking).",
+      "color": "BLUE"
+    }
+  ],
+  "SDM requirement level": [
+    {
+      "name": "1 - Required",
+      "description": "",
+      "color": "RED"
+    },
+    {
+      "name": "2 - Recommended",
+      "description": "",
+      "color": "YELLOW"
+    },
+    {
+      "name": "3 - Best effort",
+      "description": "",
+      "color": "GRAY"
+    }
+  ],
+  "Scope": [
+    {
+      "name": "Argo specific",
+      "description": "This item is specific to software for the Argo RI",
+      "color": "GREEN"
+    },
+    {
+      "name": "General guideline",
+      "description": "This item would apply to any software",
+      "color": "ORANGE"
+    }
+  ],
+  "Project Aspects": [
+    {
+      "name": "Location",
+      "description": "About where to store and manage the project content",
+      "color": "GRAY"
+    },
+    {
+      "name": "Content",
+      "description": "About the repository content and organisation",
+      "color": "GRAY"
+    },
+    {
+      "name": "Management",
+      "description": "About how the project and its codebase are managed, possibly collectively",
+      "color": "GRAY"
+    },
+    {
+      "name": "Codebase",
+      "description": "About the codebase design and organisation",
+      "color": "GRAY"
+    },
+    {
+      "name": "Documentation and Outreach",
+      "description": "About the project and codebase documentation and outreach (communication and dissemination)",
+      "color": "GRAY"
+    },
+    {
+      "name": "Argo compliance",
+      "description": "About making use of all Argo tools",
+      "color": "GRAY"
+    }
+  ],
+  "FAIR4RS": [
+    {
+      "name": "Findable",
+      "description": "Software, and its associated metadata, is easy for both humans and machines to find",
+      "color": "GRAY"
+    },
+    {
+      "name": "Accessible",
+      "description": "Software, and its metadata, is retrievable via standardised protocols",
+      "color": "GRAY"
+    },
+    {
+      "name": "Interoperable",
+      "description": "Software interoperates with other software by exchanging data and/or metadata, through interaction via application programming interfaces (APIs), described through standards",
+      "color": "GRAY"
+    },
+    {
+      "name": "Reusable",
+      "description": "Software is both usable (can be executed) and reusable (can be understood, modified, built upon, or incorporated into other software)",
+      "color": "GRAY"
+    }
+  ],
+  "Argo FAIR tools": [
+    {
+      "name": "Findable",
+      "description": "eg: Input data are uniquely identifiable, i.e. based on Argo DOI and GDAC snapshot DOIs (persistent identifiers), Argo Netcdf and Vocabulary/Conventions (rich metadata), GDAC index files (index of data repositories)",
+      "color": "GRAY"
+    },
+    {
+      "name": "Accessible",
+      "description": "eg: Input data are fetched from public http, ftp, s3 GDAC servers, Vocabulary web-API (standardised, open and free protocols)",
+      "color": "GRAY"
+    },
+    {
+      "name": "Interoperable",
+      "description": "eg: Output data follow Argo conventions and vocabulary",
+      "color": "GRAY"
+    },
+    {
+      "name": "Reusable",
+      "description": "eg: Output data preserve CC BY 4.0 License",
+      "color": "GRAY"
+    }
+  ],
+  "Status": [
+    {
+      "name": "To do",
+      "description": "This item requires assignment",
+      "color": "RED"
+    },
+    {
+      "name": "Documented",
+      "description": "This item has been sorted, i.e. assigned appropriate labels and documentation",
+      "color": "GREEN"
+    },
+    {
+      "name": "Archived",
+      "description": "This item is no longer in use",
+      "color": "PURPLE"
+    }
+  ]
+}

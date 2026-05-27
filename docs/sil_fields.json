@@ -1,0 +1,83 @@
+{
+  "Status": [
+    {
+      "name": "To be sorted",
+      "description": "This item should be sorted",
+      "color": "RED"
+    },
+    {
+      "name": "Sorted",
+      "description": "This item has been sorted",
+      "color": "GREEN"
+    },
+    {
+      "name": "Archived",
+      "description": "This item is archived",
+      "color": "PURPLE"
+    }
+  ],
+  "Software Integration Level": [
+    {
+      "name": "SIL-1 \ud83c\udfc6",
+      "description": "Basic Concept Exploration",
+      "color": "GRAY"
+    },
+    {
+      "name": "SIL-2 \ud83d\udee0\ufe0f",
+      "description": "Functional Prototype",
+      "color": "GRAY"
+    },
+    {
+      "name": "SIL-3 \ud83e\uddea",
+      "description": "Minimal Viable Research Software",
+      "color": "GRAY"
+    },
+    {
+      "name": "SIL-4 \ud83d\udd04",
+      "description": "Structured Open-Source Project",
+      "color": "GRAY"
+    },
+    {
+      "name": "SIL-5 \u2705",
+      "description": "Verified Research Software",
+      "color": "GRAY"
+    },
+    {
+      "name": "SIL-6 \ud83d\udc65",
+      "description": "Community-Driven Tool",
+      "color": "GRAY"
+    },
+    {
+      "name": "SIL-7 \ud83c\udfd7\ufe0f",
+      "description": "Robust Open-Source Software",
+      "color": "GRAY"
+    },
+    {
+      "name": "SIL-8 \ud83c\udf0d",
+      "description": "Field-Tested Open-Source Software",
+      "color": "GRAY"
+    },
+    {
+      "name": "SIL-9 \ud83c\udfdb\ufe0f",
+      "description": "Foundational Software",
+      "color": "GRAY"
+    }
+  ],
+  "Adoption criteria": [
+    {
+      "name": "3 - Required",
+      "description": "This guideline is mandatory",
+      "color": "RED"
+    },
+    {
+      "name": "2 - Recommended",
+      "description": "This guideline is strongly encouraged",
+      "color": "YELLOW"
+    },
+    {
+      "name": "1 - Best Effort",
+      "description": "This guideline is optional but beneficial",
+      "color": "GRAY"
+    }
+  ]
+}
