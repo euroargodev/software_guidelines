@@ -2162,88 +2162,6 @@
     }
   },
   {
-    "id": "PVTI_lADOA3TSm84A81yHzgcKydI",
-    "content": {
-      "title": "The software uses the Argo vocabulary server to enforce conventions",
-      "url": "https://github.com/euroargodev/software_guidelines/issues/60",
-      "body": "The software must adhere to Argo conventions and vocabulary (see #16 ).\n\nWherever required, the vocabulary data should be retrieved directly from the Argo vocabulary server (NVS) to ensure valid and up-to-date information.",
-      "state": "OPEN",
-      "assignees": {
-        "nodes": []
-      }
-    },
-    "fieldValues": {
-      "nodes": [
-        {
-          "repository": {
-            "id": "R_kgDOPGM65g",
-            "url": "https://github.com/euroargodev/software_guidelines"
-          }
-        },
-        {
-          "labels": {
-            "nodes": [
-              {
-                "id": "LA_kwDOPGM65s8AAAACEX1fwg",
-                "name": "guideline"
-              }
-            ]
-          }
-        },
-        {
-          "text": "The software uses the Argo vocabulary server to enforce conventions",
-          "id": "PVTFTV_lQDOA3TSm84A81yHzgcKydLOFMidZw",
-          "updatedAt": "2026-05-27T11:07:59Z",
-          "creator": {
-            "url": "https://github.com/gmaze"
-          }
-        },
-        {
-          "field": {
-            "name": "Software Development Model (SDM)"
-          },
-          "name": "Open-Source",
-          "id": "PVTFSV_lQDOA3TSm84A81yHzgcKydLOFMifyA"
-        },
-        {
-          "field": {
-            "name": "Scope"
-          },
-          "name": "Argo specific",
-          "id": "PVTFSV_lQDOA3TSm84A81yHzgcKydLOFMii5w"
-        },
-        {
-          "field": {
-            "name": "Skill level"
-          },
-          "name": "3 - Intermediate",
-          "id": "PVTFSV_lQDOA3TSm84A81yHzgcKydLOFMioOQ"
-        },
-        {
-          "field": {
-            "name": "SDM requirement level"
-          },
-          "name": "2 - Recommended",
-          "id": "PVTFSV_lQDOA3TSm84A81yHzgcKydLOFMkFMg"
-        },
-        {
-          "field": {
-            "name": "Argo FAIR tools"
-          },
-          "name": "Interoperable",
-          "id": "PVTFSV_lQDOA3TSm84A81yHzgcKydLOFMlMJQ"
-        },
-        {
-          "field": {
-            "name": "Project Aspects"
-          },
-          "name": "Argo compliance",
-          "id": "PVTFSV_lQDOA3TSm84A81yHzgcKydLOFQDs_w"
-        }
-      ]
-    }
-  },
-  {
     "id": "PVTI_lADOA3TSm84A81yHzgcKyj8",
     "content": {
       "title": "The software documentation and codebase are written in English",
@@ -4900,7 +4818,7 @@
     "content": {
       "title": "Argo Meta-Data accessed remotely by the software are retrieved from an official Argo sources (GDAC ftp, GDAC https, NVS, SparQL, STAC)",
       "url": "https://github.com/euroargodev/software_guidelines/issues/5",
-      "body": "An \"official\" Argo source is a data provider that is one of the Argo DACs or GDAC, or any other data provider that presented an API to the ADMT (and didn't get a refusal).",
+      "body": "An \"official\" Argo source is a data provider that is one of the Argo DACs or GDAC, or any other data provider that presented an API to the ADMT (and didn't get a refusal).\n\nIn line with #16 , this is particularly neede for the vocabulary meta-data: they should be retrieved directly from the Argo vocabulary server (NVS) to ensure valid and up-to-date information.",
       "state": "OPEN",
       "assignees": {
         "nodes": []
@@ -4980,6 +4898,13 @@
           },
           "name": "Codebase",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcLFsfOFQDheg"
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "Documented",
+          "id": "PVTFSV_lQDOA3TSm84A81yHzgcLFsfOIpWQ7w"
         }
       ]
     }
