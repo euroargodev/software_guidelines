@@ -182,7 +182,7 @@
     "content": {
       "title": "The software has been presented to an Argo community",
       "url": "https://github.com/euroargodev/software_guidelines/issues/50",
-      "body": "Once your software is stable and well-documented, it is ready for a broader diffusion throughout the Argo community: therefore it needs to be presented to an Argo-related group, typically a national-programm meeting, ADMT meeting or ADMT/AST working group.\n\nThis guideline follows from #26 ",
+      "body": "Once your software is stable and well-documented, it is ready for a broader diffusion throughout the Argo community: therefore it needs to be presented to an Argo-related group: national-program meeting, ADMT meeting or ADMT/AST working group.\n\nThis guideline follows from #26 ",
       "state": "OPEN",
       "assignees": {
         "nodes": []
