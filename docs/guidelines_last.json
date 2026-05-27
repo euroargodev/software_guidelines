@@ -5057,7 +5057,7 @@
     "content": {
       "title": "The project allows any user to submit an issue or bug report",
       "url": "https://github.com/euroargodev/software_guidelines/issues/27",
-      "body": "",
+      "body": "If your codebase is hosted on a git-based web-platform (eg: Github, Gitlab), issues and bugs are easily managed through the \"issues\" tabs.\n\nTo follow this guideline, you need to enable the \"issue\" feature. \n\nOn Github, this can be done in the Repository settings / Features  / Issues:\n\n<img width=\"1168\" height=\"97\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/512d71a9-b45a-4f23-a9d1-e5e62bdf7abb\" />\n \n\n",
       "state": "OPEN",
       "assignees": {
         "nodes": []
@@ -5123,6 +5123,13 @@
           },
           "name": "Management",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcLHLjOFQDndA"
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "Documented",
+          "id": "PVTFSV_lQDOA3TSm84A81yHzgcLHLjOIpCA1A"
         }
       ]
     }
