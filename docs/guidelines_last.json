@@ -2173,7 +2173,7 @@
     "content": {
       "title": "The Project uses English as a primary language (eg: in documentation, codebase)",
       "url": "https://github.com/euroargodev/software_guidelines/issues/41",
-      "body": "",
+      "body": "This is a requirement to ensure from the beginning of a project that all the content will be available to the largest community.",
       "state": "OPEN",
       "assignees": {
         "nodes": []
