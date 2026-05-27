@@ -4844,7 +4844,7 @@
   {
     "id": "PVTI_lADOA3TSm84A81yHzgr-Sp0",
     "content": {
-      "title": "Publicly communicate about codebase new versions and releases (e.g. mailing list, newsletter, post on social networks, RSS feeds)",
+      "title": "The project uses public communication channels to publish news and updates",
       "url": "https://github.com/euroargodev/software_guidelines/issues/67",
       "body": "",
       "state": "OPEN",
@@ -4871,9 +4871,9 @@
           }
         },
         {
-          "text": "Publicly communicate about codebase new versions and releases (e.g. mailing list, newsletter, post on social networks, RSS feeds)",
+          "text": "The project uses public communication channels to publish news and updates",
           "id": "PVTFTV_lQDOA3TSm84A81yHzgr-Sp3OIQ7M4g",
-          "updatedAt": "2026-05-06T17:11:24Z",
+          "updatedAt": "2026-05-27T15:52:19Z",
           "creator": {
             "url": "https://github.com/gmaze"
           }
