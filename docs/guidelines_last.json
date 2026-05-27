@@ -1229,7 +1229,7 @@
     "content": {
       "title": "The software documentation includes installation guidelines",
       "url": "https://github.com/euroargodev/software_guidelines/issues/43",
-      "body": "",
+      "body": "From very sucint and descriptive (eg: 'Place the octave file in your path') to more complexe distribution packages instructions (eg: pip with options), the software must document how to be installed.",
       "state": "OPEN",
       "assignees": {
         "nodes": []
