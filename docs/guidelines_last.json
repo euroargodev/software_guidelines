@@ -2171,7 +2171,7 @@
   {
     "id": "PVTI_lADOA3TSm84A81yHzgcKyj8",
     "content": {
-      "title": "The software documentation and codebase are written in English",
+      "title": "The Project uses English as a primary language (eg: in documentation, codebase)",
       "url": "https://github.com/euroargodev/software_guidelines/issues/41",
       "body": "",
       "state": "OPEN",
@@ -2198,9 +2198,9 @@
           }
         },
         {
-          "text": "The software documentation and codebase are written in English",
+          "text": "The Project uses English as a primary language (eg: in documentation, codebase)",
           "id": "PVTFTV_lQDOA3TSm84A81yHzgcKyj_OFMievw",
-          "updatedAt": "2025-07-03T13:46:30Z",
+          "updatedAt": "2026-05-27T14:02:19Z",
           "creator": {
             "url": "https://github.com/gmaze"
           }
