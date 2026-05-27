@@ -1569,6 +1569,13 @@
           },
           "name": "Codebase",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcIRrzOFQDwCw"
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "Documented",
+          "id": "PVTFSV_lQDOA3TSm84A81yHzgcIRrzOIpp4lg"
         }
       ]
     }
