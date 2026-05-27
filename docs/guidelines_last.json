@@ -4846,7 +4846,7 @@
     "content": {
       "title": "The project uses public communication channels to publish news and updates",
       "url": "https://github.com/euroargodev/software_guidelines/issues/67",
-      "body": "",
+      "body": "Even if new software releases are published and made available through dedicated systems (see #53 ), the project should further identify and make use of other communication channels (e.g. mailing list, newsletter, post on social networks, RSS feeds) to publish any news and updates to the project. This is important to keep the user base and Argo community up to date with the project.",
       "state": "OPEN",
       "assignees": {
         "nodes": []
@@ -4912,6 +4912,13 @@
           },
           "name": "Documentation and Outreach",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgr-Sp3OIQ7QRg"
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "Documented",
+          "id": "PVTFSV_lQDOA3TSm84A81yHzgr-Sp3OIppxOQ"
         }
       ]
     }
