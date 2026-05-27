@@ -1,5 +1,249 @@
 [
   {
+    "id": "PVTI_lADOA3TSm84BYfNszgthovQ",
+    "content": {
+      "title": "The project includes a basic documentation",
+      "url": "https://github.com/euroargodev/software_guidelines/issues/36",
+      "body": "\ud83c\uddec\ud83c\udde7 Remember that the documentation must be in english (see #41 ) !\n\n## **Basic** documentation\n\nThe project must, from the very beginning, includes a documentation with **basic** information: \n- a **name** (eg: \"pydox\")\n- a **title** (eg: \"A Python library dedicated to Argo Oxygen data Calibration and Adjustment\")\n- and a **description** (eg: \"Pydox is designed to compute oxygen calibration for Argo floats during Delayed-Mode Quality Control (DMQC). It helps users: Calculate gain, drift, and other calibration parameters with several methodology (in-air, climatology and reference CTD measurements), Determine if adjustments are needed (via plots and metrics), Apply calibrations to raw float data, Save adjusted data as DAC-ready Argo NetCDF files (BD files).\")\n\nYou can also mention sponsors and supporting projects if any.\n \nThe basic documentation must be located in a **README.md** file at the root level of the repository.\n\n## Complementing the documentation\n\n_As the project will gain in maturity_, here is a non-exhaustive list of other information that will be included in the **README.md** file:\n- link with the Argo dataset (e.g. read index file, calibrate salinity, plot trajectory, assess BGC variables,...), see #66 \n- list of contributors, see #10 \n- software unique identifiers, see #49 and #28 \n- continuous integration badges, see #52 \n- software distribution services and last released versions, see #53 \n- list of supported systems and environment, see #44 and #46 \n\n## Help\n\n#### Writing README and documentation\n\nFurther guideline on writing a good README at: \nhttps://github.com/hackergrrl/art-of-readme#key-elements\n\nMore software documentation guidelines at: \nhttps://carpentries-incubator.github.io/better-research-software/07-software-documentation.html\n\n#### Where to put your documentation ?\n\nShort answer: your repository must have a **README.md** file at the root level. So this is where to put basic information.\n\nFor a more technical documentation, in the early stage of a project, it also possible to place more documentation:\n - as a markdown cell in a notebook, \n- in the commented header of a single module/function project.\n\nAs the project will gain in maturity, a full documentation system will be adopted (eg: readthedocs.com, mkdocs, ...). check guidelines #48 .\nIf you don't know when to start a full documentation system, just check at the length of your README file, when it requires too much scrolling, then it's time !\n\n\n\n",
+      "state": "OPEN",
+      "assignees": {
+        "nodes": []
+      }
+    },
+    "fieldValues": {
+      "nodes": [
+        {
+          "repository": {
+            "id": "R_kgDOPGM65g",
+            "url": "https://github.com/euroargodev/software_guidelines"
+          }
+        },
+        {
+          "labels": {
+            "nodes": [
+              {
+                "id": "LA_kwDOPGM65s8AAAACEX1fwg",
+                "name": "guideline"
+              }
+            ]
+          }
+        },
+        {
+          "text": "The project includes a basic documentation",
+          "id": "PVTFTV_lQDOA3TSm84BYfNszgthovTOIkFo4w",
+          "updatedAt": "2026-05-22T11:51:55Z",
+          "creator": {
+            "url": "https://github.com/gmaze"
+          }
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "Sorted",
+          "id": "PVTFSV_lQDOA3TSm84BYfNszgthovTOIkFpbA"
+        },
+        {
+          "field": {
+            "name": "Software Integration Level"
+          },
+          "name": "SIL-2 \ud83d\udee0\ufe0f",
+          "id": "PVTFSV_lQDOA3TSm84BYfNszgthovTOIkMMgw"
+        },
+        {
+          "field": {
+            "name": "Adoption criteria"
+          },
+          "name": "3 - Required",
+          "id": "PVTFSV_lQDOA3TSm84BYfNszgthovTOInsggA"
+        }
+      ]
+    }
+  },
+  {
+    "id": "PVTI_lADOA3TSm84BYfNszgthov0",
+    "content": {
+      "title": "The Project uses English as a primary language (eg: in documentation, codebase)",
+      "url": "https://github.com/euroargodev/software_guidelines/issues/41",
+      "body": "This is a requirement to ensure from the beginning of a project that all the content will be available to the largest community.",
+      "state": "OPEN",
+      "assignees": {
+        "nodes": []
+      }
+    },
+    "fieldValues": {
+      "nodes": [
+        {
+          "repository": {
+            "id": "R_kgDOPGM65g",
+            "url": "https://github.com/euroargodev/software_guidelines"
+          }
+        },
+        {
+          "labels": {
+            "nodes": [
+              {
+                "id": "LA_kwDOPGM65s8AAAACEX1fwg",
+                "name": "guideline"
+              }
+            ]
+          }
+        },
+        {
+          "text": "The Project uses English as a primary language (eg: in documentation, codebase)",
+          "id": "PVTFTV_lQDOA3TSm84BYfNszgthov3OIkFo8Q",
+          "updatedAt": "2026-05-27T14:02:19Z",
+          "creator": {
+            "url": "https://github.com/gmaze"
+          }
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "Sorted",
+          "id": "PVTFSV_lQDOA3TSm84BYfNszgthov3OIkFpgg"
+        },
+        {
+          "field": {
+            "name": "Software Integration Level"
+          },
+          "name": "SIL-1 \ud83c\udfc6",
+          "id": "PVTFSV_lQDOA3TSm84BYfNszgthov3OIkMRdg"
+        },
+        {
+          "field": {
+            "name": "Adoption criteria"
+          },
+          "name": "2 - Recommended",
+          "id": "PVTFSV_lQDOA3TSm84BYfNszgthov3OInsjlA"
+        }
+      ]
+    }
+  },
+  {
+    "id": "PVTI_lADOA3TSm84BYfNszgthotg",
+    "content": {
+      "title": "Issues or bugs are fully documented",
+      "url": "https://github.com/euroargodev/software_guidelines/issues/15",
+      "body": "If your codebase is hosted on a git-based web-platform (eg: Github, Gitlab), issues and bugs are easily managed through the \"issues\" tabs, see guideline #27 .\n\n**It is a good practice for issues and bugs to be as descriptive as possible.**\n\nThis will allow maintainers and other users to clearly identify the issue in order to address it or to identify another occurence.\n\n**Issue content**:\nWhen posting an issue, users should be invited to provide, at least:\n- a clear description of the issue, including which Argo component is related (eg: mission, files, vocabulary, etc...)\n- a reproducible example (eg: a code snippet for the community to reproduce the issue).\n\nThese information can be completed with: images, environment definitions, optional settings, etc...\n\n**Labels**:\nIt is also a good practice to use labels to appropriately tag new issues: this makes them easily searchable, sortable.\n\n[Labels are fully configurable](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels) on the repository and organisation levels. On the euroargodev platform, labels referring to Argo missions or components are already available by default and will appear on any repositories.\n\n**Templates**:\nOn Github it also possible to [create templates for issues](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository), so that creating an issue can be done by indicating to users the expected information.\n\nExample taken from here:\nhttps://raw.githubusercontent.com/euroargodev/argopy/refs/heads/master/.github/ISSUE_TEMPLATE/bug_report.md\n\n```markdown\n---\nname: Bug report / Feature request\nabout: 'Post a problem or idea'\ntitle: ''\nlabels: ''\nassignees: ''\n\n---\n\n<!-- A short summary of the issue, if appropriate -->\n\n\n#### MCVE Code Sample\n<!-- In order for the maintainers to efficiently understand and prioritize issues, we ask you post a \"Minimal, Complete and Verifiable Example\" (MCVE): http://matthewrocklin.com/blog/work/2018/02/28/minimal-bug-reports -->\n\n``python\n# Your code here\n``\n\n#### Expected Output\n\n\n#### Problem Description\n<!-- this should explain why the current behavior is a problem and why the expected output is a better solution -->\n\n\n#### Versions\n\n<!-- Paste the output from `argopy.show_versions()` here -->\n\n```\n\n",
+      "state": "OPEN",
+      "assignees": {
+        "nodes": []
+      }
+    },
+    "fieldValues": {
+      "nodes": [
+        {
+          "repository": {
+            "id": "R_kgDOPGM65g",
+            "url": "https://github.com/euroargodev/software_guidelines"
+          }
+        },
+        {
+          "labels": {
+            "nodes": [
+              {
+                "id": "LA_kwDOPGM65s8AAAACEX1fwg",
+                "name": "guideline"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Issues or bugs are fully documented",
+          "id": "PVTFTV_lQDOA3TSm84BYfNszgthotjOIkForQ",
+          "updatedAt": "2026-05-27T06:53:26Z",
+          "creator": {
+            "url": "https://github.com/gmaze"
+          }
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "Sorted",
+          "id": "PVTFSV_lQDOA3TSm84BYfNszgthotjOIkFpSw"
+        },
+        {
+          "field": {
+            "name": "Software Integration Level"
+          },
+          "name": "SIL-6 \ud83d\udc65",
+          "id": "PVTFSV_lQDOA3TSm84BYfNszgthotjOIkLxfA"
+        },
+        {
+          "field": {
+            "name": "Adoption criteria"
+          },
+          "name": "2 - Recommended",
+          "id": "PVTFSV_lQDOA3TSm84BYfNszgthotjOIntP7g"
+        }
+      ]
+    }
+  },
+  {
+    "id": "PVTI_lADOA3TSm84BYfNszgthoug",
+    "content": {
+      "title": "The project allows any user to submit an issue or bug report",
+      "url": "https://github.com/euroargodev/software_guidelines/issues/27",
+      "body": "If your codebase is hosted on a git-based web-platform (eg: Github, Gitlab), issues and bugs are easily managed through the \"issues\" tabs.\n\nTo follow this guideline, you need to enable the \"issue\" feature. \n\nOn Github, this can be done in the Repository settings / Features  / Issues:\n\n<img width=\"1168\" height=\"97\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/512d71a9-b45a-4f23-a9d1-e5e62bdf7abb\" />\n \n\n",
+      "state": "OPEN",
+      "assignees": {
+        "nodes": []
+      }
+    },
+    "fieldValues": {
+      "nodes": [
+        {
+          "repository": {
+            "id": "R_kgDOPGM65g",
+            "url": "https://github.com/euroargodev/software_guidelines"
+          }
+        },
+        {
+          "labels": {
+            "nodes": [
+              {
+                "id": "LA_kwDOPGM65s8AAAACEX1fwg",
+                "name": "guideline"
+              }
+            ]
+          }
+        },
+        {
+          "text": "The project allows any user to submit an issue or bug report",
+          "id": "PVTFTV_lQDOA3TSm84BYfNszgthoujOIkFozQ",
+          "updatedAt": "2026-05-27T06:46:33Z",
+          "creator": {
+            "url": "https://github.com/gmaze"
+          }
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "Sorted",
+          "id": "PVTFSV_lQDOA3TSm84BYfNszgthoujOIkFpXw"
+        },
+        {
+          "field": {
+            "name": "Software Integration Level"
+          },
+          "name": "SIL-3 \ud83e\uddea",
+          "id": "PVTFSV_lQDOA3TSm84BYfNszgthoujOIkMEpA"
+        },
+        {
+          "field": {
+            "name": "Adoption criteria"
+          },
+          "name": "3 - Required",
+          "id": "PVTFSV_lQDOA3TSm84BYfNszgthoujOIntvDQ"
+        }
+      ]
+    }
+  },
+  {
     "id": "PVTI_lADOA3TSm84BYfNszgthoxU",
     "content": {
       "title": "The software ensures timely distribution of updates",
@@ -246,9 +490,9 @@
   {
     "id": "PVTI_lADOA3TSm84BYfNszgthoyc",
     "content": {
-      "title": "Publicly communicate about codebase new versions and releases (e.g. mailing list, newsletter, post on social networks, RSS feeds)",
+      "title": "The project uses public communication channels to publish news and updates",
       "url": "https://github.com/euroargodev/software_guidelines/issues/67",
-      "body": "",
+      "body": "Even if new software releases are published and made available through dedicated systems (see #53 ), the project should further identify and make use of other communication channels (e.g. mailing list, newsletter, post on social networks, RSS feeds) to publish any news and updates to the project. This is important to keep the user base and Argo community up to date with the project.",
       "state": "OPEN",
       "assignees": {
         "nodes": []
@@ -273,9 +517,9 @@
           }
         },
         {
-          "text": "Publicly communicate about codebase new versions and releases (e.g. mailing list, newsletter, post on social networks, RSS feeds)",
+          "text": "The project uses public communication channels to publish news and updates",
           "id": "PVTFTV_lQDOA3TSm84BYfNszgthoyfOIkFpUw",
-          "updatedAt": "2026-05-22T11:51:58Z",
+          "updatedAt": "2026-05-27T15:52:19Z",
           "creator": {
             "url": "https://github.com/gmaze"
           }
@@ -429,7 +673,7 @@
   {
     "id": "PVTI_lADOA3TSm84BYfNszgthoxg",
     "content": {
-      "title": "The software is registered in an Argo software registry (e.g. AST and Argo-BGC dedicated webpages)",
+      "title": "The software is registered in an Argo software registry (AST or Argo-BGC dedicated webpages)",
       "url": "https://github.com/euroargodev/software_guidelines/issues/54",
       "body": "Such _registries_ are:\n- AST: https://argo.ucsd.edu/data/argo-software-tools/\n- Argo-BGC: https://biogeochemical-argo.org/tools-and-resources.php\n\nTo register your software on:\n- the AST website, you can fill in this form: https://docs.google.com/forms/d/e/1FAIpQLSc0auPM6B8PC25r36bpYOILoacLZZEpCA7ivBBu4YMd4QfkNw/viewform\n- the Argo-BGC website, send an email to contact@biogeochemical-argo.org",
       "state": "OPEN",
@@ -456,9 +700,9 @@
           }
         },
         {
-          "text": "The software is registered in an Argo software registry (e.g. AST and Argo-BGC dedicated webpages)",
+          "text": "The software is registered in an Argo software registry (AST or Argo-BGC dedicated webpages)",
           "id": "PVTFTV_lQDOA3TSm84BYfNszgthoxjOIkFpIg",
-          "updatedAt": "2026-05-22T11:51:57Z",
+          "updatedAt": "2026-05-27T15:50:24Z",
           "creator": {
             "url": "https://github.com/gmaze"
           }
@@ -553,7 +797,7 @@
     "content": {
       "title": "The project includes a document describing how to contribute",
       "url": "https://github.com/euroargodev/software_guidelines/issues/38",
-      "body": "In order to help the community to contribute to the project, in a collaborative approach, a document should describe how to do so. In particular:\n- how to report bug/issues to the development and maintenance team, \n- how to suggest changes or new features, \n- what are the coding guidelines of the project to follow, \n- how to contribute to the documentation, \n- how to review PRs,\n- etc...\n\nThis can be done in the project documentation ([eg](https://argopy.readthedocs.io/en/latest/contributing.html)) or a simple CONTRIBUTING.md file at the root level of the repository (see guideline #33 and the example therein).",
+      "body": "In order to help the community to contribute to the project, in a collaborative approach, a document should describe how to do so. In particular:\n- how to report bug/issues to the development and maintenance team, \n- how to suggest changes or new features, \n- what are the coding guidelines of the project to follow, \n- how to contribute to the documentation, \n- how to review PRs,\n- etc...\n\nThis can be done in the project documentation ([eg](https://argopy.readthedocs.io/en/latest/contributing.html)) or a simple CONTRIBUTING.md file at the root level of the repository. \n\n\u203c\ufe0f Note that even if the contributions guidelines are described in the documentation (eg: in [the documentation of the project](https://argopy.readthedocs.io/en/latest/contributing.html)), a CONTRIBUTING.md file must be associated on the repository to point toward that full description ([see Argopy eg](https://github.com/euroargodev/argopy/blob/master/CONTRIBUTING.md) (this is useful for code-quality checkers).\n\n## Examples\n\n### \"How to contribute\" section in the documentation\n\nCheck here: https://argopy.readthedocs.io/en/latest/contributing.html\n\n###  CONTRIBUTING.md file\n\n```markdown\n# Contributing to [Project Name]\n\nThank you for your interest in contributing to **[Project Name]**! We welcome contributions from everyone, whether you're fixing bugs, improving documentation, or adding new features.\n\n## How to Contribute\n\n### 1. **Reporting Issues**\n- Use the [Issue Tracker](link-to-issues) to report bugs or request features.\n- **Before submitting an issue:**\n  - Check existing issues to avoid duplicates.\n  - Include a clear title, detailed description, and steps to reproduce the issue.\n  - Add relevant labels (e.g., `bug`, `enhancement`, `documentation`).\n\n### 2. **Suggesting Changes**\n- Fork the repository and create a new branch for your changes.\n- Submit a **Pull Request (PR)** with:\n  - A descriptive title and summary of changes.\n  - Reference to any related issues (e.g., `Fixes #123`).\n  - Clear commit messages (e.g., `feat: add NetCDF validation`).\n\n### 3. **Code Guidelines**\n- Follow the project\u2019s coding style (e.g., PEP 8 for Python).\n- Include **comments** for complex logic.\n- Add **unit tests** for new features or bug fixes.\n- Ensure all tests pass before submitting a PR.\n\n### 4. **Documentation**\n- Update documentation (e.g., `README.md`, docstrings) for any changes.\n- Add examples or tutorials if introducing new functionality.\n\n### 5. **Review Process**\n- All PRs require **at least one approval** from a maintainer.\n- Be responsive to feedback and iterate on your changes.\n\n### 6. **Community**\n- Join our [discussion forum](link) or [Slack/mailing list](link) for questions.\n- Attend our [monthly meetings](link) (if applicable).\n\n## License\nBy contributing, you agree your contributions will be licensed under **[Project License]** (e.g., EUPL v1.2).\n\n## Recognition\nAll contributors will be acknowledged in the project\u2019s release notes.\n\n---\n**Need help?** Contact us at [email] or open an issue.\n```",
       "state": "OPEN",
       "assignees": {
         "nodes": []
@@ -732,67 +976,6 @@
     }
   },
   {
-    "id": "PVTI_lADOA3TSm84BYfNszgthovA",
-    "content": {
-      "title": "The project includes a CONTRIBUTING file",
-      "url": "https://github.com/euroargodev/software_guidelines/issues/33",
-      "body": "A CONTRIBUTING file should be provided with the project, typically as a markdown file at the root level of the project repository.\n\nThis CONTRIBUTING file must at least contains how to report bug/issues to the development and maintenance team, but more items are encouraged (eg: how to suggest changes, code guidelines, how to contribute to the documentation, to PR reviewing etc...). See the example below.\n\nEven if the CONTRIBUTING guidelines are described elsewhere (eg: in [the documentation of the project](https://argopy.readthedocs.io/en/latest/contributing.html)), a CONTRIBUTING.md file must be associated on the repository to point toward that full description ([see Argopy eg](https://github.com/euroargodev/argopy/blob/master/CONTRIBUTING.md)).\n\n\ud83d\ude80 Following this guideline automatically makes guideline #38 followed as well.\n\n\n## Example\n\nBelow is an example for a typical CONTRIBUTING.md file.\n\n```markdown\n# Contributing to [Project Name]\n\nThank you for your interest in contributing to **[Project Name]**! We welcome contributions from everyone, whether you're fixing bugs, improving documentation, or adding new features.\n\n## How to Contribute\n\n### 1. **Reporting Issues**\n- Use the [Issue Tracker](link-to-issues) to report bugs or request features.\n- **Before submitting an issue:**\n  - Check existing issues to avoid duplicates.\n  - Include a clear title, detailed description, and steps to reproduce the issue.\n  - Add relevant labels (e.g., `bug`, `enhancement`, `documentation`).\n\n### 2. **Suggesting Changes**\n- Fork the repository and create a new branch for your changes.\n- Submit a **Pull Request (PR)** with:\n  - A descriptive title and summary of changes.\n  - Reference to any related issues (e.g., `Fixes #123`).\n  - Clear commit messages (e.g., `feat: add NetCDF validation`).\n\n### 3. **Code Guidelines**\n- Follow the project\u2019s coding style (e.g., PEP 8 for Python).\n- Include **comments** for complex logic.\n- Add **unit tests** for new features or bug fixes.\n- Ensure all tests pass before submitting a PR.\n\n### 4. **Documentation**\n- Update documentation (e.g., `README.md`, docstrings) for any changes.\n- Add examples or tutorials if introducing new functionality.\n\n### 5. **Review Process**\n- All PRs require **at least one approval** from a maintainer.\n- Be responsive to feedback and iterate on your changes.\n\n### 6. **Community**\n- Join our [discussion forum](link) or [Slack/mailing list](link) for questions.\n- Attend our [monthly meetings](link) (if applicable).\n\n## License\nBy contributing, you agree your contributions will be licensed under **[Project License]** (e.g., EUPL v1.2).\n\n## Recognition\nAll contributors will be acknowledged in the project\u2019s release notes.\n\n---\n**Need help?** Contact us at [email] or open an issue.\n```",
-      "state": "OPEN",
-      "assignees": {
-        "nodes": []
-      }
-    },
-    "fieldValues": {
-      "nodes": [
-        {
-          "repository": {
-            "id": "R_kgDOPGM65g",
-            "url": "https://github.com/euroargodev/software_guidelines"
-          }
-        },
-        {
-          "labels": {
-            "nodes": [
-              {
-                "id": "LA_kwDOPGM65s8AAAACEX1fwg",
-                "name": "guideline"
-              }
-            ]
-          }
-        },
-        {
-          "text": "The project includes a CONTRIBUTING file",
-          "id": "PVTFTV_lQDOA3TSm84BYfNszgthovDOIkFo3A",
-          "updatedAt": "2026-05-22T11:51:55Z",
-          "creator": {
-            "url": "https://github.com/gmaze"
-          }
-        },
-        {
-          "field": {
-            "name": "Status"
-          },
-          "name": "Sorted",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthovDOIkFpaA"
-        },
-        {
-          "field": {
-            "name": "Software Integration Level"
-          },
-          "name": "SIL-6 \ud83d\udc65",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthovDOIkMKqw"
-        },
-        {
-          "field": {
-            "name": "Adoption criteria"
-          },
-          "name": "2 - Recommended",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthovDOIny22g"
-        }
-      ]
-    }
-  },
-  {
     "id": "PVTI_lADOA3TSm84BYfNszgthosg",
     "content": {
       "title": "Code review meetings are organized when needed",
@@ -910,6 +1093,128 @@
           },
           "name": "2 - Recommended",
           "id": "PVTFSV_lQDOA3TSm84BYfNszgthoyPOInuqeQ"
+        }
+      ]
+    }
+  },
+  {
+    "id": "PVTI_lADOA3TSm84BYfNszgthouA",
+    "content": {
+      "title": "The codebase includes comments and is documented following referenced standards (e.g. numpy style docstrings in Python)",
+      "url": "https://github.com/euroargodev/software_guidelines/issues/21",
+      "body": "This guideline goal is to lead to an improved, more robust, and standardised content with regard to what can be done at the \"Novice\" level from #22 ",
+      "state": "OPEN",
+      "assignees": {
+        "nodes": []
+      }
+    },
+    "fieldValues": {
+      "nodes": [
+        {
+          "repository": {
+            "id": "R_kgDOPGM65g",
+            "url": "https://github.com/euroargodev/software_guidelines"
+          }
+        },
+        {
+          "labels": {
+            "nodes": [
+              {
+                "id": "LA_kwDOPGM65s8AAAACEX1fwg",
+                "name": "guideline"
+              }
+            ]
+          }
+        },
+        {
+          "text": "The codebase includes comments and is documented following referenced standards (e.g. numpy style docstrings in Python)",
+          "id": "PVTFTV_lQDOA3TSm84BYfNszgthouDOIkFovA",
+          "updatedAt": "2026-05-22T11:51:54Z",
+          "creator": {
+            "url": "https://github.com/gmaze"
+          }
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "Sorted",
+          "id": "PVTFSV_lQDOA3TSm84BYfNszgthouDOIkFpXA"
+        },
+        {
+          "field": {
+            "name": "Software Integration Level"
+          },
+          "name": "SIL-5 \u2705",
+          "id": "PVTFSV_lQDOA3TSm84BYfNszgthouDOIkMBsA"
+        },
+        {
+          "field": {
+            "name": "Adoption criteria"
+          },
+          "name": "2 - Recommended",
+          "id": "PVTFSV_lQDOA3TSm84BYfNszgthouDOIntSaw"
+        }
+      ]
+    }
+  },
+  {
+    "id": "PVTI_lADOA3TSm84BYfNszgthouY",
+    "content": {
+      "title": "The codebase is formatted following referenced standards (e.g. black in Python)",
+      "url": "https://github.com/euroargodev/software_guidelines/issues/25",
+      "body": "Recommended code formatter:\n- Python: [Black](https://black.readthedocs.io/en/stable/)\n- GNU Octave/Matlab: ?\n- R: ?\n- Julia: ?\n- Java: ?\n- ?",
+      "state": "OPEN",
+      "assignees": {
+        "nodes": []
+      }
+    },
+    "fieldValues": {
+      "nodes": [
+        {
+          "repository": {
+            "id": "R_kgDOPGM65g",
+            "url": "https://github.com/euroargodev/software_guidelines"
+          }
+        },
+        {
+          "labels": {
+            "nodes": [
+              {
+                "id": "LA_kwDOPGM65s8AAAACEX1fwg",
+                "name": "guideline"
+              }
+            ]
+          }
+        },
+        {
+          "text": "The codebase is formatted following referenced standards (e.g. black in Python)",
+          "id": "PVTFTV_lQDOA3TSm84BYfNszgthoubOIkFoxQ",
+          "updatedAt": "2026-05-22T11:51:54Z",
+          "creator": {
+            "url": "https://github.com/gmaze"
+          }
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "Sorted",
+          "id": "PVTFSV_lQDOA3TSm84BYfNszgthoubOIkFpYA"
+        },
+        {
+          "field": {
+            "name": "Software Integration Level"
+          },
+          "name": "SIL-5 \u2705",
+          "id": "PVTFSV_lQDOA3TSm84BYfNszgthoubOIkMDOA"
+        },
+        {
+          "field": {
+            "name": "Adoption criteria"
+          },
+          "name": "1 - Best Effort",
+          "id": "PVTFSV_lQDOA3TSm84BYfNszgthoubOIntVLw"
         }
       ]
     }
@@ -1224,7 +1529,7 @@
     "content": {
       "title": "The methodology implemented by the software has been presented to an Argo community",
       "url": "https://github.com/euroargodev/software_guidelines/issues/26",
-      "body": "The methodology, or key new feature, proposed by the software should be presented/discussed as soon as possible to an Argo-related group, from a local community (eg: institution, lab.) to an international body (eg: ADMT/AST working group).\n\nOnce the project and the codebase will have gained in maturity, the software should also be presented to the Argo community (see guideline #50 ).",
+      "body": "The methodology, or key new feature proposed by the software, should be presented/discussed as soon as possible to an Argo-related group, from a community of Argo collaborators (eg: institution, lab., working group) to an national or international Argo body (eg: ADMT/AST working group).\n\nOnce the project and the codebase will have gained in maturity, the software should also be presented to the european or international Argo community (see guideline #50 ).",
       "state": "OPEN",
       "assignees": {
         "nodes": []
@@ -1285,7 +1590,7 @@
     "content": {
       "title": "The software has been presented to an Argo community",
       "url": "https://github.com/euroargodev/software_guidelines/issues/50",
-      "body": "Once your software is stable and well-documented, it is ready for a broader diffusion throughout the Argo community: therefore it needs to be presented to an Argo-related group, typically a national-programm meeting, ADMT meeting or ADMT/AST working group.\n\nThis guideline follows from #26 ",
+      "body": "Once your software is stable and well-documented, it is ready for a broader diffusion throughout the Argo community: therefore it needs to be presented to an Argo-related group: national-program meeting, ADMT meeting or ADMT/AST working group.\n\nThis guideline follows from #26 ",
       "state": "OPEN",
       "assignees": {
         "nodes": []
@@ -1342,72 +1647,11 @@
     }
   },
   {
-    "id": "PVTI_lADOA3TSm84BYfNszgthovY",
-    "content": {
-      "title": "The project includes a CHANGELOG file",
-      "url": "https://github.com/euroargodev/software_guidelines/issues/37",
-      "body": "Following guideline #45 must go through a \"CHANGELOG.md\" file, added at the repository root level. \n\nIf your change log is placed in your documentation ([eg](https://argopy.readthedocs.io/en/latest/whats-new.html)), we recommend to still add a \"CHANGELOG.md\" file ([eg](https://github.com/euroargodev/argopy/blob/master/CHANGELOG.md)) on the repository that will simply points toward the dedicated webpage. \n**This help automatic repository analysis to identify the change log (eg: https://euroargodev.github.io/Software-Evaluator/)**.\n\nWe recommend to look at https://keepachangelog.com/en/1.1.0 for more details on the content of such log files.\n\n### Examples\n\n```markdown\n# Changelog\n\nAll notable changes to this project will be documented in this file.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/),\nand this project adheres to [Semantic Versioning](https://semver.org/).\n\n## [1.0.0] - 2026-05-21\n### Added\n- Initial release of the software.\n- Support for reading Argo NetCDF trajectory files.\n\n### Fixed\n- Fixed a bug in data validation for temperature values.\n\n## [0.9.0] - 2026-04-15\n### Added\n- Added support for CSV input files.\n```",
-      "state": "OPEN",
-      "assignees": {
-        "nodes": []
-      }
-    },
-    "fieldValues": {
-      "nodes": [
-        {
-          "repository": {
-            "id": "R_kgDOPGM65g",
-            "url": "https://github.com/euroargodev/software_guidelines"
-          }
-        },
-        {
-          "labels": {
-            "nodes": [
-              {
-                "id": "LA_kwDOPGM65s8AAAACEX1fwg",
-                "name": "guideline"
-              }
-            ]
-          }
-        },
-        {
-          "text": "The project includes a CHANGELOG file",
-          "id": "PVTFTV_lQDOA3TSm84BYfNszgthovbOIkFo5Q",
-          "updatedAt": "2026-05-22T11:51:55Z",
-          "creator": {
-            "url": "https://github.com/gmaze"
-          }
-        },
-        {
-          "field": {
-            "name": "Status"
-          },
-          "name": "Sorted",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthovbOIkFpcw"
-        },
-        {
-          "field": {
-            "name": "Software Integration Level"
-          },
-          "name": "SIL-5 \u2705",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthovbOIkMNOg"
-        },
-        {
-          "field": {
-            "name": "Adoption criteria"
-          },
-          "name": "2 - Recommended",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthovbOIntxQA"
-        }
-      ]
-    }
-  },
-  {
     "id": "PVTI_lADOA3TSm84BYfNszgthosU",
     "content": {
       "title": "Argo Data used by the software are traceable with a persistent identifier (Argo GDAC DOI or snapshot DOIs)",
       "url": "https://github.com/euroargodev/software_guidelines/issues/4",
-      "body": "",
+      "body": "For reproducibility, the input Argo data used by the software must have a persistent identifier.\n\nTypically, of the software produces something out of Argo data, these data must be identifiable for other users to reproduce the results.\n\nHow to implement this guideline:\n- You can preserve the Argo DOI in the attributes of your data objects.",
       "state": "OPEN",
       "assignees": {
         "nodes": []
@@ -1459,67 +1703,6 @@
           },
           "name": "3 - Required",
           "id": "PVTFSV_lQDOA3TSm84BYfNszgthosXOIntnKg"
-        }
-      ]
-    }
-  },
-  {
-    "id": "PVTI_lADOA3TSm84BYfNszgthoug",
-    "content": {
-      "title": "The project allows any user to submit an issue or bug report and ease the process (e.g. provide list of labels, issue templates)",
-      "url": "https://github.com/euroargodev/software_guidelines/issues/27",
-      "body": "",
-      "state": "OPEN",
-      "assignees": {
-        "nodes": []
-      }
-    },
-    "fieldValues": {
-      "nodes": [
-        {
-          "repository": {
-            "id": "R_kgDOPGM65g",
-            "url": "https://github.com/euroargodev/software_guidelines"
-          }
-        },
-        {
-          "labels": {
-            "nodes": [
-              {
-                "id": "LA_kwDOPGM65s8AAAACEX1fwg",
-                "name": "guideline"
-              }
-            ]
-          }
-        },
-        {
-          "text": "The project allows any user to submit an issue or bug report and ease the process (e.g. provide list of labels, issue templates)",
-          "id": "PVTFTV_lQDOA3TSm84BYfNszgthoujOIkFozQ",
-          "updatedAt": "2026-05-22T11:51:54Z",
-          "creator": {
-            "url": "https://github.com/gmaze"
-          }
-        },
-        {
-          "field": {
-            "name": "Status"
-          },
-          "name": "Sorted",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthoujOIkFpXw"
-        },
-        {
-          "field": {
-            "name": "Software Integration Level"
-          },
-          "name": "SIL-5 \u2705",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthoujOIkMEpA"
-        },
-        {
-          "field": {
-            "name": "Adoption criteria"
-          },
-          "name": "3 - Required",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthoujOIntvDQ"
         }
       ]
     }
@@ -1651,7 +1834,7 @@
     "content": {
       "title": "The software documentation includes the list of changes to the codebase between each software releases",
       "url": "https://github.com/euroargodev/software_guidelines/issues/45",
-      "body": "A change log is a structured, chronological record of all notable changes made to a software project, such as (but not limited to):\n- New features or functionality\n- Bug fixes\n- Breaking changes (changes that may disrupt existing workflows)\n- Deprecations (features removed or phased out)\n- Security updates\n- Performance improvements\n\n**Why is a change log Important?**\n1. Transparency: helps users track improvements and anticipate breaking changes that might affect their workflows.\n2. User Communication: acts as a communication tool between developers and users, ensuring everyone is aware of updates, fixes, and new features. It can also helps users decide whether to upgrade to a new version based on the changes included.\n3. Accountability: documents who made changes and why, which is useful for debugging, auditing, and collaboration. It also encourages developers to think critically about the impact of their changes.\n4. Reproducibility: supports scientific reproducibility by allowing researchers to identify which version of the software was used in a study and what changes were introduced since then.\n5. Compliance with best practices: it aligns with FAIR principles by making the software's history accessible and understandable.\n6. Collaboration: a minimal change log can be placed into the CHANGELOG.md file (see guideline #37 ).\n\n### Examples\n\nIf your software has a documentation, change log is typically located in a \"What's New?\" page (see [eg here](https://argopy.readthedocs.io/en/latest/whats-new.html)).\n\nOtherwise, you can use CHANGELOG.md file (see guideline #37 ).",
+      "body": "A change log is a structured, chronological record of all notable changes made to a software project, such as (but not limited to):\n- New features or functionality\n- Bug fixes\n- Breaking changes (changes that may disrupt existing workflows)\n- Deprecations (features removed or phased out)\n- Security updates\n- Performance improvements\n\n**Why is a change log Important?**\n1. Transparency: helps users track improvements and anticipate breaking changes that might affect their workflows.\n2. User Communication: acts as a communication tool between developers and users, ensuring everyone is aware of updates, fixes, and new features. It can also helps users decide whether to upgrade to a new version based on the changes included.\n3. Accountability: documents who made changes and why, which is useful for debugging, auditing, and collaboration. It also encourages developers to think critically about the impact of their changes.\n4. Reproducibility: supports scientific reproducibility by allowing researchers to identify which version of the software was used in a study and what changes were introduced since then.\n5. Compliance with best practices: it aligns with FAIR principles by making the software's history accessible and understandable.\n6. Collaboration.\n\n**To follow this guideline, you must, at least, provides a CHANGELOG.md file on the project repository**, at the repository root level. \n\nIf your change log is placed in your documentation ([eg](https://argopy.readthedocs.io/en/latest/whats-new.html)), we recommend to still add a \"CHANGELOG.md\" file ([eg](https://github.com/euroargodev/argopy/blob/master/CHANGELOG.md)) on the repository that will simply points toward the dedicated webpage. \n**This help automatic repository analysis to identify the change log (eg: https://euroargodev.github.io/Software-Evaluator/)**.\n\nWe recommend to look at https://keepachangelog.com/en/1.1.0 for more details on the content of such log files.\n\n### Examples\n\n```markdown\n# Changelog\n\nAll notable changes to this project will be documented in this file.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/),\nand this project adheres to [Semantic Versioning](https://semver.org/).\n\n## [1.0.0] - 2026-05-21\n### Added\n- Initial release of the software.\n- Support for reading Argo NetCDF trajectory files.\n\n### Fixed\n- Fixed a bug in data validation for temperature values.\n\n## [0.9.0] - 2026-04-15\n### Added\n- Added support for CSV input files.\n```\n\n### Examples\n\nIf your software has a documentation, change log is typically located in a \"What's New?\" page (see [eg here](https://argopy.readthedocs.io/en/latest/whats-new.html)).",
       "state": "OPEN",
       "assignees": {
         "nodes": []
@@ -1708,72 +1891,11 @@
     }
   },
   {
-    "id": "PVTI_lADOA3TSm84BYfNszgthox4",
-    "content": {
-      "title": "The software provides a clear description of its dependencies",
-      "url": "https://github.com/euroargodev/software_guidelines/issues/57",
-      "body": "Dependencies are third party softwares or libraries that the user must make available (install) in the software [executing environment](https://github.com/euroargodev/software_guidelines/issues/57) to be fully functional.\n\nEg:\n- for a Python library: Argopy 1.4.0, Numpy 2.0.1, \u2026\n- for a Matlab package: GSW-Matlab 3.0, ...\n\nIt is further recommended to provide a machine readable description file of these dependencies (eg: requirements.txt, poetry.lock, renv.lock, Project.toml, etc \u2026).\n\n\nTo specify the executing environment (eg Python or Matlab versions), check guideline #44 \n\nThis guideline also comes as a complement to the operating system definition #46 \n\n## Examples\n\nCheck this resource with examples for Python, R and Matlab (possibly):\n- https://coderefinery.github.io/reproducible-research/dependencies/\n",
-      "state": "OPEN",
-      "assignees": {
-        "nodes": []
-      }
-    },
-    "fieldValues": {
-      "nodes": [
-        {
-          "repository": {
-            "id": "R_kgDOPGM65g",
-            "url": "https://github.com/euroargodev/software_guidelines"
-          }
-        },
-        {
-          "labels": {
-            "nodes": [
-              {
-                "id": "LA_kwDOPGM65s8AAAACEX1fwg",
-                "name": "guideline"
-              }
-            ]
-          }
-        },
-        {
-          "text": "The software provides a clear description of its dependencies",
-          "id": "PVTFTV_lQDOA3TSm84BYfNszgthox7OIkFpLA",
-          "updatedAt": "2026-05-22T11:51:57Z",
-          "creator": {
-            "url": "https://github.com/gmaze"
-          }
-        },
-        {
-          "field": {
-            "name": "Status"
-          },
-          "name": "Sorted",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthox7OIkFprQ"
-        },
-        {
-          "field": {
-            "name": "Software Integration Level"
-          },
-          "name": "SIL-4 \ud83d\udd04",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthox7OIkQoXQ"
-        },
-        {
-          "field": {
-            "name": "Adoption criteria"
-          },
-          "name": "2 - Recommended",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthox7OIntgqw"
-        }
-      ]
-    }
-  },
-  {
     "id": "PVTI_lADOA3TSm84BYfNszgthoxc",
     "content": {
       "title": "The software is distributed via well-known services (e.g., pip or conda for Python)",
       "url": "https://github.com/euroargodev/software_guidelines/issues/53",
-      "body": "",
+      "body": "The software installation for a user should not depend on the repository (except for very specific cases) but rather adopt the packages distribution services for a given environment:\n- Python software: [pypi](https://pypi.org/) (offical, default) and [conda](https://conda-forge.org/)\n- R software: [CRAN](https://cran.r-project.org/)\n- Matlab/Octave: [File Exchange](https://www.mathworks.com/matlabcentral/fileexchange)",
       "state": "OPEN",
       "assignees": {
         "nodes": []
@@ -1834,7 +1956,7 @@
     "content": {
       "title": "The software documentation is hosted on the web",
       "url": "https://github.com/euroargodev/software_guidelines/issues/48",
-      "body": "",
+      "body": "This a guideline that follows from the early stage of the documentation, once the README file (#36) and/or the codebase becomes too large.\n\nThe software documentation, whatever the format (eg: pdf, markdown, etc...) must be hosted and accessible on the web.\n\nIn practice, it is recommended to use a webpages generating system to host a documentation online. This is fairly easy to implement since many online services can directly be plugged onto a git-based repository content.\n\nSuch online documentation systems are, for instance:\n- [Read The Docs](https://about.readthedocs.com/) (free for open-source project),\n- [Github Pages](https://docs.github.com/en/pages).\n\nThese services can be used to publish online a documentation that is possibly generated from static files located in a dedicated folder of the software repository.\n\nSuch documentation (based on static files like markdown or rst) can be generated with, for instance:\n- [Sphynx](https://www.sphinx-doc.org/en/master/),\n- [Mkdocs](https://www.mkdocs.org/),\n- [Jupyter Books](https://jupyter-book.readthedocs.io/v1/intro.html).\n\n\ud83d\udca1 Euroargodev provides a [repository template for a documentation](https://github.com/euroargodev/online_documentation) that can be used to quickly start your own online documentation.\n",
       "state": "OPEN",
       "assignees": {
         "nodes": []
@@ -1895,7 +2017,7 @@
     "content": {
       "title": "The software documentation includes the list of operating systems supported",
       "url": "https://github.com/euroargodev/software_guidelines/issues/46",
-      "body": "What we mean here:\n\n- Possible operating system: Linux, Mac Os, Windows (eg: see also #62 )\n- A _supported_ os means that the software is successfully tested under this system, see guideline #62 and guideline #52 \n\nThis guideline help users determine if the software can be used under their OS of interest and comes as a complement to the environment definition: #44 ",
+      "body": "What we mean here:\n\n- Possible operating system: Linux, Mac Os, Windows (eg: see also #62 )\n- A _supported_ os means that the software is successfully tested under this system, see guideline #62 and guideline #52 \n\nThis guideline help users determine if the software can be used under their OS of interest and comes as a complement to the environment definition: #44 \n\n### How to ?\n\nThis information can be displayed as badges or explicit text in the README file of a repository, see #36 .\n\nAn explicit text could be something like:\n> Pydox is continuously tested to work under most OS (Linux, Mac, Windows) and with python versions 3.11 and 3.12.\n\nIf the software supports all major operating system, the label `no arch` can be used is badges.\n\n\n",
       "state": "OPEN",
       "assignees": {
         "nodes": []
@@ -2196,67 +2318,6 @@
     }
   },
   {
-    "id": "PVTI_lADOA3TSm84BYfNszgthouA",
-    "content": {
-      "title": "The codebase includes comments and is documented following referenced standards (e.g. numpy style docstrings in Python)",
-      "url": "https://github.com/euroargodev/software_guidelines/issues/21",
-      "body": "This guideline goal is to lead to an improved, more robust, and standardised content with regard to what can be done at the \"Novice\" level from #22 ",
-      "state": "OPEN",
-      "assignees": {
-        "nodes": []
-      }
-    },
-    "fieldValues": {
-      "nodes": [
-        {
-          "repository": {
-            "id": "R_kgDOPGM65g",
-            "url": "https://github.com/euroargodev/software_guidelines"
-          }
-        },
-        {
-          "labels": {
-            "nodes": [
-              {
-                "id": "LA_kwDOPGM65s8AAAACEX1fwg",
-                "name": "guideline"
-              }
-            ]
-          }
-        },
-        {
-          "text": "The codebase includes comments and is documented following referenced standards (e.g. numpy style docstrings in Python)",
-          "id": "PVTFTV_lQDOA3TSm84BYfNszgthouDOIkFovA",
-          "updatedAt": "2026-05-22T11:51:54Z",
-          "creator": {
-            "url": "https://github.com/gmaze"
-          }
-        },
-        {
-          "field": {
-            "name": "Status"
-          },
-          "name": "Sorted",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthouDOIkFpXA"
-        },
-        {
-          "field": {
-            "name": "Software Integration Level"
-          },
-          "name": "SIL-4 \ud83d\udd04",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthouDOIkMBsA"
-        },
-        {
-          "field": {
-            "name": "Adoption criteria"
-          },
-          "name": "2 - Recommended",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthouDOIntSaw"
-        }
-      ]
-    }
-  },
-  {
     "id": "PVTI_lADOA3TSm84BYfNszgthots",
     "content": {
       "title": "Non-Argo Data used by the software should be accessible online",
@@ -2379,133 +2440,11 @@
     }
   },
   {
-    "id": "PVTI_lADOA3TSm84BYfNszgthouY",
-    "content": {
-      "title": "The codebase is formatted following referenced standards (e.g. black in Python)",
-      "url": "https://github.com/euroargodev/software_guidelines/issues/25",
-      "body": "Recommended code formatter:\n- Python: [Black](https://black.readthedocs.io/en/stable/)\n- GNU Octave/Matlab: ?\n- R: ?\n- Julia: ?\n- Java: ?\n- ?",
-      "state": "OPEN",
-      "assignees": {
-        "nodes": []
-      }
-    },
-    "fieldValues": {
-      "nodes": [
-        {
-          "repository": {
-            "id": "R_kgDOPGM65g",
-            "url": "https://github.com/euroargodev/software_guidelines"
-          }
-        },
-        {
-          "labels": {
-            "nodes": [
-              {
-                "id": "LA_kwDOPGM65s8AAAACEX1fwg",
-                "name": "guideline"
-              }
-            ]
-          }
-        },
-        {
-          "text": "The codebase is formatted following referenced standards (e.g. black in Python)",
-          "id": "PVTFTV_lQDOA3TSm84BYfNszgthoubOIkFoxQ",
-          "updatedAt": "2026-05-22T11:51:54Z",
-          "creator": {
-            "url": "https://github.com/gmaze"
-          }
-        },
-        {
-          "field": {
-            "name": "Status"
-          },
-          "name": "Sorted",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthoubOIkFpYA"
-        },
-        {
-          "field": {
-            "name": "Software Integration Level"
-          },
-          "name": "SIL-4 \ud83d\udd04",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthoubOIkMDOA"
-        },
-        {
-          "field": {
-            "name": "Adoption criteria"
-          },
-          "name": "1 - Best Effort",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthoubOIntVLw"
-        }
-      ]
-    }
-  },
-  {
-    "id": "PVTI_lADOA3TSm84BYfNszgthoyE",
-    "content": {
-      "title": "The software uses the Argo vocabulary server (to enforce conventions as defined in Argo reference tables)",
-      "url": "https://github.com/euroargodev/software_guidelines/issues/60",
-      "body": "",
-      "state": "OPEN",
-      "assignees": {
-        "nodes": []
-      }
-    },
-    "fieldValues": {
-      "nodes": [
-        {
-          "repository": {
-            "id": "R_kgDOPGM65g",
-            "url": "https://github.com/euroargodev/software_guidelines"
-          }
-        },
-        {
-          "labels": {
-            "nodes": [
-              {
-                "id": "LA_kwDOPGM65s8AAAACEX1fwg",
-                "name": "guideline"
-              }
-            ]
-          }
-        },
-        {
-          "text": "The software uses the Argo vocabulary server (to enforce conventions as defined in Argo reference tables)",
-          "id": "PVTFTV_lQDOA3TSm84BYfNszgthoyHOIkFpOQ",
-          "updatedAt": "2026-05-22T11:51:57Z",
-          "creator": {
-            "url": "https://github.com/gmaze"
-          }
-        },
-        {
-          "field": {
-            "name": "Status"
-          },
-          "name": "Sorted",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthoyHOIkFpsQ"
-        },
-        {
-          "field": {
-            "name": "Software Integration Level"
-          },
-          "name": "SIL-4 \ud83d\udd04",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthoyHOIkQp3Q"
-        },
-        {
-          "field": {
-            "name": "Adoption criteria"
-          },
-          "name": "1 - Best Effort",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthoyHOInth_A"
-        }
-      ]
-    }
-  },
-  {
     "id": "PVTI_lADOA3TSm84BYfNszgthotk",
     "content": {
-      "title": "Metadata produced by the software follow Argo conventions (as in reference tables provided by the NVS server)",
+      "title": "Metadata produced by the software follow Argo conventions (as in reference tables provided by the Argo vocabulary server)",
       "url": "https://github.com/euroargodev/software_guidelines/issues/16",
-      "body": "",
+      "body": "This guideline requires that when the software produces some data, the metadata attached should follow the Argo conventions.\n\nFor instance, if a software produces a salinity variable, it should be named `PSAL`.\n\nThe Argo conventions and vocabulary are encoded in a collection of reference tables and associated values (and possible mapping between them). \n\nMore information on these data are available here: https://www.argodatamgt.org/ArgoVocabulary.html\n\nFollowing this guideline can be _hard coded_ in the codebase. However, the software should use the vocabulary server whenever relevant to ensure up-to-date information (see guideline #60 )\n\n",
       "state": "OPEN",
       "assignees": {
         "nodes": []
@@ -2530,9 +2469,9 @@
           }
         },
         {
-          "text": "Metadata produced by the software follow Argo conventions (as in reference tables provided by the NVS server)",
+          "text": "Metadata produced by the software follow Argo conventions (as in reference tables provided by the Argo vocabulary server)",
           "id": "PVTFTV_lQDOA3TSm84BYfNszgthotnOIkForw",
-          "updatedAt": "2026-05-22T11:51:53Z",
+          "updatedAt": "2026-05-27T11:08:23Z",
           "creator": {
             "url": "https://github.com/gmaze"
           }
@@ -2548,7 +2487,7 @@
           "field": {
             "name": "Software Integration Level"
           },
-          "name": "SIL-4 \ud83d\udd04",
+          "name": "SIL-3 \ud83e\uddea",
           "id": "PVTFSV_lQDOA3TSm84BYfNszgthotnOIkLyHQ"
         },
         {
@@ -2562,70 +2501,9 @@
     }
   },
   {
-    "id": "PVTI_lADOA3TSm84BYfNszgthotg",
-    "content": {
-      "title": "Issues or bugs are fully documented and managed  through the web-based development platform (e.g., GitHub or GitLab issues)",
-      "url": "https://github.com/euroargodev/software_guidelines/issues/15",
-      "body": "Like guideline #1 , if your codebase is hosted on a git-based web-platform (eg: Github, Gitlab), issues and bugs are easily managed through the \"issues\" tabs.\n\nIssues must be described as fully as possible (e.g. provide reproducible examples).\n\nIt is also a good practice to use labels to appropriately tag new issues: this makes them easily searchable, sortable.\n\nIssues should also report precisely which Argo mission, files, or whatever component that is affected or related to the issue.\n\n[Labels are fully configurable](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels) on the repository and organisation levels. On the euroargodev platform, labels referring to Argo missions or components are already available by default and will appear on any repositories.\n\nOn Github it also possible to [create templates for issues](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository), so that creating an issue can be done by indicating to users the expected information.\n\n### Template example\n\nTaken from here:\nhttps://raw.githubusercontent.com/euroargodev/argopy/refs/heads/master/.github/ISSUE_TEMPLATE/bug_report.md\n\n```markdown\n---\nname: Bug report / Feature request\nabout: 'Post a problem or idea'\ntitle: ''\nlabels: ''\nassignees: ''\n\n---\n\n<!-- A short summary of the issue, if appropriate -->\n\n\n#### MCVE Code Sample\n<!-- In order for the maintainers to efficiently understand and prioritize issues, we ask you post a \"Minimal, Complete and Verifiable Example\" (MCVE): http://matthewrocklin.com/blog/work/2018/02/28/minimal-bug-reports -->\n\n``python\n# Your code here\n``\n\n#### Expected Output\n\n\n#### Problem Description\n<!-- this should explain why the current behavior is a problem and why the expected output is a better solution -->\n\n\n#### Versions\n\n<!-- Paste the output from `argopy.show_versions()` here -->\n\n```\n\n",
-      "state": "OPEN",
-      "assignees": {
-        "nodes": []
-      }
-    },
-    "fieldValues": {
-      "nodes": [
-        {
-          "repository": {
-            "id": "R_kgDOPGM65g",
-            "url": "https://github.com/euroargodev/software_guidelines"
-          }
-        },
-        {
-          "labels": {
-            "nodes": [
-              {
-                "id": "LA_kwDOPGM65s8AAAACEX1fwg",
-                "name": "guideline"
-              }
-            ]
-          }
-        },
-        {
-          "text": "Issues or bugs are fully documented and managed  through the web-based development platform (e.g., GitHub or GitLab issues)",
-          "id": "PVTFTV_lQDOA3TSm84BYfNszgthotjOIkForQ",
-          "updatedAt": "2026-05-26T20:12:35Z",
-          "creator": {
-            "url": "https://github.com/gmaze"
-          }
-        },
-        {
-          "field": {
-            "name": "Status"
-          },
-          "name": "Sorted",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthotjOIkFpSw"
-        },
-        {
-          "field": {
-            "name": "Software Integration Level"
-          },
-          "name": "SIL-4 \ud83d\udd04",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthotjOIkLxfA"
-        },
-        {
-          "field": {
-            "name": "Adoption criteria"
-          },
-          "name": "2 - Recommended",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthotjOIntP7g"
-        }
-      ]
-    }
-  },
-  {
     "id": "PVTI_lADOA3TSm84BYfNszgthotQ",
     "content": {
-      "title": "Every significant change within the code is managed through a pull (or merge) request",
+      "title": "Every significant change within the code is managed through a pull request",
       "url": "https://github.com/euroargodev/software_guidelines/issues/12",
       "body": "",
       "state": "OPEN",
@@ -2652,9 +2530,9 @@
           }
         },
         {
-          "text": "Every significant change within the code is managed through a pull (or merge) request",
+          "text": "Every significant change within the code is managed through a pull request",
           "id": "PVTFTV_lQDOA3TSm84BYfNszgthotTOIkFopw",
-          "updatedAt": "2026-05-22T11:51:53Z",
+          "updatedAt": "2026-05-27T15:18:35Z",
           "creator": {
             "url": "https://github.com/gmaze"
           }
@@ -2684,70 +2562,9 @@
     }
   },
   {
-    "id": "PVTI_lADOA3TSm84BYfNszgthovQ",
-    "content": {
-      "title": "The project includes a basic documentation",
-      "url": "https://github.com/euroargodev/software_guidelines/issues/36",
-      "body": "A **basic** documentation provides: \n- a **name** (eg: \"pydox\")\n- a **title** (eg: \"A Python library dedicated to Argo Oxygen data Calibration and Adjustment\")\n- and a **description** (eg: \"Pydox is designed to compute oxygen calibration for Argo floats during Delayed-Mode Quality Control (DMQC). It helps users: Calculate gain, drift, and other calibration parameters with several methodology (in-air, climatology and reference CTD measurements), Determine if adjustments are needed (via plots and metrics), Apply calibrations to raw float data, Save adjusted data as DAC-ready Argo NetCDF files (BD files).\")\n \n\ud83c\udf0a \ud83e\udd16 In the description, you should pay attention to follow guideline #66 as well.\n\n\ud83c\uddec\ud83c\udde7 Documentation must be in english (see #41)\n\nMore software documentation guidelines at: https://carpentries-incubator.github.io/better-research-software/07-software-documentation.html\n\n### Where to put your _basic_ documentation ?\n\nDocumentation can be published in many different format. \nTo keep it as simple as possible for Novice, the _basic_ documentation can be provided:\n- in a README file on the repository (see #35 ) \n- but also as a markdown cell in a notebook, \n- or in the commented header of a single module/function project.\n\n\n\n\n",
-      "state": "OPEN",
-      "assignees": {
-        "nodes": []
-      }
-    },
-    "fieldValues": {
-      "nodes": [
-        {
-          "repository": {
-            "id": "R_kgDOPGM65g",
-            "url": "https://github.com/euroargodev/software_guidelines"
-          }
-        },
-        {
-          "labels": {
-            "nodes": [
-              {
-                "id": "LA_kwDOPGM65s8AAAACEX1fwg",
-                "name": "guideline"
-              }
-            ]
-          }
-        },
-        {
-          "text": "The project includes a basic documentation",
-          "id": "PVTFTV_lQDOA3TSm84BYfNszgthovTOIkFo4w",
-          "updatedAt": "2026-05-22T11:51:55Z",
-          "creator": {
-            "url": "https://github.com/gmaze"
-          }
-        },
-        {
-          "field": {
-            "name": "Status"
-          },
-          "name": "Sorted",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthovTOIkFpbA"
-        },
-        {
-          "field": {
-            "name": "Software Integration Level"
-          },
-          "name": "SIL-3 \ud83e\uddea",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthovTOIkMMgw"
-        },
-        {
-          "field": {
-            "name": "Adoption criteria"
-          },
-          "name": "3 - Required",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthovTOInsggA"
-        }
-      ]
-    }
-  },
-  {
     "id": "PVTI_lADOA3TSm84BYfNszgthox8",
     "content": {
-      "title": "The software uses a programming language adopted by the Argo community (Python, R, Java, Julia, Matlab/Octave)",
+      "title": "The software should use a programming language adopted by the Argo community (Python, R, Java, Julia, Matlab/Octave)",
       "url": "https://github.com/euroargodev/software_guidelines/issues/58",
       "body": "To date, such languages are: Matlab/Octave, Java, Python, R and Julia.\n\nIn order to let the community adopt or experiment with new programming languages in the Argo community, this guideline is considered a \"Best Effort\".\n\nHowever, fully embracing the open-source and collaborative software development models, you are encourage to follow guideline #59 \n\nAlso check #59 description if you're considering Matlab.",
       "state": "OPEN",
@@ -2774,9 +2591,9 @@
           }
         },
         {
-          "text": "The software uses a programming language adopted by the Argo community (Python, R, Java, Julia, Matlab/Octave)",
+          "text": "The software should use a programming language adopted by the Argo community (Python, R, Java, Julia, Matlab/Octave)",
           "id": "PVTFTV_lQDOA3TSm84BYfNszgthox_OIkFpMA",
-          "updatedAt": "2026-05-26T11:25:04Z",
+          "updatedAt": "2026-05-27T14:58:30Z",
           "creator": {
             "url": "https://github.com/gmaze"
           }
@@ -2932,7 +2749,7 @@
     "content": {
       "title": "Argo Meta-Data accessed remotely by the software are retrieved from an official Argo sources (GDAC ftp, GDAC https, NVS, SparQL, STAC)",
       "url": "https://github.com/euroargodev/software_guidelines/issues/5",
-      "body": "An \"official\" Argo source is a data provider that is one of the Argo DACs or GDAC, or any other data provider that presented an API to the ADMT (and didn't get a refusal).",
+      "body": "An \"official\" Argo source is a data provider that is one of the Argo DACs or GDAC, or any other data provider that presented an API to the ADMT (and didn't get a refusal).\n\nIn line with #16 , this is particularly neede for the vocabulary meta-data: they should be retrieved directly from the Argo vocabulary server (NVS) to ensure valid and up-to-date information.",
       "state": "OPEN",
       "assignees": {
         "nodes": []
@@ -3045,67 +2862,6 @@
           },
           "name": "3 - Required",
           "id": "PVTFSV_lQDOA3TSm84BYfNszgthosPOInswyQ"
-        }
-      ]
-    }
-  },
-  {
-    "id": "PVTI_lADOA3TSm84BYfNszgthosc",
-    "content": {
-      "title": "Argo papers and DOIs are referenced in the software metadata",
-      "url": "https://github.com/euroargodev/software_guidelines/issues/6",
-      "body": "",
-      "state": "OPEN",
-      "assignees": {
-        "nodes": []
-      }
-    },
-    "fieldValues": {
-      "nodes": [
-        {
-          "repository": {
-            "id": "R_kgDOPGM65g",
-            "url": "https://github.com/euroargodev/software_guidelines"
-          }
-        },
-        {
-          "labels": {
-            "nodes": [
-              {
-                "id": "LA_kwDOPGM65s8AAAACEX1fwg",
-                "name": "guideline"
-              }
-            ]
-          }
-        },
-        {
-          "text": "Argo papers and DOIs are referenced in the software metadata",
-          "id": "PVTFTV_lQDOA3TSm84BYfNszgthosfOIkFokw",
-          "updatedAt": "2026-05-22T11:51:53Z",
-          "creator": {
-            "url": "https://github.com/gmaze"
-          }
-        },
-        {
-          "field": {
-            "name": "Status"
-          },
-          "name": "Sorted",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthosfOIkFpPw"
-        },
-        {
-          "field": {
-            "name": "Software Integration Level"
-          },
-          "name": "SIL-4 \ud83d\udd04",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthosfOIkLmWA"
-        },
-        {
-          "field": {
-            "name": "Adoption criteria"
-          },
-          "name": "3 - Required",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthosfOIntLpQ"
         }
       ]
     }
@@ -3237,7 +2993,7 @@
     "content": {
       "title": "Each collaborator is clearly identified within the project",
       "url": "https://github.com/euroargodev/software_guidelines/issues/10",
-      "body": "All collaborators should be listed in a dedicated section of the README file on the repository, possibly with their role description and an email or ORCID.\n\nNote that collaborators of the codebase are automatically listed by Github if they author a merged PR on the \"Contributors\" tab (eg: https://github.com/euroargodev/software_guidelines/graphs/contributors).\n\n",
+      "body": "All collaborators should be listed in a dedicated section of the README file on the repository, possibly with their role description and an email or ORCID, see #36 \n\nNote that collaborators of the codebase are automatically listed by Github if they author a merged PR on the \"Contributors\" tab (eg: https://github.com/euroargodev/software_guidelines/graphs/contributors).\n\n",
       "state": "OPEN",
       "assignees": {
         "nodes": []
@@ -3294,11 +3050,11 @@
     }
   },
   {
-    "id": "PVTI_lADOA3TSm84BYfNszgthovI",
+    "id": "PVTI_lADOA3TSm84BYfNszgthowc",
     "content": {
-      "title": "The project includes a README file",
-      "url": "https://github.com/euroargodev/software_guidelines/issues/35",
-      "body": "A README file must be provided with the project, typically as a markdown file at the root level of the project repository.\n\nThis README file must at least contains the name of the software, but it should be the place where the basic description of the software can be provided (see guideline #36 ).\n\nThis is also the location where to mention sponsors and supporting projects if any.\n\nFurther guideline on writing a good README at: https://github.com/hackergrrl/art-of-readme#key-elements",
+      "title": "The software documentation includes usage guidelines and examples",
+      "url": "https://github.com/euroargodev/software_guidelines/issues/47",
+      "body": "The documentation should include examples of the software features and guidelines on how to use it.\n\nIn the early stage of a software project, or for novice and beginners, this guideline is useful to precisely define the application scope of a codebase.\n\nWhen the software will gain in maturity, and developers in expertise, the documentation will improve accordingly.\n\nIt also a good practice that advanced and expert maintainers, or for software seeking a viable, structured, robust (and above) research software maturity level to produce/publish tutorial material (eg: notebooks, presentation, video, etc.).\n",
       "state": "OPEN",
       "assignees": {
         "nodes": []
@@ -3323,9 +3079,9 @@
           }
         },
         {
-          "text": "The project includes a README file",
-          "id": "PVTFTV_lQDOA3TSm84BYfNszgthovLOIkFo3w",
-          "updatedAt": "2026-05-22T11:51:55Z",
+          "text": "The software documentation includes usage guidelines and examples",
+          "id": "PVTFTV_lQDOA3TSm84BYfNszgthowfOIkFpAA",
+          "updatedAt": "2026-05-22T11:51:56Z",
           "creator": {
             "url": "https://github.com/gmaze"
           }
@@ -3335,21 +3091,21 @@
             "name": "Status"
           },
           "name": "Sorted",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthovLOIkFpcA"
+          "id": "PVTFSV_lQDOA3TSm84BYfNszgthowfOIkFpgA"
         },
         {
           "field": {
             "name": "Software Integration Level"
           },
-          "name": "SIL-2 \ud83d\udee0\ufe0f",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthovLOIkMLpQ"
+          "name": "SIL-3 \ud83e\uddea",
+          "id": "PVTFSV_lQDOA3TSm84BYfNszgthowfOIkMUhQ"
         },
         {
           "field": {
             "name": "Adoption criteria"
           },
-          "name": "3 - Required",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthovLOInsczA"
+          "name": "2 - Recommended",
+          "id": "PVTFSV_lQDOA3TSm84BYfNszgthowfOInskVw"
         }
       ]
     }
@@ -3420,7 +3176,7 @@
     "content": {
       "title": "The software is released under an open-source license",
       "url": "https://github.com/euroargodev/software_guidelines/issues/56",
-      "body": "To be coherent with the Argo research infrastructure principle of open-data and FAIR principles, it is required that your Argo software is also released under an open-source license.\n\nThis can simply be done by including a LICENSE file at the root level of the project repository with the text of an open-source license. \n\nThere exist many such licenses (check [this comparator](https://choosealicense.com/licenses/) for instance), and for Euro-Argo project, the typical and strongly recommended license is the [EUPL v1.2](https://eupl.eu/1.2/en/) for which a template is given in guideline #34 ",
+      "body": "**A license file is essential to clearly define how others can legally use, modify, and share your software, protecting both users and contributors while fostering open collaboration.**\n\nTo be coherent with the Argo research infrastructure principle of open-data and FAIR principles, it is required that your Argo software is also released under an open-source license.\n\nThere exist many open-source licenses (check [this comparator](https://choosealicense.com/licenses/) for instance), but for Euro-Argo project, the typical and strongly recommended license is the [EUPL v1.2](https://eupl.eu/1.2/en/), see below.\n\n## How to ?\n\nInclude a `LICENSE.md` file at the root level of the project repository with the text of an open-source license (see example below).\n\n## Example\n\n### EUPL v1.2 LICENSE.md\n\n```markdown\n                      EUROPEAN UNION PUBLIC LICENCE v. 1.2\n                      EUPL \u00a9 the European Union 2007, 2016\n\nThis European Union Public Licence (the \u2018EUPL\u2019) applies to the Work (as defined\nbelow) which is provided under the terms of this Licence. Any use of the Work,\nother than as authorised under this Licence is prohibited (to the extent such\nuse is covered by a right of the copyright holder of the Work).\n\nThe Work is provided under the terms of this Licence when the Licensor (as\ndefined below) has placed the following notice immediately following the\ncopyright notice for the Work:\n\n        Licensed under the EUPL\n\nor has expressed by any other means his willingness to license under the EUPL.\n\n1. Definitions\n\nIn this Licence, the following terms have the following meaning:\n\n- \u2018The Licence\u2019: this Licence.\n\n- \u2018The Original Work\u2019: the work or software distributed or communicated by the\n  Licensor under this Licence, available as Source Code and also as Executable\n  Code as the case may be.\n\n- \u2018Derivative Works\u2019: the works or software that could be created by the\n  Licensee, based upon the Original Work or modifications thereof. This Licence\n  does not define the extent of modification or dependence on the Original Work\n  required in order to classify a work as a Derivative Work; this extent is\n  determined by copyright law applicable in the country mentioned in Article 15.\n\n- \u2018The Work\u2019: the Original Work or its Derivative Works.\n\n- \u2018The Source Code\u2019: the human-readable form of the Work which is the most\n  convenient for people to study and modify.\n\n- \u2018The Executable Code\u2019: any code which has generally been compiled and which is\n  meant to be interpreted by a computer as a program.\n\n- \u2018The Licensor\u2019: the natural or legal person that distributes or communicates\n  the Work under the Licence.\n\n- \u2018Contributor(s)\u2019: any natural or legal person who modifies the Work under the\n  Licence, or otherwise contributes to the creation of a Derivative Work.\n\n- \u2018The Licensee\u2019 or \u2018You\u2019: any natural or legal person who makes any usage of\n  the Work under the terms of the Licence.\n\n- \u2018Distribution\u2019 or \u2018Communication\u2019: any act of selling, giving, lending,\n  renting, distributing, communicating, transmitting, or otherwise making\n  available, online or offline, copies of the Work or providing access to its\n  essential functionalities at the disposal of any other natural or legal\n  person.\n\n2. Scope of the rights granted by the Licence\n\nThe Licensor hereby grants You a worldwide, royalty-free, non-exclusive,\nsublicensable licence to do the following, for the duration of copyright vested\nin the Original Work:\n\n- use the Work in any circumstance and for all usage,\n- reproduce the Work,\n- modify the Work, and make Derivative Works based upon the Work,\n- communicate to the public, including the right to make available or display\n  the Work or copies thereof to the public and perform publicly, as the case may\n  be, the Work,\n- distribute the Work or copies thereof,\n- lend and rent the Work or copies thereof,\n- sublicense rights in the Work or copies thereof.\n\nThose rights can be exercised on any media, supports and formats, whether now\nknown or later invented, as far as the applicable law permits so.\n\nIn the countries where moral rights apply, the Licensor waives his right to\nexercise his moral right to the extent allowed by law in order to make effective\nthe licence of the economic rights here above listed.\n\nThe Licensor grants to the Licensee royalty-free, non-exclusive usage rights to\nany patents held by the Licensor, to the extent necessary to make use of the\nrights granted on the Work under this Licence.\n\n3. Communication of the Source Code\n\nThe Licensor may provide the Work either in its Source Code form, or as\nExecutable Code. If the Work is provided as Executable Code, the Licensor\nprovides in addition a machine-readable copy of the Source Code of the Work\nalong with each copy of the Work that the Licensor distributes or indicates, in\na notice following the copyright notice attached to the Work, a repository where\nthe Source Code is easily and freely accessible for as long as the Licensor\ncontinues to distribute or communicate the Work.\n\n4. Limitations on copyright\n\nNothing in this Licence is intended to deprive the Licensee of the benefits from\nany exception or limitation to the exclusive rights of the rights owners in the\nWork, of the exhaustion of those rights or of other applicable limitations\nthereto.\n\n5. Obligations of the Licensee\n\nThe grant of the rights mentioned above is subject to some restrictions and\nobligations imposed on the Licensee. Those obligations are the following:\n\nAttribution right: The Licensee shall keep intact all copyright, patent or\ntrademarks notices and all notices that refer to the Licence and to the\ndisclaimer of warranties. The Licensee must include a copy of such notices and a\ncopy of the Licence with every copy of the Work he/she distributes or\ncommunicates. The Licensee must cause any Derivative Work to carry prominent\nnotices stating that the Work has been modified and the date of modification.\n\nCopyleft clause: If the Licensee distributes or communicates copies of the\nOriginal Works or Derivative Works, this Distribution or Communication will be\ndone under the terms of this Licence or of a later version of this Licence\nunless the Original Work is expressly distributed only under this version of the\nLicence \u2014 for example by communicating \u2018EUPL v. 1.2 only\u2019. The Licensee\n(becoming Licensor) cannot offer or impose any additional terms or conditions on\nthe Work or Derivative Work that alter or restrict the terms of the Licence.\n\nCompatibility clause: If the Licensee Distributes or Communicates Derivative\nWorks or copies thereof based upon both the Work and another work licensed under\na Compatible Licence, this Distribution or Communication can be done under the\nterms of this Compatible Licence. For the sake of this clause, \u2018Compatible\nLicence\u2019 refers to the licences listed in the appendix attached to this Licence.\nShould the Licensee's obligations under the Compatible Licence conflict with\nhis/her obligations under this Licence, the obligations of the Compatible\nLicence shall prevail.\n\nProvision of Source Code: When distributing or communicating copies of the Work,\nthe Licensee will provide a machine-readable copy of the Source Code or indicate\na repository where this Source will be easily and freely available for as long\nas the Licensee continues to distribute or communicate the Work.\n\nLegal Protection: This Licence does not grant permission to use the trade names,\ntrademarks, service marks, or names of the Licensor, except as required for\nreasonable and customary use in describing the origin of the Work and\nreproducing the content of the copyright notice.\n\n6. Chain of Authorship\n\nThe original Licensor warrants that the copyright in the Original Work granted\nhereunder is owned by him/her or licensed to him/her and that he/she has the\npower and authority to grant the Licence.\n\nEach Contributor warrants that the copyright in the modifications he/she brings\nto the Work are owned by him/her or licensed to him/her and that he/she has the\npower and authority to grant the Licence.\n\nEach time You accept the Licence, the original Licensor and subsequent\nContributors grant You a licence to their contributions to the Work, under the\nterms of this Licence.\n\n7. Disclaimer of Warranty\n\nThe Work is a work in progress, which is continuously improved by numerous\nContributors. It is not a finished work and may therefore contain defects or\n\u2018bugs\u2019 inherent to this type of development.\n\nFor the above reason, the Work is provided under the Licence on an \u2018as is\u2019 basis\nand without warranties of any kind concerning the Work, including without\nlimitation merchantability, fitness for a particular purpose, absence of defects\nor errors, accuracy, non-infringement of intellectual property rights other than\ncopyright as stated in Article 6 of this Licence.\n\nThis disclaimer of warranty is an essential part of the Licence and a condition\nfor the grant of any rights to the Work.\n\n8. Disclaimer of Liability\n\nExcept in the cases of wilful misconduct or damages directly caused to natural\npersons, the Licensor will in no event be liable for any direct or indirect,\nmaterial or moral, damages of any kind, arising out of the Licence or of the use\nof the Work, including without limitation, damages for loss of goodwill, work\nstoppage, computer failure or malfunction, loss of data or any commercial\ndamage, even if the Licensor has been advised of the possibility of such damage.\nHowever, the Licensor will be liable under statutory product liability laws as\nfar such laws apply to the Work.\n\n9. Additional agreements\n\nWhile distributing the Work, You may choose to conclude an additional agreement,\ndefining obligations or services consistent with this Licence. However, if\naccepting obligations, You may act only on your own behalf and on your sole\nresponsibility, not on behalf of the original Licensor or any other Contributor,\nand only if You agree to indemnify, defend, and hold each Contributor harmless\nfor any liability incurred by, or claims asserted against such Contributor by\nthe fact You have accepted any warranty or additional liability.\n\n10. Acceptance of the Licence\n\nThe provisions of this Licence can be accepted by clicking on an icon \u2018I agree\u2019\nplaced under the bottom of a window displaying the text of this Licence or by\naffirming consent in any other similar way, in accordance with the rules of\napplicable law. Clicking on that icon indicates your clear and irrevocable\nacceptance of this Licence and all of its terms and conditions.\n\nSimilarly, you irrevocably accept this Licence and all of its terms and\nconditions by exercising any rights granted to You by Article 2 of this Licence,\nsuch as the use of the Work, the creation by You of a Derivative Work or the\nDistribution or Communication by You of the Work or copies thereof.\n\n11. Information to the public\n\nIn case of any Distribution or Communication of the Work by means of electronic\ncommunication by You (for example, by offering to download the Work from a\nremote location) the distribution channel or media (for example, a website) must\nat least provide to the public the information requested by the applicable law\nregarding the Licensor, the Licence and the way it may be accessible, concluded,\nstored and reproduced by the Licensee.\n\n12. Termination of the Licence\n\nThe Licence and the rights granted hereunder will terminate automatically upon\nany breach by the Licensee of the terms of the Licence.\n\nSuch a termination will not terminate the licences of any person who has\nreceived the Work from the Licensee under the Licence, provided such persons\nremain in full compliance with the Licence.\n\n13. Miscellaneous\n\nWithout prejudice of Article 9 above, the Licence represents the complete\nagreement between the Parties as to the Work.\n\nIf any provision of the Licence is invalid or unenforceable under applicable\nlaw, this will not affect the validity or enforceability of the Licence as a\nwhole. Such provision will be construed or reformed so as necessary to make it\nvalid and enforceable.\n\nThe European Commission may publish other linguistic versions or new versions of\nthis Licence or updated versions of the Appendix, so far this is required and\nreasonable, without reducing the scope of the rights granted by the Licence. New\nversions of the Licence will be published with a unique version number.\n\nAll linguistic versions of this Licence, approved by the European Commission,\nhave identical value. Parties can take advantage of the linguistic version of\ntheir choice.\n\n14. Jurisdiction\n\nWithout prejudice to specific agreement between parties,\n\n- any litigation resulting from the interpretation of this License, arising\n  between the European Union institutions, bodies, offices or agencies, as a\n  Licensor, and any Licensee, will be subject to the jurisdiction of the Court\n  of Justice of the European Union, as laid down in article 272 of the Treaty on\n  the Functioning of the European Union,\n\n- any litigation arising between other parties and resulting from the\n  interpretation of this License, will be subject to the exclusive jurisdiction\n  of the competent court where the Licensor resides or conducts its primary\n  business.\n\n15. Applicable Law\n\nWithout prejudice to specific agreement between parties,\n\n- this Licence shall be governed by the law of the European Union Member State\n  where the Licensor has his seat, resides or has his registered office,\n\n- this licence shall be governed by Belgian law if the Licensor has no seat,\n  residence or registered office inside a European Union Member State.\n\nAppendix\n\n\u2018Compatible Licences\u2019 according to Article 5 EUPL are:\n\n- GNU General Public License (GPL) v. 2, v. 3\n- GNU Affero General Public License (AGPL) v. 3\n- Open Software License (OSL) v. 2.1, v. 3.0\n- Eclipse Public License (EPL) v. 1.0\n- CeCILL v. 2.0, v. 2.1\n- Mozilla Public Licence (MPL) v. 2\n- GNU Lesser General Public Licence (LGPL) v. 2.1, v. 3\n- Creative Commons Attribution-ShareAlike v. 3.0 Unported (CC BY-SA 3.0) for\n  works other than software\n- European Union Public Licence (EUPL) v. 1.1, v. 1.2\n- Qu\u00e9bec Free and Open-Source Licence \u2014 Reciprocity (LiLiQ-R) or Strong\n  Reciprocity (LiLiQ-R+).\n\nThe European Commission may update this Appendix to later versions of the above\nlicences without producing a new version of the EUPL, as long as they provide\nthe rights granted in Article 2 of this Licence and protect the covered Source\nCode from exclusive appropriation.\n\nAll other changes or additions to this Appendix require the production of a new\nEUPL version.\n```",
       "state": "OPEN",
       "assignees": {
         "nodes": []
@@ -3477,11 +3233,11 @@
     }
   },
   {
-    "id": "PVTI_lADOA3TSm84BYfNszgthovE",
+    "id": "PVTI_lADOA3TSm84BYfNszgthox4",
     "content": {
-      "title": "The project includes a LICENSE file",
-      "url": "https://github.com/euroargodev/software_guidelines/issues/34",
-      "body": "A license file is essential to clearly define how others can legally use, modify, and share your software, protecting both users and contributors while fostering open collaboration.\n\nWhatever the license chosen by the project team, it must be included in the repository at the root level.\n\n- As a Argo project, an open source license is recommended.\n- As a Euro-Argo project, the open source license that is strongly recommended is the [EUPL v1.2](https://eupl.eu/1.2/en/), for which a copy is provided below.\n\n\ud83d\ude80 Following this guideline (with an open-source license) automatically makes guideline #56 followed as well.\n\n## LICENSE.md\n\n```markdown\n                      EUROPEAN UNION PUBLIC LICENCE v. 1.2\n                      EUPL \u00a9 the European Union 2007, 2016\n\nThis European Union Public Licence (the \u2018EUPL\u2019) applies to the Work (as defined\nbelow) which is provided under the terms of this Licence. Any use of the Work,\nother than as authorised under this Licence is prohibited (to the extent such\nuse is covered by a right of the copyright holder of the Work).\n\nThe Work is provided under the terms of this Licence when the Licensor (as\ndefined below) has placed the following notice immediately following the\ncopyright notice for the Work:\n\n        Licensed under the EUPL\n\nor has expressed by any other means his willingness to license under the EUPL.\n\n1. Definitions\n\nIn this Licence, the following terms have the following meaning:\n\n- \u2018The Licence\u2019: this Licence.\n\n- \u2018The Original Work\u2019: the work or software distributed or communicated by the\n  Licensor under this Licence, available as Source Code and also as Executable\n  Code as the case may be.\n\n- \u2018Derivative Works\u2019: the works or software that could be created by the\n  Licensee, based upon the Original Work or modifications thereof. This Licence\n  does not define the extent of modification or dependence on the Original Work\n  required in order to classify a work as a Derivative Work; this extent is\n  determined by copyright law applicable in the country mentioned in Article 15.\n\n- \u2018The Work\u2019: the Original Work or its Derivative Works.\n\n- \u2018The Source Code\u2019: the human-readable form of the Work which is the most\n  convenient for people to study and modify.\n\n- \u2018The Executable Code\u2019: any code which has generally been compiled and which is\n  meant to be interpreted by a computer as a program.\n\n- \u2018The Licensor\u2019: the natural or legal person that distributes or communicates\n  the Work under the Licence.\n\n- \u2018Contributor(s)\u2019: any natural or legal person who modifies the Work under the\n  Licence, or otherwise contributes to the creation of a Derivative Work.\n\n- \u2018The Licensee\u2019 or \u2018You\u2019: any natural or legal person who makes any usage of\n  the Work under the terms of the Licence.\n\n- \u2018Distribution\u2019 or \u2018Communication\u2019: any act of selling, giving, lending,\n  renting, distributing, communicating, transmitting, or otherwise making\n  available, online or offline, copies of the Work or providing access to its\n  essential functionalities at the disposal of any other natural or legal\n  person.\n\n2. Scope of the rights granted by the Licence\n\nThe Licensor hereby grants You a worldwide, royalty-free, non-exclusive,\nsublicensable licence to do the following, for the duration of copyright vested\nin the Original Work:\n\n- use the Work in any circumstance and for all usage,\n- reproduce the Work,\n- modify the Work, and make Derivative Works based upon the Work,\n- communicate to the public, including the right to make available or display\n  the Work or copies thereof to the public and perform publicly, as the case may\n  be, the Work,\n- distribute the Work or copies thereof,\n- lend and rent the Work or copies thereof,\n- sublicense rights in the Work or copies thereof.\n\nThose rights can be exercised on any media, supports and formats, whether now\nknown or later invented, as far as the applicable law permits so.\n\nIn the countries where moral rights apply, the Licensor waives his right to\nexercise his moral right to the extent allowed by law in order to make effective\nthe licence of the economic rights here above listed.\n\nThe Licensor grants to the Licensee royalty-free, non-exclusive usage rights to\nany patents held by the Licensor, to the extent necessary to make use of the\nrights granted on the Work under this Licence.\n\n3. Communication of the Source Code\n\nThe Licensor may provide the Work either in its Source Code form, or as\nExecutable Code. If the Work is provided as Executable Code, the Licensor\nprovides in addition a machine-readable copy of the Source Code of the Work\nalong with each copy of the Work that the Licensor distributes or indicates, in\na notice following the copyright notice attached to the Work, a repository where\nthe Source Code is easily and freely accessible for as long as the Licensor\ncontinues to distribute or communicate the Work.\n\n4. Limitations on copyright\n\nNothing in this Licence is intended to deprive the Licensee of the benefits from\nany exception or limitation to the exclusive rights of the rights owners in the\nWork, of the exhaustion of those rights or of other applicable limitations\nthereto.\n\n5. Obligations of the Licensee\n\nThe grant of the rights mentioned above is subject to some restrictions and\nobligations imposed on the Licensee. Those obligations are the following:\n\nAttribution right: The Licensee shall keep intact all copyright, patent or\ntrademarks notices and all notices that refer to the Licence and to the\ndisclaimer of warranties. The Licensee must include a copy of such notices and a\ncopy of the Licence with every copy of the Work he/she distributes or\ncommunicates. The Licensee must cause any Derivative Work to carry prominent\nnotices stating that the Work has been modified and the date of modification.\n\nCopyleft clause: If the Licensee distributes or communicates copies of the\nOriginal Works or Derivative Works, this Distribution or Communication will be\ndone under the terms of this Licence or of a later version of this Licence\nunless the Original Work is expressly distributed only under this version of the\nLicence \u2014 for example by communicating \u2018EUPL v. 1.2 only\u2019. The Licensee\n(becoming Licensor) cannot offer or impose any additional terms or conditions on\nthe Work or Derivative Work that alter or restrict the terms of the Licence.\n\nCompatibility clause: If the Licensee Distributes or Communicates Derivative\nWorks or copies thereof based upon both the Work and another work licensed under\na Compatible Licence, this Distribution or Communication can be done under the\nterms of this Compatible Licence. For the sake of this clause, \u2018Compatible\nLicence\u2019 refers to the licences listed in the appendix attached to this Licence.\nShould the Licensee's obligations under the Compatible Licence conflict with\nhis/her obligations under this Licence, the obligations of the Compatible\nLicence shall prevail.\n\nProvision of Source Code: When distributing or communicating copies of the Work,\nthe Licensee will provide a machine-readable copy of the Source Code or indicate\na repository where this Source will be easily and freely available for as long\nas the Licensee continues to distribute or communicate the Work.\n\nLegal Protection: This Licence does not grant permission to use the trade names,\ntrademarks, service marks, or names of the Licensor, except as required for\nreasonable and customary use in describing the origin of the Work and\nreproducing the content of the copyright notice.\n\n6. Chain of Authorship\n\nThe original Licensor warrants that the copyright in the Original Work granted\nhereunder is owned by him/her or licensed to him/her and that he/she has the\npower and authority to grant the Licence.\n\nEach Contributor warrants that the copyright in the modifications he/she brings\nto the Work are owned by him/her or licensed to him/her and that he/she has the\npower and authority to grant the Licence.\n\nEach time You accept the Licence, the original Licensor and subsequent\nContributors grant You a licence to their contributions to the Work, under the\nterms of this Licence.\n\n7. Disclaimer of Warranty\n\nThe Work is a work in progress, which is continuously improved by numerous\nContributors. It is not a finished work and may therefore contain defects or\n\u2018bugs\u2019 inherent to this type of development.\n\nFor the above reason, the Work is provided under the Licence on an \u2018as is\u2019 basis\nand without warranties of any kind concerning the Work, including without\nlimitation merchantability, fitness for a particular purpose, absence of defects\nor errors, accuracy, non-infringement of intellectual property rights other than\ncopyright as stated in Article 6 of this Licence.\n\nThis disclaimer of warranty is an essential part of the Licence and a condition\nfor the grant of any rights to the Work.\n\n8. Disclaimer of Liability\n\nExcept in the cases of wilful misconduct or damages directly caused to natural\npersons, the Licensor will in no event be liable for any direct or indirect,\nmaterial or moral, damages of any kind, arising out of the Licence or of the use\nof the Work, including without limitation, damages for loss of goodwill, work\nstoppage, computer failure or malfunction, loss of data or any commercial\ndamage, even if the Licensor has been advised of the possibility of such damage.\nHowever, the Licensor will be liable under statutory product liability laws as\nfar such laws apply to the Work.\n\n9. Additional agreements\n\nWhile distributing the Work, You may choose to conclude an additional agreement,\ndefining obligations or services consistent with this Licence. However, if\naccepting obligations, You may act only on your own behalf and on your sole\nresponsibility, not on behalf of the original Licensor or any other Contributor,\nand only if You agree to indemnify, defend, and hold each Contributor harmless\nfor any liability incurred by, or claims asserted against such Contributor by\nthe fact You have accepted any warranty or additional liability.\n\n10. Acceptance of the Licence\n\nThe provisions of this Licence can be accepted by clicking on an icon \u2018I agree\u2019\nplaced under the bottom of a window displaying the text of this Licence or by\naffirming consent in any other similar way, in accordance with the rules of\napplicable law. Clicking on that icon indicates your clear and irrevocable\nacceptance of this Licence and all of its terms and conditions.\n\nSimilarly, you irrevocably accept this Licence and all of its terms and\nconditions by exercising any rights granted to You by Article 2 of this Licence,\nsuch as the use of the Work, the creation by You of a Derivative Work or the\nDistribution or Communication by You of the Work or copies thereof.\n\n11. Information to the public\n\nIn case of any Distribution or Communication of the Work by means of electronic\ncommunication by You (for example, by offering to download the Work from a\nremote location) the distribution channel or media (for example, a website) must\nat least provide to the public the information requested by the applicable law\nregarding the Licensor, the Licence and the way it may be accessible, concluded,\nstored and reproduced by the Licensee.\n\n12. Termination of the Licence\n\nThe Licence and the rights granted hereunder will terminate automatically upon\nany breach by the Licensee of the terms of the Licence.\n\nSuch a termination will not terminate the licences of any person who has\nreceived the Work from the Licensee under the Licence, provided such persons\nremain in full compliance with the Licence.\n\n13. Miscellaneous\n\nWithout prejudice of Article 9 above, the Licence represents the complete\nagreement between the Parties as to the Work.\n\nIf any provision of the Licence is invalid or unenforceable under applicable\nlaw, this will not affect the validity or enforceability of the Licence as a\nwhole. Such provision will be construed or reformed so as necessary to make it\nvalid and enforceable.\n\nThe European Commission may publish other linguistic versions or new versions of\nthis Licence or updated versions of the Appendix, so far this is required and\nreasonable, without reducing the scope of the rights granted by the Licence. New\nversions of the Licence will be published with a unique version number.\n\nAll linguistic versions of this Licence, approved by the European Commission,\nhave identical value. Parties can take advantage of the linguistic version of\ntheir choice.\n\n14. Jurisdiction\n\nWithout prejudice to specific agreement between parties,\n\n- any litigation resulting from the interpretation of this License, arising\n  between the European Union institutions, bodies, offices or agencies, as a\n  Licensor, and any Licensee, will be subject to the jurisdiction of the Court\n  of Justice of the European Union, as laid down in article 272 of the Treaty on\n  the Functioning of the European Union,\n\n- any litigation arising between other parties and resulting from the\n  interpretation of this License, will be subject to the exclusive jurisdiction\n  of the competent court where the Licensor resides or conducts its primary\n  business.\n\n15. Applicable Law\n\nWithout prejudice to specific agreement between parties,\n\n- this Licence shall be governed by the law of the European Union Member State\n  where the Licensor has his seat, resides or has his registered office,\n\n- this licence shall be governed by Belgian law if the Licensor has no seat,\n  residence or registered office inside a European Union Member State.\n\nAppendix\n\n\u2018Compatible Licences\u2019 according to Article 5 EUPL are:\n\n- GNU General Public License (GPL) v. 2, v. 3\n- GNU Affero General Public License (AGPL) v. 3\n- Open Software License (OSL) v. 2.1, v. 3.0\n- Eclipse Public License (EPL) v. 1.0\n- CeCILL v. 2.0, v. 2.1\n- Mozilla Public Licence (MPL) v. 2\n- GNU Lesser General Public Licence (LGPL) v. 2.1, v. 3\n- Creative Commons Attribution-ShareAlike v. 3.0 Unported (CC BY-SA 3.0) for\n  works other than software\n- European Union Public Licence (EUPL) v. 1.1, v. 1.2\n- Qu\u00e9bec Free and Open-Source Licence \u2014 Reciprocity (LiLiQ-R) or Strong\n  Reciprocity (LiLiQ-R+).\n\nThe European Commission may update this Appendix to later versions of the above\nlicences without producing a new version of the EUPL, as long as they provide\nthe rights granted in Article 2 of this Licence and protect the covered Source\nCode from exclusive appropriation.\n\nAll other changes or additions to this Appendix require the production of a new\nEUPL version.\n```",
+      "title": "The software provides a clear description of its dependencies",
+      "url": "https://github.com/euroargodev/software_guidelines/issues/57",
+      "body": "Dependencies are third party softwares or libraries that the user must make available (install) in the software [executing environment](https://github.com/euroargodev/software_guidelines/issues/57) to be fully functional.\n\nEg:\n- for a Python library: Argopy 1.4.0, Numpy 2.0.1, \u2026\n- for a Matlab package: GSW-Matlab 3.0, ...\n\nIt is further recommended to provide a machine readable description file of these dependencies (eg: requirements.txt, poetry.lock, renv.lock, Project.toml, etc \u2026).\n\n\nTo specify the executing environment (eg Python or Matlab versions), check guideline #44 \n\nThis guideline also comes as a complement to the operating system definition #46 \n\n## Examples\n\nCheck this resource with examples for Python, R and Matlab (possibly):\n- https://coderefinery.github.io/reproducible-research/dependencies/\n",
       "state": "OPEN",
       "assignees": {
         "nodes": []
@@ -3506,9 +3262,9 @@
           }
         },
         {
-          "text": "The project includes a LICENSE file",
-          "id": "PVTFTV_lQDOA3TSm84BYfNszgthovHOIkFo3g",
-          "updatedAt": "2026-05-22T11:51:55Z",
+          "text": "The software provides a clear description of its dependencies",
+          "id": "PVTFTV_lQDOA3TSm84BYfNszgthox7OIkFpLA",
+          "updatedAt": "2026-05-22T11:51:57Z",
           "creator": {
             "url": "https://github.com/gmaze"
           }
@@ -3518,82 +3274,21 @@
             "name": "Status"
           },
           "name": "Sorted",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthovHOIkFpbQ"
-        },
-        {
-          "field": {
-            "name": "Software Integration Level"
-          },
-          "name": "SIL-2 \ud83d\udee0\ufe0f",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthovHOIkMLFg"
-        },
-        {
-          "field": {
-            "name": "Adoption criteria"
-          },
-          "name": "3 - Required",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthovHOInseDw"
-        }
-      ]
-    }
-  },
-  {
-    "id": "PVTI_lADOA3TSm84BYfNszgthov0",
-    "content": {
-      "title": "The software documentation and codebase are written in English",
-      "url": "https://github.com/euroargodev/software_guidelines/issues/41",
-      "body": "",
-      "state": "OPEN",
-      "assignees": {
-        "nodes": []
-      }
-    },
-    "fieldValues": {
-      "nodes": [
-        {
-          "repository": {
-            "id": "R_kgDOPGM65g",
-            "url": "https://github.com/euroargodev/software_guidelines"
-          }
-        },
-        {
-          "labels": {
-            "nodes": [
-              {
-                "id": "LA_kwDOPGM65s8AAAACEX1fwg",
-                "name": "guideline"
-              }
-            ]
-          }
-        },
-        {
-          "text": "The software documentation and codebase are written in English",
-          "id": "PVTFTV_lQDOA3TSm84BYfNszgthov3OIkFo8Q",
-          "updatedAt": "2026-05-22T11:51:55Z",
-          "creator": {
-            "url": "https://github.com/gmaze"
-          }
-        },
-        {
-          "field": {
-            "name": "Status"
-          },
-          "name": "Sorted",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthov3OIkFpgg"
+          "id": "PVTFSV_lQDOA3TSm84BYfNszgthox7OIkFprQ"
         },
         {
           "field": {
             "name": "Software Integration Level"
           },
           "name": "SIL-3 \ud83e\uddea",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthov3OIkMRdg"
+          "id": "PVTFSV_lQDOA3TSm84BYfNszgthox7OIkQoXQ"
         },
         {
           "field": {
             "name": "Adoption criteria"
           },
           "name": "2 - Recommended",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthov3OInsjlA"
+          "id": "PVTFSV_lQDOA3TSm84BYfNszgthox7OIntgqw"
         }
       ]
     }
@@ -3603,7 +3298,7 @@
     "content": {
       "title": "The software uses an open-source programming language",
       "url": "https://github.com/euroargodev/software_guidelines/issues/59",
-      "body": "A list of open-source programming languages can be found here:\nhttps://en.wikipedia.org/wiki/List_of_open-source_programming_languages\n\n\u25b6 If you don't know where to start, or considering moving to a new language, have a look to the related guideline #58 . This shall ensure a wider user base and possibly collaborative development with the Argo community.\n\n#### \u203c\ufe0f About the Matlab language\n\nAlthough Matlab remains popular in oceanography and academic, _Matlab is not a programming language released under an open-source license_. Therefore any Matlab codebase cannot fulfil the present guideline.\n\nIf you'd rather categorise your Matlab codebase as an **[Octave](https://en.wikipedia.org/wiki/GNU_Octave)** language codebase to make it _open source_, you need to ensure that your codebase is indeed functional with the free [Octave software](https://octave.org/download) which cannot be taken for granted.\nSince:\n> Octave treats incompatibility with MATLAB as a bug.\n\nMatlab code developers are encouraged to migrate to Octave.\n",
+      "body": "A list of open-source programming languages can be found here:\nhttps://en.wikipedia.org/wiki/List_of_open-source_programming_languages\n\n\u25b6 If you don't know where to start, or considering to move to a new language, have a look to the related guideline #58 . This shall ensure a wider user base and possibly collaborative development with the Argo community.\n\n#### \u203c\ufe0f About the Matlab language\n\nAlthough Matlab remains popular in oceanography and academic, _Matlab is not a programming language released under an open-source license_. Therefore any Matlab codebase cannot fulfil the present guideline.\n\nIf you'd rather categorise your Matlab codebase as an **[Octave](https://en.wikipedia.org/wiki/GNU_Octave)** language codebase to make it _open source_, you need to ensure that your codebase is indeed functional with the free [Octave software](https://octave.org/download) which cannot be taken for granted.\nSince:\n> Octave treats incompatibility with MATLAB as a bug.\n\nMatlab code developers are encouraged to migrate to Octave.\n",
       "state": "OPEN",
       "assignees": {
         "nodes": []
@@ -3660,11 +3355,72 @@
     }
   },
   {
+    "id": "PVTI_lADOA3TSm84BYfNszgthoyY",
+    "content": {
+      "title": "The project includes a basic description of what it does with or to the Argo dataset (e.g. read index file, calibrate salinity, plot trajectory, assess BGC variables,...)",
+      "url": "https://github.com/euroargodev/software_guidelines/issues/66",
+      "body": "",
+      "state": "OPEN",
+      "assignees": {
+        "nodes": []
+      }
+    },
+    "fieldValues": {
+      "nodes": [
+        {
+          "repository": {
+            "id": "R_kgDOPGM65g",
+            "url": "https://github.com/euroargodev/software_guidelines"
+          }
+        },
+        {
+          "labels": {
+            "nodes": [
+              {
+                "id": "LA_kwDOPGM65s8AAAACEX1fwg",
+                "name": "guideline"
+              }
+            ]
+          }
+        },
+        {
+          "text": "The project includes a basic description of what it does with or to the Argo dataset (e.g. read index file, calibrate salinity, plot trajectory, assess BGC variables,...)",
+          "id": "PVTFTV_lQDOA3TSm84BYfNszgthoybOIkFpTg",
+          "updatedAt": "2026-05-22T11:51:58Z",
+          "creator": {
+            "url": "https://github.com/gmaze"
+          }
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "Sorted",
+          "id": "PVTFSV_lQDOA3TSm84BYfNszgthoybOIkFptw"
+        },
+        {
+          "field": {
+            "name": "Software Integration Level"
+          },
+          "name": "SIL-2 \ud83d\udee0\ufe0f",
+          "id": "PVTFSV_lQDOA3TSm84BYfNszgthoybOIkQvFQ"
+        },
+        {
+          "field": {
+            "name": "Adoption criteria"
+          },
+          "name": "2 - Recommended",
+          "id": "PVTFSV_lQDOA3TSm84BYfNszgthoybOInslcQ"
+        }
+      ]
+    }
+  },
+  {
     "id": "PVTI_lADOA3TSm84BYfNszgthov8",
     "content": {
       "title": "The software documentation includes installation guidelines",
       "url": "https://github.com/euroargodev/software_guidelines/issues/43",
-      "body": "",
+      "body": "From very sucint and descriptive (eg: 'Place the octave file in your path') to more complexe distribution packages instructions (eg: pip with options), the software must document how to be installed.\n\nIn the early stage of a project, this information can be place in the README file of a repository (see #36 )",
       "state": "OPEN",
       "assignees": {
         "nodes": []
@@ -3721,11 +3477,11 @@
     }
   },
   {
-    "id": "PVTI_lADOA3TSm84BYfNszgthowc",
+    "id": "PVTI_lADOA3TSm84BYfNszgthosc",
     "content": {
-      "title": "The software documentation includes usage guidelines and examples",
-      "url": "https://github.com/euroargodev/software_guidelines/issues/47",
-      "body": "One should also make available tutorial material (notebooks, presentation, video, etc.).\n",
+      "title": "The project acknowledges Argo data papers and/or DOIs",
+      "url": "https://github.com/euroargodev/software_guidelines/issues/6",
+      "body": "The project, basically the repository, should mention the Argo data papers and/or DOIs. \nThis is an effective way to promote the Argo dataset and acknowledge the AST/ADMT work.\n\nThis can simply be done for instance in the README.md file of the repository, by adding a section like:\n\n### Argo acknowledgments example\n\nThis software <works/processes/promotes/qualifies/plots/computes/etc...> the Argo data[1] that were collected and made freely available by the International Argo Program and the national programs that contribute to it.  (https://argo.ucsd.edu,  [https://www.ocean-ops.org](https://www.ocean-ops.org/board/?t=argo)).  The Argo Program is part of the Global Ocean Observing System. \n\n[1] Wong, A. P. S., et al. (2020), Argo Data 1999\u20132019: Two Million Temperature-Salinity Profiles and Subsurface Velocity Observations From a Global Array of Profiling Floats, Frontiers in Marine Science, 7(700), doi: https://doi.org/10.3389/fmars.2020.00700\n\n```markdown\n### Argo acknowledgments example\n\nThis software <works/processes/promotes/qualifies/plots/computes/etc...> the Argo data[1] that were collected and made freely available by the International Argo Program and the national programs that contribute to it.  (https://argo.ucsd.edu,  [https://www.ocean-ops.org](https://www.ocean-ops.org/board/?t=argo)).  The Argo Program is part of the Global Ocean Observing System. \n\n[1] Wong, A. P. S., et al. (2020), Argo Data 1999\u20132019: Two Million Temperature-Salinity Profiles and Subsurface Velocity Observations From a Global Array of Profiling Floats, Frontiers in Marine Science, 7(700), doi: https://doi.org/10.3389/fmars.2020.00700\n```\n\n\n",
       "state": "OPEN",
       "assignees": {
         "nodes": []
@@ -3750,9 +3506,9 @@
           }
         },
         {
-          "text": "The software documentation includes usage guidelines and examples",
-          "id": "PVTFTV_lQDOA3TSm84BYfNszgthowfOIkFpAA",
-          "updatedAt": "2026-05-22T11:51:56Z",
+          "text": "The project acknowledges Argo data papers and/or DOIs",
+          "id": "PVTFTV_lQDOA3TSm84BYfNszgthosfOIkFokw",
+          "updatedAt": "2026-05-27T10:54:24Z",
           "creator": {
             "url": "https://github.com/gmaze"
           }
@@ -3762,82 +3518,21 @@
             "name": "Status"
           },
           "name": "Sorted",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthowfOIkFpgA"
+          "id": "PVTFSV_lQDOA3TSm84BYfNszgthosfOIkFpPw"
         },
         {
           "field": {
             "name": "Software Integration Level"
           },
           "name": "SIL-3 \ud83e\uddea",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthowfOIkMUhQ"
+          "id": "PVTFSV_lQDOA3TSm84BYfNszgthosfOIkLmWA"
         },
         {
           "field": {
             "name": "Adoption criteria"
           },
           "name": "3 - Required",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthowfOInskVw"
-        }
-      ]
-    }
-  },
-  {
-    "id": "PVTI_lADOA3TSm84BYfNszgthoyY",
-    "content": {
-      "title": "The project includes a basic description of what it does with or to the Argo dataset (e.g. read index file, calibrate salinity, plot trajectory, assess BGC variables,...)",
-      "url": "https://github.com/euroargodev/software_guidelines/issues/66",
-      "body": "",
-      "state": "OPEN",
-      "assignees": {
-        "nodes": []
-      }
-    },
-    "fieldValues": {
-      "nodes": [
-        {
-          "repository": {
-            "id": "R_kgDOPGM65g",
-            "url": "https://github.com/euroargodev/software_guidelines"
-          }
-        },
-        {
-          "labels": {
-            "nodes": [
-              {
-                "id": "LA_kwDOPGM65s8AAAACEX1fwg",
-                "name": "guideline"
-              }
-            ]
-          }
-        },
-        {
-          "text": "The project includes a basic description of what it does with or to the Argo dataset (e.g. read index file, calibrate salinity, plot trajectory, assess BGC variables,...)",
-          "id": "PVTFTV_lQDOA3TSm84BYfNszgthoybOIkFpTg",
-          "updatedAt": "2026-05-22T11:51:58Z",
-          "creator": {
-            "url": "https://github.com/gmaze"
-          }
-        },
-        {
-          "field": {
-            "name": "Status"
-          },
-          "name": "Sorted",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthoybOIkFptw"
-        },
-        {
-          "field": {
-            "name": "Software Integration Level"
-          },
-          "name": "SIL-3 \ud83e\uddea",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthoybOIkQvFQ"
-        },
-        {
-          "field": {
-            "name": "Adoption criteria"
-          },
-          "name": "2 - Recommended",
-          "id": "PVTFSV_lQDOA3TSm84BYfNszgthoybOInslcQ"
+          "id": "PVTFSV_lQDOA3TSm84BYfNszgthosfOIntLpQ"
         }
       ]
     }
