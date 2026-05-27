@@ -3082,7 +3082,7 @@
     "content": {
       "title": "The project includes a document describing how to contribute",
       "url": "https://github.com/euroargodev/software_guidelines/issues/38",
-      "body": "In order to help the community to contribute to the project, in a collaborative approach, a document should describe how to do so. In particular:\n- how to report bug/issues to the development and maintenance team, \n- how to suggest changes or new features, \n- what are the coding guidelines of the project to follow, \n- how to contribute to the documentation, \n- how to review PRs,\n- etc...\n\nThis can be done in the project documentation ([eg](https://argopy.readthedocs.io/en/latest/contributing.html)) or a simple CONTRIBUTING.md file at the root level of the repository (see guideline #33 and the example therein).",
+      "body": "In order to help the community to contribute to the project, in a collaborative approach, a document should describe how to do so. In particular:\n- how to report bug/issues to the development and maintenance team, \n- how to suggest changes or new features, \n- what are the coding guidelines of the project to follow, \n- how to contribute to the documentation, \n- how to review PRs,\n- etc...\n\nThis can be done in the project documentation ([eg](https://argopy.readthedocs.io/en/latest/contributing.html)) or a simple CONTRIBUTING.md file at the root level of the repository. \n\n\u203c\ufe0f Note that even if the contributions guidelines are described in the documentation (eg: in [the documentation of the project](https://argopy.readthedocs.io/en/latest/contributing.html)), a CONTRIBUTING.md file must be associated on the repository to point toward that full description ([see Argopy eg](https://github.com/euroargodev/argopy/blob/master/CONTRIBUTING.md) (this is useful for code-quality checkers).\n\n## Examples\n\n### \"How to contribute\" section in the documentation\n\nCheck here: https://argopy.readthedocs.io/en/latest/contributing.html\n\n###  CONTRIBUTING.md file\n\n```markdown\n# Contributing to [Project Name]\n\nThank you for your interest in contributing to **[Project Name]**! We welcome contributions from everyone, whether you're fixing bugs, improving documentation, or adding new features.\n\n## How to Contribute\n\n### 1. **Reporting Issues**\n- Use the [Issue Tracker](link-to-issues) to report bugs or request features.\n- **Before submitting an issue:**\n  - Check existing issues to avoid duplicates.\n  - Include a clear title, detailed description, and steps to reproduce the issue.\n  - Add relevant labels (e.g., `bug`, `enhancement`, `documentation`).\n\n### 2. **Suggesting Changes**\n- Fork the repository and create a new branch for your changes.\n- Submit a **Pull Request (PR)** with:\n  - A descriptive title and summary of changes.\n  - Reference to any related issues (e.g., `Fixes #123`).\n  - Clear commit messages (e.g., `feat: add NetCDF validation`).\n\n### 3. **Code Guidelines**\n- Follow the project\u2019s coding style (e.g., PEP 8 for Python).\n- Include **comments** for complex logic.\n- Add **unit tests** for new features or bug fixes.\n- Ensure all tests pass before submitting a PR.\n\n### 4. **Documentation**\n- Update documentation (e.g., `README.md`, docstrings) for any changes.\n- Add examples or tutorials if introducing new functionality.\n\n### 5. **Review Process**\n- All PRs require **at least one approval** from a maintainer.\n- Be responsive to feedback and iterate on your changes.\n\n### 6. **Community**\n- Join our [discussion forum](link) or [Slack/mailing list](link) for questions.\n- Attend our [monthly meetings](link) (if applicable).\n\n## License\nBy contributing, you agree your contributions will be licensed under **[Project License]** (e.g., EUPL v1.2).\n\n## Recognition\nAll contributors will be acknowledged in the project\u2019s release notes.\n\n---\n**Need help?** Contact us at [email] or open an issue.\n```",
       "state": "OPEN",
       "assignees": {
         "nodes": []
@@ -3612,88 +3612,6 @@
           },
           "name": "Argo compliance",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcK3J3OFQDz4w"
-        }
-      ]
-    }
-  },
-  {
-    "id": "PVTI_lADOA3TSm84A81yHzgcK3Yk",
-    "content": {
-      "title": "The project includes a CONTRIBUTING file",
-      "url": "https://github.com/euroargodev/software_guidelines/issues/33",
-      "body": "A CONTRIBUTING file should be provided with the project, typically as a markdown file at the root level of the project repository.\n\nThis CONTRIBUTING file must at least contains how to report bug/issues to the development and maintenance team, but more items are encouraged (eg: how to suggest changes, code guidelines, how to contribute to the documentation, to PR reviewing etc...). See the example below.\n\nEven if the CONTRIBUTING guidelines are described elsewhere (eg: in [the documentation of the project](https://argopy.readthedocs.io/en/latest/contributing.html)), a CONTRIBUTING.md file must be associated on the repository to point toward that full description ([see Argopy eg](https://github.com/euroargodev/argopy/blob/master/CONTRIBUTING.md)).\n\n\ud83d\ude80 Following this guideline automatically makes guideline #38 followed as well.\n\n\n## Example\n\nBelow is an example for a typical CONTRIBUTING.md file.\n\n```markdown\n# Contributing to [Project Name]\n\nThank you for your interest in contributing to **[Project Name]**! We welcome contributions from everyone, whether you're fixing bugs, improving documentation, or adding new features.\n\n## How to Contribute\n\n### 1. **Reporting Issues**\n- Use the [Issue Tracker](link-to-issues) to report bugs or request features.\n- **Before submitting an issue:**\n  - Check existing issues to avoid duplicates.\n  - Include a clear title, detailed description, and steps to reproduce the issue.\n  - Add relevant labels (e.g., `bug`, `enhancement`, `documentation`).\n\n### 2. **Suggesting Changes**\n- Fork the repository and create a new branch for your changes.\n- Submit a **Pull Request (PR)** with:\n  - A descriptive title and summary of changes.\n  - Reference to any related issues (e.g., `Fixes #123`).\n  - Clear commit messages (e.g., `feat: add NetCDF validation`).\n\n### 3. **Code Guidelines**\n- Follow the project\u2019s coding style (e.g., PEP 8 for Python).\n- Include **comments** for complex logic.\n- Add **unit tests** for new features or bug fixes.\n- Ensure all tests pass before submitting a PR.\n\n### 4. **Documentation**\n- Update documentation (e.g., `README.md`, docstrings) for any changes.\n- Add examples or tutorials if introducing new functionality.\n\n### 5. **Review Process**\n- All PRs require **at least one approval** from a maintainer.\n- Be responsive to feedback and iterate on your changes.\n\n### 6. **Community**\n- Join our [discussion forum](link) or [Slack/mailing list](link) for questions.\n- Attend our [monthly meetings](link) (if applicable).\n\n## License\nBy contributing, you agree your contributions will be licensed under **[Project License]** (e.g., EUPL v1.2).\n\n## Recognition\nAll contributors will be acknowledged in the project\u2019s release notes.\n\n---\n**Need help?** Contact us at [email] or open an issue.\n```",
-      "state": "OPEN",
-      "assignees": {
-        "nodes": []
-      }
-    },
-    "fieldValues": {
-      "nodes": [
-        {
-          "repository": {
-            "id": "R_kgDOPGM65g",
-            "url": "https://github.com/euroargodev/software_guidelines"
-          }
-        },
-        {
-          "labels": {
-            "nodes": [
-              {
-                "id": "LA_kwDOPGM65s8AAAACEX1fwg",
-                "name": "guideline"
-              }
-            ]
-          }
-        },
-        {
-          "text": "The project includes a CONTRIBUTING file",
-          "id": "PVTFTV_lQDOA3TSm84A81yHzgcK3YnOFMjW8A",
-          "updatedAt": "2025-07-03T13:45:45Z",
-          "creator": {
-            "url": "https://github.com/gmaze"
-          }
-        },
-        {
-          "field": {
-            "name": "Skill level"
-          },
-          "name": "3 - Intermediate",
-          "id": "PVTFSV_lQDOA3TSm84A81yHzgcK3YnOFMjXQA"
-        },
-        {
-          "field": {
-            "name": "Software Development Model (SDM)"
-          },
-          "name": "Collaborative",
-          "id": "PVTFSV_lQDOA3TSm84A81yHzgcK3YnOFMjXVA"
-        },
-        {
-          "field": {
-            "name": "SDM requirement level"
-          },
-          "name": "2 - Recommended",
-          "id": "PVTFSV_lQDOA3TSm84A81yHzgcK3YnOFMjXWw"
-        },
-        {
-          "field": {
-            "name": "Scope"
-          },
-          "name": "General guideline",
-          "id": "PVTFSV_lQDOA3TSm84A81yHzgcK3YnOFMjXZQ"
-        },
-        {
-          "field": {
-            "name": "Project Aspects"
-          },
-          "name": "Management",
-          "id": "PVTFSV_lQDOA3TSm84A81yHzgcK3YnOFQDqww"
-        },
-        {
-          "field": {
-            "name": "Status"
-          },
-          "name": "Documented",
-          "id": "PVTFSV_lQDOA3TSm84A81yHzgcK3YnOIPctkw"
         }
       ]
     }
