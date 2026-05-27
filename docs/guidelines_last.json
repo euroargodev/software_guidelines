@@ -84,7 +84,7 @@
   {
     "id": "PVTI_lADOA3TSm84A81yHzgcKyhw",
     "content": {
-      "title": "Argo papers and DOIs are referenced in the software metadata",
+      "title": "Argo papers and/or DOIs are referenced in the Project",
       "url": "https://github.com/euroargodev/software_guidelines/issues/6",
       "body": "",
       "state": "OPEN",
@@ -111,9 +111,9 @@
           }
         },
         {
-          "text": "Argo papers and DOIs are referenced in the software metadata",
+          "text": "Argo papers and/or DOIs are referenced in the Project",
           "id": "PVTFTV_lQDOA3TSm84A81yHzgcKyhzOFMieUA",
-          "updatedAt": "2025-07-03T13:40:31Z",
+          "updatedAt": "2026-05-27T10:46:49Z",
           "creator": {
             "url": "https://github.com/gmaze"
           }
