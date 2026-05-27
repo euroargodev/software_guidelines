@@ -2166,7 +2166,7 @@
     "content": {
       "title": "The software uses the Argo vocabulary server (to enforce conventions as defined in Argo reference tables)",
       "url": "https://github.com/euroargodev/software_guidelines/issues/60",
-      "body": "",
+      "body": "The software must adhere to Argo conventions and vocabulary (see #16 ).\n\nWherever required, the vocabulary data should be retrieved directly from the Argo vocabulary server (NVS) to ensure valid and up-to-date information.",
       "state": "OPEN",
       "assignees": {
         "nodes": []
