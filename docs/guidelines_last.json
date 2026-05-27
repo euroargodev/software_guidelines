@@ -1578,7 +1578,7 @@
     "content": {
       "title": "The software is distributed via well-known services (e.g., pip or conda for Python)",
       "url": "https://github.com/euroargodev/software_guidelines/issues/53",
-      "body": "",
+      "body": "The software installation for a user should not depend on the repository (except for very specific cases) but rather adopt the packages distribution services for a given environment:\n- Python software: [pypi](https://pypi.org/) (offical, default) and [conda](https://conda-forge.org/)\n- R software: [CRAN](https://cran.r-project.org/)\n- Matlab/Octave: [File Exchange](https://www.mathworks.com/matlabcentral/fileexchange)",
       "state": "OPEN",
       "assignees": {
         "nodes": []
@@ -1644,6 +1644,13 @@
           },
           "name": "Location",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcIWMvOFQDsPA"
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "Documented",
+          "id": "PVTFSV_lQDOA3TSm84A81yHzgcIWMvOIppGZg"
         }
       ]
     }
