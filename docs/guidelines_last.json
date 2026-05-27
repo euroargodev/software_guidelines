@@ -1147,7 +1147,7 @@
     "content": {
       "title": "The software documentation is hosted on the web",
       "url": "https://github.com/euroargodev/software_guidelines/issues/48",
-      "body": "This a guideline that follows from the early stage of the documentation, once the README file (#36) and/or the codebase becomes too large.\n\nThe software documentation, whatever the format (eg: pdf, markdown, etc...) must be hosted and accessible on the web.\n\nIn practice, it is recommended to use a webpages generating system to host a documentation online. This is fairly easy to implement since many online services can directly be plugged onto a git-based repository content.\n\nSuch online documentation systems are, for instance:\n- [Read The Docs](https://about.readthedocs.com/) (free for open-source project),\n- [Github Pages](https://docs.github.com/en/pages).\n\nThese services can be used to publish online a documentation that is possibly generated from static files located in a dedicated folder of the software repository.\n\nSuch documentation (based on static files like markdown or rst) can be generated with, for instance:\n- [Sphynx](https://www.sphinx-doc.org/en/master/),\n- [Mkdocs](https://www.mkdocs.org/).\n",
+      "body": "This a guideline that follows from the early stage of the documentation, once the README file (#36) and/or the codebase becomes too large.\n\nThe software documentation, whatever the format (eg: pdf, markdown, etc...) must be hosted and accessible on the web.\n\nIn practice, it is recommended to use a webpages generating system to host a documentation online. This is fairly easy to implement since many online services can directly be plugged onto a git-based repository content.\n\nSuch online documentation systems are, for instance:\n- [Read The Docs](https://about.readthedocs.com/) (free for open-source project),\n- [Github Pages](https://docs.github.com/en/pages).\n\nThese services can be used to publish online a documentation that is possibly generated from static files located in a dedicated folder of the software repository.\n\nSuch documentation (based on static files like markdown or rst) can be generated with, for instance:\n- [Sphynx](https://www.sphinx-doc.org/en/master/),\n- [Mkdocs](https://www.mkdocs.org/),\n- [Jupyter Books](https://jupyter-book.readthedocs.io/v1/intro.html).\n\n\ud83d\udca1 Euroargodev provides a [repository template for a documentation](https://github.com/euroargodev/online_documentation) that can be used to quickly start your own online documentation.\n",
       "state": "OPEN",
       "assignees": {
         "nodes": []
@@ -1220,6 +1220,13 @@
           },
           "name": "Documentation and Outreach",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcILP3OFQDn5g"
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "Documented",
+          "id": "PVTFSV_lQDOA3TSm84A81yHzgcILP3OIpoDxw"
         }
       ]
     }
