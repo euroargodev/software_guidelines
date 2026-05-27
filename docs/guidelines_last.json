@@ -3261,7 +3261,7 @@
           "field": {
             "name": "Skill level"
           },
-          "name": "3 - Intermediate",
+          "name": "4 - Advanced",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcK2DTOFMjHmA"
         },
         {
@@ -5055,7 +5055,7 @@
   {
     "id": "PVTI_lADOA3TSm84A81yHzgcLHLg",
     "content": {
-      "title": "The project allows any user to submit an issue or bug report and ease the process (e.g. provide list of labels, issue templates)",
+      "title": "The project allows any user to submit an issue or bug report",
       "url": "https://github.com/euroargodev/software_guidelines/issues/27",
       "body": "",
       "state": "OPEN",
@@ -5082,9 +5082,9 @@
           }
         },
         {
-          "text": "The project allows any user to submit an issue or bug report and ease the process (e.g. provide list of labels, issue templates)",
+          "text": "The project allows any user to submit an issue or bug report",
           "id": "PVTFTV_lQDOA3TSm84A81yHzgcLHLjOFMmZIg",
-          "updatedAt": "2025-07-03T13:45:14Z",
+          "updatedAt": "2026-05-27T06:46:33Z",
           "creator": {
             "url": "https://github.com/gmaze"
           }
