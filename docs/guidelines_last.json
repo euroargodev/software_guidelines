@@ -173,7 +173,7 @@
   {
     "id": "PVTI_lADOA3TSm84A81yHzgcKzFA",
     "content": {
-      "title": "The software has been presented to the Argo community (e.g. Data Management Team meeting)",
+      "title": "The software has been presented to an Argo community",
       "url": "https://github.com/euroargodev/software_guidelines/issues/50",
       "body": "Once your software is stable and well-documented, it is ready for a broader diffusion throughout the Argo community: therefore it needs to be presented to an Argo-related group, typically a national-programm meeting, ADMT meeting or ADMT/AST working group.\n\nThis guideline follows from #26 ",
       "state": "OPEN",
@@ -200,9 +200,9 @@
           }
         },
         {
-          "text": "The software has been presented to the Argo community (e.g. Data Management Team meeting)",
+          "text": "The software has been presented to an Argo community",
           "id": "PVTFTV_lQDOA3TSm84A81yHzgcKzFDOFMikpw",
-          "updatedAt": "2025-07-03T13:47:18Z",
+          "updatedAt": "2026-05-26T20:05:40Z",
           "creator": {
             "url": "https://github.com/gmaze"
           }
@@ -246,7 +246,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcKzFDOInugIQ"
         }
       ]
@@ -335,7 +335,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcIMPfOIQ75Ug"
         }
       ]
@@ -424,7 +424,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcIBPbOIiVamA"
         }
       ]
@@ -513,7 +513,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcIBSzOIiVaNg"
         }
       ]
@@ -602,7 +602,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcII93OIQ6tuQ"
         }
       ]
@@ -691,7 +691,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcIJCHOIQ8Mig"
         }
       ]
@@ -780,7 +780,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcIJTTOIPf7UQ"
         }
       ]
@@ -869,7 +869,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcIJlvOIPSdFg"
         }
       ]
@@ -958,7 +958,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcIJrzOIPfQDw"
         }
       ]
@@ -1047,7 +1047,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcIKfTOIPTdgw"
         }
       ]
@@ -1382,7 +1382,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcIM_bOIPQ-mA"
         }
       ]
@@ -1471,7 +1471,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcIRWPOIkFSUQ"
         }
       ]
@@ -1710,7 +1710,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcKxtrOIYxyDg"
         }
       ]
@@ -1792,7 +1792,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcKxwfOIY9lAg"
         },
         {
@@ -2389,7 +2389,7 @@
   {
     "id": "PVTI_lADOA3TSm84A81yHzgcKzJs",
     "content": {
-      "title": "The methodology implemented by the software has been presented to the Argo community (e.g. Data Management Team meeting)",
+      "title": "The methodology implemented by the software has been presented to an Argo community",
       "url": "https://github.com/euroargodev/software_guidelines/issues/26",
       "body": "The methodology, or key new feature, proposed by the software should be presented/discussed as soon as possible to an Argo-related group, from a local community (eg: institution, lab.) to an international body (eg: ADMT/AST working group).\n\nOnce the project and the codebase will have gained in maturity, the software should also be presented to the Argo community (see guideline #50 ).",
       "state": "OPEN",
@@ -2416,9 +2416,9 @@
           }
         },
         {
-          "text": "The methodology implemented by the software has been presented to the Argo community (e.g. Data Management Team meeting)",
+          "text": "The methodology implemented by the software has been presented to an Argo community",
           "id": "PVTFTV_lQDOA3TSm84A81yHzgcKzJvOFMilgQ",
-          "updatedAt": "2025-07-03T13:45:10Z",
+          "updatedAt": "2026-05-26T20:08:33Z",
           "creator": {
             "url": "https://github.com/gmaze"
           }
@@ -2462,7 +2462,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcKzJvOInuP3A"
         }
       ]
@@ -2544,7 +2544,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcKz4nOIPfl4A"
         }
       ]
@@ -2722,7 +2722,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcK0QXOIPgcbA"
         }
       ]
@@ -2811,7 +2811,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcK0gPOIPb5Jg"
         }
       ]
@@ -2900,7 +2900,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcK0onOIPetXQ"
         }
       ]
@@ -3132,7 +3132,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcK1hbOIQ20Rg"
         }
       ]
@@ -3214,7 +3214,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcK1orOIPeEWw"
         }
       ]
@@ -3223,9 +3223,9 @@
   {
     "id": "PVTI_lADOA3TSm84A81yHzgcK2DQ",
     "content": {
-      "title": "Issues or bugs are managed through the web-based development platform (e.g., GitHub or GitLab issues)",
+      "title": "Issues or bugs are fully documented and managed  through the web-based development platform (e.g., GitHub or GitLab issues)",
       "url": "https://github.com/euroargodev/software_guidelines/issues/15",
-      "body": "Like #1 , if your codebase is hosted on a git-based web-platform (eg: Github, Gitlab), issues and bugs are easily managed through the \"issues\" tabs.\n\nIt is also a good practice to use labels to appropriately tag new issues: this makes them easily searchable, sortable.",
+      "body": "Like guideline #1 , if your codebase is hosted on a git-based web-platform (eg: Github, Gitlab), issues and bugs are easily managed through the \"issues\" tabs.\n\nIssues must be described as fully as possible (e.g. provide reproducible examples).\n\nIt is also a good practice to use labels to appropriately tag new issues: this makes them easily searchable, sortable.\n\nIssues should also report precisely which Argo mission, files, or whatever component that is affected or related to the issue.\n\n[Labels are fully configurable](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels) on the repository and organisation levels. On the euroargodev platform, labels referring to Argo missions or components are already available by default and will appear on any repositories.\n\nOn Github it also possible to [create templates for issues](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository), so that creating an issue can be done by indicating to users the expected information.\n\n### Template example\n\nTaken from here:\nhttps://raw.githubusercontent.com/euroargodev/argopy/refs/heads/master/.github/ISSUE_TEMPLATE/bug_report.md\n\n```markdown\n---\nname: Bug report / Feature request\nabout: 'Post a problem or idea'\ntitle: ''\nlabels: ''\nassignees: ''\n\n---\n\n<!-- A short summary of the issue, if appropriate -->\n\n\n#### MCVE Code Sample\n<!-- In order for the maintainers to efficiently understand and prioritize issues, we ask you post a \"Minimal, Complete and Verifiable Example\" (MCVE): http://matthewrocklin.com/blog/work/2018/02/28/minimal-bug-reports -->\n\n``python\n# Your code here\n``\n\n#### Expected Output\n\n\n#### Problem Description\n<!-- this should explain why the current behavior is a problem and why the expected output is a better solution -->\n\n\n#### Versions\n\n<!-- Paste the output from `argopy.show_versions()` here -->\n\n```\n\n",
       "state": "OPEN",
       "assignees": {
         "nodes": []
@@ -3250,9 +3250,9 @@
           }
         },
         {
-          "text": "Issues or bugs are managed through the web-based development platform (e.g., GitHub or GitLab issues)",
+          "text": "Issues or bugs are fully documented and managed  through the web-based development platform (e.g., GitHub or GitLab issues)",
           "id": "PVTFTV_lQDOA3TSm84A81yHzgcK2DTOFMjHfg",
-          "updatedAt": "2026-01-19T13:15:20Z",
+          "updatedAt": "2026-05-26T20:12:35Z",
           "creator": {
             "url": "https://github.com/gmaze"
           }
@@ -3296,7 +3296,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcK2DTOIPf5EQ"
         }
       ]
@@ -3308,7 +3308,7 @@
       "title": "Issues or bug reports are described as fully as possible (e.g. use labels, reproducible example)",
       "url": "https://github.com/euroargodev/software_guidelines/issues/13",
       "body": "",
-      "state": "OPEN",
+      "state": "CLOSED",
       "assignees": {
         "nodes": []
       }
@@ -3334,7 +3334,7 @@
         {
           "text": "Issues or bug reports are described as fully as possible (e.g. use labels, reproducible example)",
           "id": "PVTFTV_lQDOA3TSm84A81yHzgcK2MbOFMjJUw",
-          "updatedAt": "2025-07-03T13:43:52Z",
+          "updatedAt": "2026-05-26T20:24:47Z",
           "creator": {
             "url": "https://github.com/gmaze"
           }
@@ -3373,6 +3373,13 @@
           },
           "name": "Management",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcK2MbOFQDxZg"
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "Archived/Closed/Deprecated",
+          "id": "PVTFSV_lQDOA3TSm84A81yHzgcK2MbOIolLeA"
         }
       ]
     }
@@ -3383,7 +3390,7 @@
       "title": "Issues or bugs are explicitly referencing the concerned Argo mission (e.g. core, deep, BGC, ...) or component (e.g. trajectories, decoding,...)",
       "url": "https://github.com/euroargodev/software_guidelines/issues/14",
       "body": "",
-      "state": "OPEN",
+      "state": "CLOSED",
       "assignees": {
         "nodes": []
       }
@@ -3409,7 +3416,7 @@
         {
           "text": "Issues or bugs are explicitly referencing the concerned Argo mission (e.g. core, deep, BGC, ...) or component (e.g. trajectories, decoding,...)",
           "id": "PVTFTV_lQDOA3TSm84A81yHzgcK2jTOFMjNog",
-          "updatedAt": "2025-07-03T13:43:56Z",
+          "updatedAt": "2026-05-26T20:28:46Z",
           "creator": {
             "url": "https://github.com/gmaze"
           }
@@ -3448,6 +3455,13 @@
           },
           "name": "Argo compliance",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcK2jTOFQDooQ"
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "Archived/Closed/Deprecated",
+          "id": "PVTFSV_lQDOA3TSm84A81yHzgcK2jTOIolOeA"
         }
       ]
     }
@@ -3903,7 +3917,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcK3YnOIPctkw"
         }
       ]
@@ -3992,7 +4006,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcK4IPOIPQ_AQ"
         }
       ]
@@ -4081,7 +4095,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcK4gPOIPRgCg"
         }
       ]
@@ -4163,7 +4177,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcK477OIQ2-XA"
         }
       ]
@@ -4252,7 +4266,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcK5BbOIkRxfA"
         }
       ]
@@ -4341,7 +4355,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcK8BnOIY4mWw"
         }
       ]
@@ -4512,7 +4526,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcK88jOIiWDQg"
         }
       ]
@@ -4683,7 +4697,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcLCh_OIQ3DDQ"
         }
       ]
@@ -4772,7 +4786,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcLC1fOIQ85XQ"
         }
       ]
@@ -4936,7 +4950,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcLDvzOIkRtkA"
         }
       ]
@@ -5107,7 +5121,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcLE5jOInyvWA"
         }
       ]
@@ -5493,7 +5507,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "Sorted",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgt0JQXOIn_hDA"
         },
         {
