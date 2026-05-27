@@ -3628,7 +3628,7 @@
     "content": {
       "title": "The software documentation includes the list of operating systems supported",
       "url": "https://github.com/euroargodev/software_guidelines/issues/46",
-      "body": "What we mean here:\n\n- Possible operating system: Linux, Mac Os, Windows (eg: see also #62 )\n- A _supported_ os means that the software is successfully tested under this system, see guideline #62 and guideline #52 \n\nThis guideline help users determine if the software can be used under their OS of interest and comes as a complement to the environment definition: #44 \n\n### How to ?\n\nThis information can be displayed as badges or text in the README file of a repository, see #36 \n",
+      "body": "What we mean here:\n\n- Possible operating system: Linux, Mac Os, Windows (eg: see also #62 )\n- A _supported_ os means that the software is successfully tested under this system, see guideline #62 and guideline #52 \n\nThis guideline help users determine if the software can be used under their OS of interest and comes as a complement to the environment definition: #44 \n\n### How to ?\n\nThis information can be displayed as badges or explicit text in the README file of a repository, see #36 .\n\nAn explicit text could be something like:\n> Pydox is continuously tested to work under most OS (Linux, Mac, Windows) and with python versions 3.11 and 3.12.\n\nIf the software supports all major operating system, the label `no arch` can be used is badges.\n\n\n",
       "state": "OPEN",
       "assignees": {
         "nodes": []
