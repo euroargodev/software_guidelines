@@ -2829,7 +2829,7 @@
     "content": {
       "title": "Each collaborator is clearly identified within the project",
       "url": "https://github.com/euroargodev/software_guidelines/issues/10",
-      "body": "All collaborators should be listed in a dedicated section of the README file on the repository, possibly with their role description and an email or ORCID.\n\nNote that collaborators of the codebase are automatically listed by Github if they author a merged PR on the \"Contributors\" tab (eg: https://github.com/euroargodev/software_guidelines/graphs/contributors).\n\n",
+      "body": "All collaborators should be listed in a dedicated section of the README file on the repository, possibly with their role description and an email or ORCID, see #36 \n\nNote that collaborators of the codebase are automatically listed by Github if they author a merged PR on the \"Contributors\" tab (eg: https://github.com/euroargodev/software_guidelines/graphs/contributors).\n\n",
       "state": "OPEN",
       "assignees": {
         "nodes": []
