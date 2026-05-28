@@ -174,6 +174,8 @@ Guidelines marked as "1-Best effort" always stay on this requirement level.
 
 ## SIL census
 
+The number of guidelines attributed to a SIL is nearly gaussian, which creates a standard _learning curve_ with the steepest evolution starting at SIL-3 to reach SIL-4 and 5.
+
 ![Ng_per_sil.png](docs/Ng_per_sil.png)
 
 ![Ng_per_sil_adoption.png](docs/Ng_per_sil_adoption.png)
