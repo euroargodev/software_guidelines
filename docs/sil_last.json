@@ -3359,7 +3359,7 @@
     "content": {
       "title": "The project includes a basic description of what it does with or to the Argo dataset (e.g. read index file, calibrate salinity, plot trajectory, assess BGC variables,...)",
       "url": "https://github.com/euroargodev/software_guidelines/issues/66",
-      "body": "",
+      "body": "Self-explanatory: the project must be specific about its relation with the Argo dataset.",
       "state": "OPEN",
       "assignees": {
         "nodes": []
