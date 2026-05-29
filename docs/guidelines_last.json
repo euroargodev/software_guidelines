@@ -635,7 +635,7 @@
     "content": {
       "title": "The codebase is formatted following referenced standards (e.g. black in Python)",
       "url": "https://github.com/euroargodev/software_guidelines/issues/25",
-      "body": "Recommended code formatter:\n- Python: [Black](https://black.readthedocs.io/en/stable/)\n- GNU Octave/Matlab: ?\n- R: ?\n- Julia: [Runic](https://github.com/fredrikekre/Runic.jl)\n- Java: ?\n- ?",
+      "body": "Recommended code formatter:\n- Python: [Black](https://black.readthedocs.io/en/stable/)\n- GNU Octave/Matlab: ?\n- R: ?\n- Julia: [Runic](https://github.com/fredrikekre/Runic.jl#formatting-specification)\n- Java: ?\n- ?",
       "state": "OPEN",
       "assignees": {
         "nodes": []
