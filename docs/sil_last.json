@@ -24,6 +24,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -85,6 +89,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -146,6 +154,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -207,6 +219,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -817,6 +833,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -1163,7 +1183,7 @@
     "content": {
       "title": "The codebase is formatted following referenced standards (e.g. black in Python)",
       "url": "https://github.com/euroargodev/software_guidelines/issues/25",
-      "body": "Recommended code formatter:\n- Python: [Black](https://black.readthedocs.io/en/stable/)\n- GNU Octave/Matlab: ?\n- R: ?\n- Julia: ?\n- Java: ?\n- ?",
+      "body": "Recommended code formatter:\n- Python: [Black](https://black.readthedocs.io/en/stable/)\n- GNU Octave/Matlab: ?\n- R: ?\n- Julia: [Runic](https://github.com/fredrikekre/Runic.jl)\n- Java: ?\n- ?",
       "state": "OPEN",
       "assignees": {
         "nodes": []
@@ -1183,6 +1203,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -1793,6 +1817,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -1854,6 +1882,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -2159,6 +2191,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -2525,6 +2561,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -2586,6 +2626,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -2647,6 +2691,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -3135,6 +3183,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -3196,6 +3248,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -3257,6 +3313,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -3318,6 +3378,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -3554,6 +3618,16 @@
           "repository": {
             "id": "R_kgDOPGM65g",
             "url": "https://github.com/euroargodev/software_guidelines"
+          }
+        },
+        {
+          "labels": {
+            "nodes": [
+              {
+                "id": "LA_kwDOPGM65s8AAAACEX1fwg",
+                "name": "guideline"
+              }
+            ]
           }
         },
         {

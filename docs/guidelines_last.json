@@ -77,6 +77,13 @@
           },
           "name": "Documentation and Outreach",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcKyC_OFQDjGg"
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "To do",
+          "id": "PVTFSV_lQDOA3TSm84A81yHzgcKyC_OIqz2hg"
         }
       ]
     }
@@ -373,6 +380,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -462,6 +473,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -620,7 +635,7 @@
     "content": {
       "title": "The codebase is formatted following referenced standards (e.g. black in Python)",
       "url": "https://github.com/euroargodev/software_guidelines/issues/25",
-      "body": "Recommended code formatter:\n- Python: [Black](https://black.readthedocs.io/en/stable/)\n- GNU Octave/Matlab: ?\n- R: ?\n- Julia: ?\n- Java: ?\n- ?",
+      "body": "Recommended code formatter:\n- Python: [Black](https://black.readthedocs.io/en/stable/)\n- GNU Octave/Matlab: ?\n- R: ?\n- Julia: [Runic](https://github.com/fredrikekre/Runic.jl)\n- Java: ?\n- ?",
       "state": "OPEN",
       "assignees": {
         "nodes": []
@@ -640,6 +655,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -729,6 +748,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -818,6 +841,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -907,6 +934,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -996,6 +1027,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -1138,6 +1173,13 @@
           },
           "name": "Documentation and Outreach",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcILD7OFQDrFw"
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "To do",
+          "id": "PVTFSV_lQDOA3TSm84A81yHzgcILD7OIqz4zA"
         }
       ]
     }
@@ -2007,6 +2049,13 @@
           },
           "name": "Codebase",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcKx9_OFQDdfA"
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "To do",
+          "id": "PVTFSV_lQDOA3TSm84A81yHzgcKx9_OIqzz9A"
         }
       ]
     }
@@ -2096,6 +2145,13 @@
           },
           "name": "Codebase",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcKyLrOFQDfxA"
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "To do",
+          "id": "PVTFSV_lQDOA3TSm84A81yHzgcKyLrOIqz14g"
         }
       ]
     }
@@ -2221,6 +2277,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -2274,6 +2334,13 @@
           },
           "name": "Documentation and Outreach",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcKyj_OFQDh-g"
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "To do",
+          "id": "PVTFSV_lQDOA3TSm84A81yHzgcKyj_OIqz2-Q"
         }
       ]
     }
@@ -2349,6 +2416,13 @@
           },
           "name": "Documentation and Outreach",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcKynDOFQDysg"
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "To do",
+          "id": "PVTFSV_lQDOA3TSm84A81yHzgcKynDOIqz3OA"
         }
       ]
     }
@@ -2460,6 +2534,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -2602,6 +2680,13 @@
           },
           "name": "Codebase",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcKy1jOFQDfIQ"
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "To do",
+          "id": "PVTFSV_lQDOA3TSm84A81yHzgcKy1jOIqz1fw"
         }
       ]
     }
@@ -2631,6 +2716,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -2766,6 +2855,13 @@
           },
           "name": "Management",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcK1TTOFQDxng"
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "To do",
+          "id": "PVTFSV_lQDOA3TSm84A81yHzgcK1TTOIqz4rw"
         }
       ]
     }
@@ -2841,6 +2937,13 @@
           },
           "name": "Management",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcK1b3OFQDqkg"
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "To do",
+          "id": "PVTFSV_lQDOA3TSm84A81yHzgcK1b3OIqz5jg"
         }
       ]
     }
@@ -2952,6 +3055,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -3034,6 +3141,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -3116,6 +3227,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -3162,6 +3277,13 @@
           },
           "name": "Management",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcK21DOFQDm1A"
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "To do",
+          "id": "PVTFSV_lQDOA3TSm84A81yHzgcK21DOIqz2Zg"
         }
       ]
     }
@@ -3237,6 +3359,13 @@
           },
           "name": "Management",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcK25XOFQDxEA"
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "To do",
+          "id": "PVTFSV_lQDOA3TSm84A81yHzgcK25XOIqz2Lg"
         }
       ]
     }
@@ -3312,6 +3441,13 @@
           },
           "name": "Management",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcK28XOFQDw3g"
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "To do",
+          "id": "PVTFSV_lQDOA3TSm84A81yHzgcK28XOIqz1pA"
         }
       ]
     }
@@ -3387,6 +3523,13 @@
           },
           "name": "Management",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcK3ArOFQDvHA"
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "To do",
+          "id": "PVTFSV_lQDOA3TSm84A81yHzgcK3ArOIqz2sw"
         }
       ]
     }
@@ -3462,6 +3605,13 @@
           },
           "name": "Argo compliance",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcK3J3OFQDz4w"
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "To do",
+          "id": "PVTFSV_lQDOA3TSm84A81yHzgcK3J3OIqz5Vg"
         }
       ]
     }
@@ -3669,6 +3819,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -3900,6 +4054,13 @@
           },
           "name": "Location",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcK8mHOFQDs1Q"
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "To do",
+          "id": "PVTFSV_lQDOA3TSm84A81yHzgcK8mHOIqz49w"
         }
       ]
     }
@@ -4071,6 +4232,13 @@
           },
           "name": "Argo compliance",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcLBE_OFQDu6w"
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "To do",
+          "id": "PVTFSV_lQDOA3TSm84A81yHzgcLBE_OIqz2Cw"
         }
       ]
     }
@@ -4100,6 +4268,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -4324,6 +4496,13 @@
           },
           "name": "Codebase",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcLDWDOFQDhvw"
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "To do",
+          "id": "PVTFSV_lQDOA3TSm84A81yHzgcLDWDOIqz3hQ"
         }
       ]
     }
@@ -4488,6 +4667,13 @@
           },
           "name": "Content",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcLEP_OFQDqMA"
+        },
+        {
+          "field": {
+            "name": "Status"
+          },
+          "name": "To do",
+          "id": "PVTFSV_lQDOA3TSm84A81yHzgcLEP_OIqz4cg"
         }
       ]
     }
@@ -4709,6 +4895,10 @@
               {
                 "id": "LA_kwDOPGM65s8AAAACEX1fwg",
                 "name": "guideline"
+              },
+              {
+                "id": "LA_kwDOPGM65s8AAAAClD93aA",
+                "name": "auto-checked-guideline"
               }
             ]
           }
@@ -4954,6 +5144,16 @@
           "repository": {
             "id": "R_kgDOPGM65g",
             "url": "https://github.com/euroargodev/software_guidelines"
+          }
+        },
+        {
+          "labels": {
+            "nodes": [
+              {
+                "id": "LA_kwDOPGM65s8AAAACEX1fwg",
+                "name": "guideline"
+              }
+            ]
           }
         },
         {
