@@ -635,7 +635,7 @@
     "content": {
       "title": "The codebase is formatted following referenced standards (e.g. black in Python)",
       "url": "https://github.com/euroargodev/software_guidelines/issues/25",
-      "body": "Recommended coding style and/or formatter:\n- Python: [Black](https://black.readthedocs.io/en/stable/)\n- GNU Octave/Matlab: [MissHit](https://misshit.org)\n- R: [Tidyverse](https://style.tidyverse.org/), [StyleR](https://styler.r-lib.org/), [LintR](https://lintr.r-lib.org/)\n- Julia: [Runic](https://github.com/fredrikekre/Runic.jl#formatting-specification)\n- Java: ?\n- ?",
+      "body": "Coding standards are guidelines that ensures consistency, readability, and maintainability in code. Following these standards can make a software codebase easier to understand and maintain for everyone.\n\nRecommended coding standards and/or formatter:\n- Python: [Black](https://black.readthedocs.io/en/stable/)\n- GNU Octave/Matlab: [MissHit](https://misshit.org)\n- R: [Tidyverse](https://style.tidyverse.org/), [StyleR](https://styler.r-lib.org/), [LintR](https://lintr.r-lib.org/)\n- Julia: [Runic](https://github.com/fredrikekre/Runic.jl#formatting-specification)\n- Java: ?\n- ?",
       "state": "OPEN",
       "assignees": {
         "nodes": []
