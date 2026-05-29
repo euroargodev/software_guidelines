@@ -1431,7 +1431,7 @@
     "content": {
       "title": "The software documentation has an API reference section automatically generated",
       "url": "https://github.com/euroargodev/software_guidelines/issues/42",
-      "body": "",
+      "body": "\nSome tools:\n- Python: [Sphynx-autodoc](https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html)\n- Java: [Javadoc](https://en.wikipedia.org/wiki/Javadoc)\n- ...",
       "state": "OPEN",
       "assignees": {
         "nodes": []
