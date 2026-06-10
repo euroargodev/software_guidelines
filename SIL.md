@@ -35,12 +35,13 @@ Each SIL is assigned a list of [Argo software development guidelines](https://gi
 
 ‼️ Guidelines marked as "1-Recommended" at a given SIL are upgraded as "2-Required" for any upper SIL. Therefore, the higher the SIL, the higher the number of required guidelines to follow.
 
-## SIL Description
+## SIL description
+
 
 ### 🏆 **SIL-1: Basic Concept Exploration**
 
-- **Description**: Initial research ideas or concepts often explored as a simple script or notebook.
 - **Focus**: Early exploratory stage.
+- **Description**: Initial research ideas or concepts often explored as a simple script or notebook.
 - **Guidelines** (2): 
   - **Argo specific**:
     - The software should use a programming language adopted by the Argo community (Python, R, Java, Julia, Matlab/Octave) ([#58↗](https://github.com/euroargodev/software_guidelines/issues/58))
@@ -49,8 +50,8 @@ Each SIL is assigned a list of [Argo software development guidelines](https://gi
 
 ### 🛠️ **SIL-2: Functional Prototype**
 
-- **Description**: Standalone code that expand the initial concept into a functional tool with a clear purpose.
 - **Focus**: Moving toward broader applicability.
+- **Description**: Standalone code that expand the initial concept into a functional tool with a clear purpose.
 - **Guidelines** (6): 
   - **Argo specific**:
     - The project includes a basic description of what it does with or to the Argo dataset (e.g. read index file, calibrate salinity, plot trajectory, assess BGC variables,...) ([#66↗](https://github.com/euroargodev/software_guidelines/issues/66))
@@ -63,8 +64,8 @@ Each SIL is assigned a list of [Argo software development guidelines](https://gi
 
 ### 🧪 **SIL-3: Minimal Viable Research Software**
 
-- **Description**: The software is usable by collaborators in a limited context, with basic documentation and installation instructions.
 - **Focus**: Limited sharing and reproducibility.
+- **Description**: The software is usable by collaborators in a limited context, with basic documentation and installation instructions.
 - **Guidelines** (8): 
   - **Argo specific**:
     - The project acknowledges Argo data papers and/or DOIs ([#6↗](https://github.com/euroargodev/software_guidelines/issues/6))
@@ -79,8 +80,8 @@ Each SIL is assigned a list of [Argo software development guidelines](https://gi
 
 ### 🔄 **SIL-4: Structured Open-Source Project**
 
-- **Description**: Transition to a structured open-source project with initial community input and adherence to Argo standards and open-source best practices.
 - **Focus**: Adoption of open-source principles.
+- **Description**: Transition to a structured open-source project with initial community input and adherence to Argo standards and open-source best practices.
 - **Guidelines** (15): 
   - **Argo specific**:
     - Argo Data accessed locally by the software are assumed to be organised following the GDAC folder structure ([#2↗](https://github.com/euroargodev/software_guidelines/issues/2))
@@ -102,8 +103,8 @@ Each SIL is assigned a list of [Argo software development guidelines](https://gi
 
 ### ✅ **SIL-5: Verified Research Software**
 
-- **Description**: The software is stable, well-documented, and ready for broader use in the Argo community.
 - **Focus**: Broader use and validation within the community.
+- **Description**: The software is stable, well-documented, and ready for broader use in the Argo community.
 - **Guidelines** (13): 
   - **Argo specific**:
     - Argo Data used by the software are traceable with a persistent identifier (Argo GDAC DOI or snapshot DOIs) ([#4↗](https://github.com/euroargodev/software_guidelines/issues/4))
@@ -123,8 +124,8 @@ Each SIL is assigned a list of [Argo software development guidelines](https://gi
 
 ### 👥 **SIL-6: Community-Driven Tool**
 
-- **Description**: The software is actively used by the Argo community, with contributions from external developers.
 - **Focus**: Initial community engagement.
+- **Description**: The software is actively used by the Argo community, with contributions from external developers.
 - **Guidelines** (6): 
   - **Argo specific**:
     - The project has multiple collaborators from the Argo community ([#31↗](https://github.com/euroargodev/software_guidelines/issues/31))
@@ -137,8 +138,8 @@ Each SIL is assigned a list of [Argo software development guidelines](https://gi
 
 ### 🏗️ **SIL-7: Robust Open-Source Software**
 
-- **Description**: Robust open-source software with a solid architecture and established role in the community.
 - **Focus**: Stability and robustness.
+- **Description**: Robust open-source software with a solid architecture and established role in the community.
 - **Guidelines** (5): 
   - **Argo specific**:
     - The project has multiple collaborators from outside the Argo community ([#30↗](https://github.com/euroargodev/software_guidelines/issues/30))
@@ -150,8 +151,8 @@ Each SIL is assigned a list of [Argo software development guidelines](https://gi
 
 ### 🌍 **SIL-8: Mature Open-Source Software**
 
-- **Description**: Software proven to perform reliably in extensive use cases or collaborative research initiatives.
 - **Focus**: Operational and mature.
+- **Description**: Software proven to perform reliably in extensive use cases or collaborative research initiatives.
 - **Guidelines** (2): 
   - **Argo specific**:
     - User meetings or workshops are held and communicated within the Argo community ([#63↗](https://github.com/euroargodev/software_guidelines/issues/63))
@@ -160,13 +161,14 @@ Each SIL is assigned a list of [Argo software development guidelines](https://gi
 
 ### 🏛️ **SIL-9: Foundational Software**
 
-- **Description**: The software is a critical component of the Argo research infrastructure.
 - **Focus**: Widespread adoption and sustainability.
+- **Description**: The software is a critical component of the Argo research infrastructure.
 - **Guidelines** (2): 
   - **Argo specific**:
     - The project has a long-term sustainability plan ([#68↗](https://github.com/euroargodev/software_guidelines/issues/68))
   - **General**:
     - The software ensures timely distribution of updates ([#51↗](https://github.com/euroargodev/software_guidelines/issues/51))
+
 
 ## SIL census
 
