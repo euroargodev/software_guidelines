@@ -30,15 +30,11 @@ In other words, the SIL framework not only guides developers in progressively im
 **SIL vs development guidelines:**
 
 Each SIL is assigned a list of [Argo software development guidelines](https://github.com/euroargodev/software_guidelines/issues) categorized as:
-- 1-Best effort: This guideline is optional but beneficial.
-- 2-Recommended: This guideline is strongly encouraged.
-- 3-Required: This guideline is mandatory.
+- 1-Recommended: This guideline is strongly encouraged.
+- 2-Required: This guideline is mandatory.
 
-‼️ Guidelines marked as "2-Recommended" at a given SIL are upgraded as "3-Required" for any upper SIL. Therefore, the higher the SIL, the higher the number of required guidelines to follow.
+‼️ Guidelines marked as "1-Recommended" at a given SIL are upgraded as "2-Required" for any upper SIL. Therefore, the higher the SIL, the higher the number of required guidelines to follow.
 
-Guidelines marked as "1-Best effort" always stay on this requirement level. 
-
-## SIL description
 
 
 ### 🏆 **SIL-1: Basic Concept Exploration**

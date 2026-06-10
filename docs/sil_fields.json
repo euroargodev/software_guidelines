@@ -54,7 +54,7 @@
     },
     {
       "name": "SIL-8 \ud83c\udf0d",
-      "description": "Field-Tested Open-Source Software",
+      "description": "Mature Open-Source Software",
       "color": "GRAY"
     },
     {
@@ -65,19 +65,14 @@
   ],
   "Adoption criteria": [
     {
-      "name": "3 - Required",
-      "description": "This guideline is mandatory",
-      "color": "RED"
-    },
-    {
-      "name": "2 - Recommended",
+      "name": "1 - Recommended",
       "description": "This guideline is strongly encouraged",
       "color": "YELLOW"
     },
     {
-      "name": "1 - Best Effort",
-      "description": "This guideline is optional but beneficial",
-      "color": "GRAY"
+      "name": "2 - Required",
+      "description": "This guideline is mandatory",
+      "color": "RED"
     }
   ]
 }
