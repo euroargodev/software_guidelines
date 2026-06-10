@@ -453,7 +453,7 @@
     "content": {
       "title": "The software should use a programming language adopted by the Argo community (Python, R, Java, Julia, Matlab/Octave)",
       "url": "https://github.com/euroargodev/software_guidelines/issues/58",
-      "body": "To date, such languages are: Matlab/Octave, Java, Python, R and Julia.\n\nIn order to let the community adopt or experiment with new programming languages in the Argo community, this guideline is considered a \"Best Effort\".\n\nHowever, fully embracing the open-source and collaborative software development models, you are encourage to follow guideline #59 \n\nAlso check #59 description if you're considering Matlab.",
+      "body": "To date, such languages are: Matlab/Octave, Java, Python, R and Julia.\n\nHowever, fully embracing the open-source and collaborative software development models, you are encourage to follow guideline #59 \n\nAlso check #59 description if you're considering Matlab.\n\nIn order to let the community adopt or experiment with new programming languages in the Argo community, this guideline is considered \"Recommended\" for a project in its early stage (SIL-1).",
       "state": "OPEN",
       "assignees": {
         "nodes": []
