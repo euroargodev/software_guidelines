@@ -35,7 +35,7 @@ Each SIL is assigned a list of [Argo software development guidelines](https://gi
 
 ‼️ Guidelines marked as "1-Recommended" at a given SIL are upgraded as "2-Required" for any upper SIL. Therefore, the higher the SIL, the higher the number of required guidelines to follow.
 
-
+## SIL Description
 
 ### 🏆 **SIL-1: Basic Concept Exploration**
 
