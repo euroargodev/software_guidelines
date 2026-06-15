@@ -35,31 +35,31 @@ Each SIL is assigned a list of [Argo software development guidelines](https://gi
 
 ‼️ Guidelines marked as "1-Recommended" at a given SIL are upgraded as "2-Required" for any upper SIL. Therefore, the higher the SIL, the higher the number of required guidelines to follow.
 
-## SIL description
+## SIL Description
 
 
 ### 🏆 **SIL-1: Basic Concept Exploration**
 
 - **Focus**: Early exploratory stage.
 - **Description**: Initial research ideas or concepts often explored as a simple script or notebook.
-- **Guidelines** (2): 
+- **Guidelines** (3): 
   - **Argo specific**:
     - The software should use a programming language adopted by the Argo community (Python, R, Java, Julia, Matlab/Octave) ([#58↗](https://github.com/euroargodev/software_guidelines/issues/58))
   - **General**:
     - The Project uses English as a primary language (eg: in documentation, codebase) ([#41↗](https://github.com/euroargodev/software_guidelines/issues/41))
+    - The software is released under an open-source license ([#56↗](https://github.com/euroargodev/software_guidelines/issues/56))
 
 ### 🛠️ **SIL-2: Functional Prototype**
 
 - **Focus**: Moving toward broader applicability.
 - **Description**: Standalone code that expand the initial concept into a functional tool with a clear purpose.
-- **Guidelines** (6): 
+- **Guidelines** (5): 
   - **Argo specific**:
     - The project includes a basic description of what it does with or to the Argo dataset (e.g. read index file, calibrate salinity, plot trajectory, assess BGC variables,...) ([#66↗](https://github.com/euroargodev/software_guidelines/issues/66))
   - **General**:
     - A version control tool is used to manage the codebase ([#1↗](https://github.com/euroargodev/software_guidelines/issues/1))
     - The project includes a basic documentation ([#36↗](https://github.com/euroargodev/software_guidelines/issues/36))
     - The project is hosted on a web-based development platform (e.g., GitHub or GitLab). ([#39↗](https://github.com/euroargodev/software_guidelines/issues/39))
-    - The software is released under an open-source license ([#56↗](https://github.com/euroargodev/software_guidelines/issues/56))
     - The software uses an open-source programming language ([#59↗](https://github.com/euroargodev/software_guidelines/issues/59))
 
 ### 🧪 **SIL-3: Minimal Viable Research Software**
