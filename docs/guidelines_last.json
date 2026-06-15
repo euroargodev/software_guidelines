@@ -1976,7 +1976,7 @@
     "content": {
       "title": "Non-Argo Data used by the software should be accessible online",
       "url": "https://github.com/euroargodev/software_guidelines/issues/18",
-      "body": "",
+      "body": "If your software requires some non-Argo data to run (eg: bathymetry, reference data, etc ...) and if your software does not provide them, it is a good practice to:\n- clearly provide references, where, and possibly how, to retrieve such data,\n- rely on data that your users can get easily from an online server.\n\nOtherwise, your software won't be easy to use and require some convoluted setup that may refrain adoption.",
       "state": "OPEN",
       "assignees": {
         "nodes": []
@@ -2054,7 +2054,7 @@
           "field": {
             "name": "Status"
           },
-          "name": "To do",
+          "name": "Documented",
           "id": "PVTFSV_lQDOA3TSm84A81yHzgcKx9_OIqzz9A"
         }
       ]
