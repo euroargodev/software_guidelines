@@ -4,9 +4,11 @@ A framework to assess the development stage and/or integration level of Argo-rel
 
 ## About
 
-The Argo Research Infrastructure (RI) Software Integration Level (SIL) is a framework designed to evaluate and guide the development of Argo-related software. It provides a structured pathway for software to evolve from initial concepts to foundational components of the Argo RI. 
+The Argo Research Infrastructure (RI) Software Integration Level (SIL) is a framework designed to evaluate and guide the development of Argo-related software. It provides a structured pathway for software to evolve from initial concepts to foundational components of the Argo RI.
 
-The SIL framework serves as both a development roadmap and a certification system, ensuring that software meets the Argo RI's standards for quality, interoperability, and community integration.
+Note that all software projects are NOT envisioned to be foundational components of the RI. A software project should simply choose the SIL that suits best the team's ambition. Once a SIL is chosen, follow the guidelines !
+
+The SIL framework can serve as both a development roadmap and a certification system, ensuring that software meets the Argo RI's standards for quality, interoperability, and community integration.
 
 Here is the list of SIL titles:
 - 🏆 SIL-1: Basic Concept Exploration 
@@ -23,9 +25,11 @@ Here is the list of SIL titles:
 
 SILs are envisioned as a two-way improvement feature:
 - It helps RI staff develop software by providing clear benchmarks and goals.
-- It provides software with a RI certification, formally recognizing its compliance with Argo RI expectations at a given level.
+- It provides software with a RI certification, recognizing its compliance with Argo RI expectations at a given level.
 
-In other words, the SIL framework not only guides developers in progressively improving their software to meet higher standards, but also serves as a formal recognition system, certifying that a software meets the Argo Research Infrastructure's expectations for quality, interoperability, and community integration at a given level.
+In other words, the SIL framework not only guides developers in progressively improving their software to meet higher standards, but also serves as a recognition system, certifying that a software meets the Argo Research Infrastructure's expectations for quality, interoperability, and community integration at a given level.
+
+The certification is self-declarative.
 
 **SIL vs development guidelines:**
 
