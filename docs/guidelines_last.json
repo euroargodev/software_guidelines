@@ -1887,7 +1887,7 @@
     "content": {
       "title": "Argo Data used by the software are traceable with a persistent identifier (Argo GDAC DOI or snapshot DOIs)",
       "url": "https://github.com/euroargodev/software_guidelines/issues/4",
-      "body": "For reproducibility, the input Argo data used by the software must have a persistent identifier.\n\nTypically, of the software produces something out of Argo data, these data must be identifiable for other users to reproduce the results.\n\nHow to implement this guideline:\n- You can preserve the Argo DOI in the attributes of your data objects.",
+      "body": "For reproducibility, the input Argo data used by the software must have a persistent identifier.\n\nTypically, if the software produces something out of Argo data, these data must be identifiable for other users to reproduce the results.\n\nHow to implement this guideline ?\n- You can preserve the Argo DOI in the attributes of your data objects.",
       "state": "OPEN",
       "assignees": {
         "nodes": []
