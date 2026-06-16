@@ -2,7 +2,15 @@
 
 This repository is dedicated to organize all the relevant content with regard to software development guidelines for the Argo community.
 
-🎫 Guidelines are documented with [issues on this repository](https://github.com/euroargodev/software_guidelines/issues). 
+🎫 All Guidelines are documented with [issues on this repository](https://github.com/euroargodev/software_guidelines/issues). 
+
+‼️ This repository and the tools below are NOT the way end-users are supposed to encounter the guidelines for the first time.
+
+‼️ We are designing the best way, most simple/engaging, to disseminate the guidelines throughout the Argo community.
+
+Contact: Guillaume Maze et Kevin Balem (LOPS/IFREMER)
+
+**Tools:**
 
 You can check a simplified view of all guidelines in here:  
 😉 https://euroargodev.github.io/software_guidelines
